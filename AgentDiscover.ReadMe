@@ -1,0 +1,388 @@
+基于前述技术选型与工程讨论，整理如下**AI Agent Discover**完整项目架构文档：
+
+---
+
+# AI Agent Discover 项目架构文档
+
+**版本**：v1.0  
+**架构风格**：纯静态站点（Jamstack）  
+**核心技术栈**：Preact + HTM + ES Modules  
+**数据托管**：GitHub Repository (JSON)  
+**部署目标**：GitHub Pages / Vercel / Cloudflare Pages  
+
+---
+
+## 1. 项目需求边界与功能定义
+
+### 1.1 核心功能模块
+
+| 模块 | 功能描述 | 数据依赖 | 交互复杂度 |
+|------|---------|---------|-----------|
+| **Stars 榜单** | 按 GitHub Stars 排序的排行榜，支持多维度筛选（分类、语言、时间范围） | `projects.json`（完整数据集） | 高（筛选联动、排序切换、虚拟滚动） |
+| **Aha Projects** | 编辑推荐区，卡片式瀑布流展示，支持"随机发现"模式 | `featured.json`（精选配置）+ `projects.json`（基础数据） | 中（布局切换、详情展开） |
+| **用户推荐** | 项目提交入口，引导用户通过 GitHub Issues 提交新项目 | `submissions.json`（待审核列表，只读展示） | 低（表单验证、提交引导） |
+
+### 1.2 非功能需求
+
+- **性能**：首屏加载 < 1.5s（3G 网络），列表滚动 60fps（100+ 项目）
+- **可维护性**：单维护者可管理，无需专业前端工程化知识即可更新数据
+- **可用性**：离线可浏览（上次访问数据），GitHub 服务中断时优雅降级
+- **扩展性**：预留国际化、暗黑模式、PWA 安装能力
+
+### 1.3 技术约束
+
+- **无后端**：禁止任何服务器端逻辑（包括 Serverless Functions）
+- **无构建依赖（开发期）**：核心功能需支持浏览器原生 ESM 直接运行（HTM 特性）
+- **数据只读**：前端不直接修改 GitHub 数据，仅通过 Issues 流程触发人工审核
+
+---
+
+## 2. 架构设计原则
+
+### 2.1 分层架构逻辑
+
+采用**清晰分层**确保即使无后端也能管理复杂度：
+
+```
+用户界面层 (Presentation)
+    ↓
+应用逻辑层 (Application)
+    ↓
+数据访问层 (Data Access)
+    ↓
+外部数据源 (GitHub/CDN)
+```
+
+### 2.2 关键架构决策
+
+**决策 1：双轨数据策略**
+- **静态元数据**（名称、摘要、分类）：打包时内联或 CDN 缓存长期化
+- **动态指标**（Stars 数、最后更新时间）：客户端实时或准实时获取，允许Stale-While-Revalidate
+
+**决策 2：HTM 运行时模板 vs 预编译**
+- **开发**：HTM 运行时（无需构建，直接调试 HTML 文件）
+- **生产**：通过构建工具将 HTM 标签模板预编译为 `h()` 函数调用，消除运行时解析开销
+
+**决策 3：细粒度响应式**
+- 使用 Signals（Preact Signals）管理全局状态，避免 Context Provider 嵌套地狱
+- 组件级状态使用原生 `useState`，保持简单场景简单
+
+**决策 4：Git 即数据库**
+- 数据版本化：JSON 文件按语义版本分目录存储（`v1/`, `v1.1/`, `latest/`）
+- 变更溯源：通过 Git History 查看项目收录历史与 Stars 变化趋势
+
+---
+
+## 3. 数据架构设计
+
+### 3.1 数据存储规范（GitHub Repository）
+
+**仓库结构**：
+```
+data/
+├── schema/                 # JSON Schema 定义（用于校验）
+│   ├── project-schema.json
+│   └── featured-schema.json
+├── v1/                     # 版本化数据（不可变）
+│   ├── projects.json       # 完整项目数据集
+│   └── featured.json       # Aha 项目配置
+├── v1.1/                   # 增量版本
+│   └── projects.json
+├── latest.json             # 指向当前版本的软链接（或副本）
+├── history/                # 归档数据（每周快照）
+│   └── 2026/
+│       └── 04/
+│           └── 18.json
+└── meta.json               # 数据集元信息（最后更新、版本号、项目总数）
+```
+
+**数据契约**：
+- `projects.json` 必须包含所有字段（不允许 null，缺失用空字符串或 0）
+- 压缩字段名策略：生产环境提供 `projects.min.json`（字段映射：`n`→name, `s`→stars, `c`→category）
+- 校验规则：GitHub Actions 提交前验证 JSON Schema，防止损坏数据上线
+
+### 3.2 数据获取策略
+
+**分层缓存架构**：
+
+| 层级 | 存储 | 有效期 | 清理策略 |
+|------|------|--------|----------|
+| **内存缓存** | JavaScript Map | 单次会话 | 页面关闭 |
+| **持久缓存** | IndexedDB | 7 天 | LRU 淘汰 |
+| **HTTP 缓存** | Service Worker | 1 小时 | 版本更新 |
+| **CDN 边缘** | jsDelivr / Cloudflare | 永久（URL 含版本号）| 新版本发布 |
+
+**数据新鲜度管理**：
+- 客户端定期（每 5 分钟）轮询 `meta.json` 的 `lastUpdated` 字段
+- 检测到更新时提示用户"有新项目，点击刷新"，不强制刷新避免打断操作
+
+### 3.3 数据转换层（Data Adapter）
+
+**职责**：隔离原始数据格式与前端业务模型
+- **字段展开**：将压缩字段名映射为语义化属性
+- **类型转换**：Stars 字符串转数字，ISO 日期转本地时间
+- **派生计算**：计算 Stars 周增长率、语言占比统计
+- **容错处理**：缺失字段提供默认值，网络错误返回缓存数据并标记状态
+
+---
+
+## 4. 前端架构设计
+
+### 4.1 渲染策略
+
+** Islands 架构（部分水合）**：
+- **静态外壳**：HTML 骨架（Header、Footer、Tab 容器）服务端渲染或预构建
+- **动态岛屿**：榜单表格、筛选栏、Aha 卡片作为独立 Preact 应用挂载点
+- **懒加载**：非首屏 Tab（如用户推荐页）延迟加载 JS  chunk
+
+**路由模式**：
+- **伪多页应用**：利用浏览器原生 History API，配合 Preact Router 实现无刷新切换
+- **状态保持**：路由切换时保持筛选状态（通过 URL Query Params 序列化）
+
+### 4.2 状态管理架构
+
+**全局状态（Signals）**：
+- `projectsSignal`：原始项目列表（只读，从 Data Adapter 注入）
+- `filterSignal`：当前激活的筛选条件（分类、排序方式、搜索关键词）
+- `derivedProjects`：计算属性，基于前两者自动计算过滤+排序后的结果
+
+**本地状态（useState）**：
+- UI 开关（展开/折叠、模态框显隐）
+- 表单输入值（受控组件）
+- 临时动画状态（Hover、Transition）
+
+**状态持久化**：
+- URL 同步：筛选条件实时同步到地址栏，支持分享链接直接复现视图
+- 本地存储：用户收藏列表、主题偏好、上次访问位置
+
+### 4.3 性能架构
+
+**列表虚拟化**：
+- 仅渲染视口内项目（±5 项缓冲区）
+- 动态高度处理：项目卡片高度不固定时，通过 ResizeObserver 测量并缓存
+- 滚动位置恢复：返回列表时恢复上次滚动偏移（SessionStorage）
+
+**资源加载优先级**：
+- **关键路径**：首屏数据（当前 Tab JSON）、核心 CSS、Preact 运行时
+- **延迟加载**：非激活 Tab 数据、项目 Logo 图片、统计图表
+- **预加载**：鼠标 Hover 链接时预加载目标页面数据
+
+---
+
+## 5. 模块化设计（详细）
+
+### 5.1 目录结构规范
+
+```
+ai-agent-discover/
+├── public/                      # 静态资源（无需处理）
+│   ├── favicon.svg
+│   └── manifest.json            # PWA 配置
+├── src/
+│   ├── main.js                  # 应用入口：挂载点初始化、全局样式引入
+│   ├── config.js                # 运行时配置：API 端点、版本号、功能开关
+│   │
+│   ├── data/                    # 数据层（Data Layer）
+│   │   ├── adapters/
+│   │   │   ├── GitHubRawAdapter.js      # GitHub/jsDelivr 原始数据获取
+│   │   │   └── CacheAdapter.js            # 本地缓存读写（IndexedDB 封装）
+│   │   ├── repositories/
+│   │   │   ├── ProjectRepository.js       # 项目数据聚合逻辑（原始+缓存+派生）
+│   │   │   └── SubmissionRepository.js    # 提交流程数据（只读展示）
+│   │   └── transformers/
+│   │       ├── FieldExpander.js           # 压缩字段名展开
+│   │       ├── CategoryNormalizer.js      # 分类标准化（处理历史遗留分类名）
+│   │       └── StatsCalculator.js         # 统计数据计算（趋势、占比）
+│   │
+│   ├── state/                   # 状态管理层
+│   │   ├── signals/
+│   │   │   ├── projects.js      # 项目列表 Signal
+│   │   │   ├── filters.js       # 筛选条件 Signal
+│   │   │   └── ui.js            # UI 状态 Signal（Toast、Loading）
+│   │   └── hooks/
+│   │       ├── useProjects.js   # 组合 Signal 的业务 Hook
+│   │       ├── useFilter.js     # 筛选逻辑 Hook
+│   │       └── useScrollRestore.js # 滚动位置恢复
+│   │
+│   ├── components/              # 组件层（按复杂度分层）
+│   │   ├── primitives/          # 原子组件（设计系统基础）
+│   │   │   ├── Badge.js         # 标签（分类、语言）
+│   │   │   ├── StarCount.js     # Star 数字（格式化、动画）
+│   │   │   ├── Skeleton.js      # 骨架屏
+│   │   │   └── Button.js        # 基础按钮
+│   │   ├── composites/          # 复合组件（业务无关，可复用）
+│   │   │   ├── VirtualList.js   # 虚拟滚动容器（通用）
+│   │   │   ├── FilterGroup.js   # 筛选器组合（分类+语言+排序）
+│   │   │   ├── SearchInput.js   # 搜索框（防抖、高亮）
+│   │   │   └── SortSelect.js    # 排序下拉
+│   │   ├── domain/              # 领域组件（业务强相关）
+│   │   │   ├── ProjectCard.js   # 项目卡片（两种变体：compact/detailed）
+│   │   │   ├── ProjectList.js   # 项目列表（集成 VirtualList）
+│   │   │   ├── FeaturedCard.js  # Aha 项目特色卡片
+│   │   │   └── SubmissionForm.js# 提交表单（验证逻辑）
+│   │   └── layout/              # 布局组件
+│   │       ├── Header.js
+│   │       ├── TabContainer.js  # Tab 切换容器
+│   │       ├── Footer.js
+│   │       └── ErrorBoundary.js # 错误边界（HTM 兼容）
+│   │
+│   ├── pages/                   # 页面级组件（路由对应）
+│   │   ├── RankingPage.js       # Stars 榜单页（筛选+表格）
+│   │   ├── FeaturedPage.js      # Aha 项目页（卡片网格）
+│   │   ├── SubmitPage.js        # 提交页（表单+引导）
+│   │   └── NotFoundPage.js      # 404
+│   │
+│   ├── utils/                   # 工具函数
+│   │   ├── debounce.js
+│   │   ├── formatters.js        # 数字/日期格式化
+│   │   ├── validators.js        # URL/Email 验证
+│   │   └── constants.js         # 枚举值（分类定义、排序选项）
+│   │
+│   └── styles/                  # 样式（非 CSS-in-JS）
+│       ├── variables.css        # CSS 变量（设计令牌）
+│       ├── utilities.css        # 工具类（与 Tailwind 类似但自定义）
+│       └── components.css       # 组件特定样式（BEM 命名）
+│
+├── data/                        # 开发期本地模拟数据（生产忽略）
+│   └── mock/
+├── scripts/                     # 构建与工具脚本
+│   ├── build.js                 # 生产构建（HTM 预编译、打包）
+│   ├── validate-data.js         # 数据校验脚本（CI 用）
+│   └── generate-sw.js           # Service Worker 生成
+│
+├── index.html                   # 入口 HTML（开发期直接使用）
+└── package.json
+```
+
+### 5.2 模块接口契约
+
+**Data Adapter 接口**：
+- `fetchProjects(version?: string): Promise<Project[]>`
+- `fetchFeatured(): Promise<FeaturedConfig[]>`
+- `fetchMeta(): Promise<MetaInfo>`
+- `getCacheStats(): { hit: number, miss: number }`
+
+**Repository 接口**：
+- `ProjectRepository.getAll(filters): FilteredResult`
+- `ProjectRepository.getById(id): Project | undefined`
+- `ProjectRepository.getTrending(limit): Project[]` // 本周 Stars 增长最快
+
+**Component Props 规范**：
+- **Primitive**：只接受基础类型（string, number, boolean），无业务对象
+- **Composite**：接受配置对象（如 `FilterConfig`），通过约定接口解耦
+- **Domain**：接受完整领域模型（`Project` 对象），内部处理展示逻辑
+
+**Signal 契约**：
+- 命名规范：`xxxSignal`（如 `projectsSignal`）
+- 只读导出：`signal.value` 外部只读，修改通过 `signal.value = newValue`
+- 派生信号：使用 `computed(() => ...)`，命名 `xxxDerived`
+
+### 5.3 依赖方向规则
+
+**严格单向依赖**：
+```
+pages → domain-components → composites → primitives
+↓
+state/signals
+↓
+data/repositories → data/adapters
+```
+
+禁止循环依赖：
+- 数据层不得引用组件层
+- 原子组件不得引用领域组件
+- 工具函数不得引用业务常量（如分类定义应通过参数传入）
+
+---
+
+## 6. 构建与部署架构
+
+### 6.1 构建流程（双模式支持）
+
+**开发模式（No-Build）**：
+- 直接打开 `index.html`（使用浏览器原生 ES Modules）
+- HTM 运行时解析模板
+- 通过 Import Map 映射 `preact` 到 CDN（`esm.sh` 或 `unpkg`）
+
+**生产模式（Optimized）**：
+1. **预编译**：HTM 模板字符串 → Preact `h()` 调用（消除运行时开销）
+2. **Tree Shaking**：剔除未使用的工具函数与组件
+3. **代码分割**：按路由拆分 chunks，首屏仅加载 Ranking 相关代码
+4. **资源优化**：CSS 压缩合并（如果使用了原子 CSS，进行 Purge）
+5. **Service Worker 生成**：注入缓存清单（JSON 文件哈希列表）
+
+### 6.2 部署策略矩阵
+
+| 平台 | 构建输出 | 特定配置 | 适用阶段 |
+|------|---------|---------|---------|
+| **GitHub Pages** | `dist/` 目录推送到 `gh-pages` 分支 | `base` 路径配置为仓库名 | 稳定期（零成本） |
+| **Vercel** | 默认 | 配置 `routes` 处理 SPA 回退 | 开发期（预览部署） |
+| **Cloudflare Pages** | `dist/` | 配置 `_headers` 缓存策略 | 用户覆盖广（国内快） |
+
+**GitHub Actions 自动化**：
+- 数据更新触发：每周自动抓取 Stars → 提交新 JSON → 触发前端重新部署（或仅数据更新，前端不变）
+- 手动触发：通过 `workflow_dispatch` 支持手动同步数据
+
+### 6.3 版本管理与回滚
+
+- **前端版本**：Git Tag（`v1.0.0`），构建时注入 `config.js`
+- **数据版本**：URL 路径版本（`data/v1/projects.json`）
+- **兼容性**：前端代码同时支持多个数据版本（字段映射层处理差异）
+- **回滚**：数据回滚只需切换 `latest.json` 指向旧版本目录，无需重新部署前端
+
+---
+
+## 7. 维护与扩展指南
+
+### 7.1 数据更新工作流
+
+1. **自动化抓取**：GitHub Actions 运行 Python 脚本更新 `projects.json`
+2. **变更审查**：Actions 生成 diff 摘要，发送到维护者（可选 Telegram/Slack 通知）
+3. **人工确认**：审查通过后合并到 `main` 分支（或自动合并，取决于信任度）
+4. **CDN 刷新**：推送后自动触发 CDN 缓存清除（如果使用了主动刷新 API）
+
+### 7.2 新增项目流程
+
+1. **用户侧**：访问 `/submit` 页面 → 复制 GitHub URL → 粘贴并填写推荐理由 → 点击"生成 Issue" → 自动填充 GitHub Issues 模板
+2. **维护侧**：收到 Issue → 审核项目质量 → 编辑 `projects.json` 添加新项目 → 提交 PR → 合并后自动部署
+3. **展示侧**：新项目在下次数据同步后自动出现在榜单（Stars 初始为 0，下次同步更新真实值）
+
+### 7.3 扩展预留接口
+
+**国际化（i18n）**：
+- 数据层：`projects.json` 支持 `summary_en`, `summary_zh` 字段
+- UI 层：添加 `localeSignal`，组件通过 `t('key')` 获取翻译
+- 构建：生成多语言版本（`index.html` → `index.zh.html`）或运行时切换
+
+**主题系统**：
+- CSS 变量定义颜色、间距、字体
+- `themeSignal` 切换 `data-theme` 属性，CSS 自动响应
+- 预定义 `light`, `dark`, `system` 三种模式
+
+**PWA 增强**：
+- 添加 Web App Manifest
+- Service Worker 支持后台同步（用户提交推荐后离线等待）
+- 推送通知（GitHub Actions 抓取到新热门项目时推送）
+
+---
+
+## 8. 架构质量检查清单
+
+**开发期**：
+- [ ] 开发者可在无 Node.js 环境下直接调试（浏览器原生 ESM）
+- [ ] 构建后 Bundle 分析 < 50KB（Preact + HTM + 业务代码，不含数据）
+- [ ] Lighthouse 性能评分 > 90（首屏、可访问性、最佳实践）
+
+**维护期**：
+- [ ] 新增项目只需修改 JSON，无需改动前端代码
+- [ ] 数据格式升级时，旧版本前端仍能读取（向后兼容字段映射）
+- [ ] 单维护者可独立完成从数据更新到部署的全流程
+
+**运行时**：
+- [ ] GitHub API 限流时优雅降级（显示缓存数据 + 提示）
+- [ ] 列表滚动 100 项无卡顿（60fps）
+- [ ] 离线状态下可查看上次访问的数据（Service Worker 缓存）
+
+---
+
+此架构确保在**纯前端、零后端成本**的强约束下，仍能支撑项目的长期演进与复杂交互需求，同时保持代码的可维护性与数据管理的透明性。

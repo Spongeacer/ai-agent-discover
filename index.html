@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Agent Discover</title>
+  <meta name="description" content="发现最酷的 AI Agent 开源项目">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    :root {
+      --bg: #0f0f23;
+      --surface: #16162a;
+      --surface-2: #1e1e3a;
+      --border: #2a2a50;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #818cf8;
+      --accent-2: #c084fc;
+      --accent-glow: rgba(129, 140, 248, 0.15);
+      --success: #34d399;
+      --warning: #fbbf24;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.4);
+      --transition: 0.2s ease;
+    }
+    [data-theme="light"] {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-2: #f1f5f9;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --accent: #6366f1;
+      --accent-2: #9333ea;
+      --accent-glow: rgba(99, 102, 241, 0.1);
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    #app { min-height: 100vh; display: flex; flex-direction: column; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "preact": "https://esm.sh/preact@10.19.3",
+      "preact/hooks": "https://esm.sh/preact@10.19.3/hooks",
+      "htm": "https://esm.sh/htm@3.1.1",
+      "@preact/signals": "https://esm.sh/@preact/signals@1.2.2?external=preact"
+    }
+  }
+  </script>
+  <script>
+    window.onerror = function(msg, url, line, col, err) {
+      document.body.innerHTML = '<div style="padding:24px;font-family:monospace;color:#ff6b6b;background:#1a1a2e;min-height:100vh;"><h2>Runtime Error</h2><pre style="white-space:pre-wrap;word-break:break-all;color:#e2e8f0;">' + msg + '\n at ' + url + ':' + line + ':' + col + '\n\n' + (err && err.stack || '') + '</pre></div>';
+      return false;
+    };
+    window.addEventListener('unhandledrejection', function(e) {
+      document.body.innerHTML = '<div style="padding:24px;font-family:monospace;color:#ff6b6b;background:#1a1a2e;min-height:100vh;"><h2>Unhandled Promise Rejection</h2><pre style="white-space:pre-wrap;word-break:break-all;color:#e2e8f0;">' + e.reason + '\n\n' + (e.reason && e.reason.stack || '') + '</pre></div>';
+    });
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

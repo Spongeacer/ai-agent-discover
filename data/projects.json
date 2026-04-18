@@ -1,0 +1,4400 @@
+[
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "owner": "Significant-Gravitas",
+    "description": "An experimental open-source attempt to make GPT-4 fully autonomous.",
+    "stars": 173000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-15",
+    "topics": [
+      "ai",
+      "agents",
+      "autonomous",
+      "gpt"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "让 GPT-4 实现完全自主运行，无需人工干预即可设定目标并迭代执行。",
+        "oneLiner": "适合想让 AI 完全自主执行任务、无需人工干预的开发者"
+      },
+      "en": {
+        "description": "An experimental open-source attempt to make GPT-4 fully autonomous.",
+        "oneLiner": "For developers who want AI to autonomously execute tasks without human intervention"
+      },
+      "ar": {
+        "description": "محاولة مفتوحة المصدر لتجريب جعل GPT-4 مستقلاً بشكل كامل.",
+        "oneLiner": "للمطورين الذين يرغبون في أن يقوم الذكاء الاصطناعي بتنفيذ المهام بشكل مستقل دون تدخل بشري"
+      },
+      "es": {
+        "description": "Un intento open-source experimental para hacer GPT-4 completamente autónomo.",
+        "oneLiner": "Para desarrolladores que quieren que la IA ejecute tareas de forma autónoma sin intervención humana"
+      },
+      "ko": {
+        "description": "GPT-4가 완전히 자율적으로 작동하도록 하는 오픈소스 실험적 시도입니다.",
+        "oneLiner": "인간의 개입 없이 AI가 작업을 자율적으로 실행하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "GPT-4を完全に自律的に動作させるオープンソースの実験的な試みです。",
+        "oneLiner": "人間の介入なしに AI がタスクを自律的に実行させたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "owner": "langchain-ai",
+    "description": "Building applications with LLMs through composability.",
+    "stars": 108000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-17",
+    "topics": [
+      "llm",
+      "rag",
+      "agents",
+      "chain"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "通过可组合性构建大语言模型应用，将模块化组件链式组装成生产级系统。",
+        "oneLiner": "适合需要快速拼接模块化组件、构建生产级 LLM 应用的开发者"
+      },
+      "en": {
+        "description": "Building applications with LLMs through composability.",
+        "oneLiner": "For developers who need to quickly assemble modular components into production-grade LLM apps"
+      },
+      "ar": {
+        "description": "بناء التطبيقات باستخدام نماذج اللغة الكبيرة من خلال التركيبية.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى تجميع المكونات المعيارية بسرعة في تطبيقات LLM جاهزة للإنتاج"
+      },
+      "es": {
+        "description": "Construcción de aplicaciones con LLMs mediante composabilidad.",
+        "oneLiner": "Para desarrolladores que necesitan ensamblar rápidamente componentes modulares en aplicaciones LLM de nivel producción"
+      },
+      "ko": {
+        "description": "구성 가능성을 통해 대규모 언어 모델 애플리케이션을 구축합니다.",
+        "oneLiner": "모듈형 컴포넌트를 빠르게 조립하여 프로덕션급 LLM 애플리케이션을 구축해야 하는 개발자를 위한"
+      },
+      "ja": {
+        "description": " composability を通じて大規模言語モデルアプリケーションを構築します。",
+        "oneLiner": "モジュールコンポーネントを迅速に組み立てて本番レベルの LLM アプリを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "owner": "joaomdmoura",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents.",
+    "stars": 29000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-16",
+    "topics": [
+      "multi-agent",
+      "orchestration",
+      "ai"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为角色扮演型自主 AI Agent 提供编排框架，让多个 Agent 像专业团队一样协作。",
+        "oneLiner": "适合需要多个 AI Agent 分工协作、自动完成复杂工作流的团队"
+      },
+      "en": {
+        "description": "Framework for orchestrating role-playing, autonomous AI agents.",
+        "oneLiner": "For teams that need multiple AI agents to collaborate and automate complex workflows"
+      },
+      "ar": {
+        "description": "إطار عمل لتنظيم وكلاء ذكاء اصطناعي مستقلين يلعبون أدواراً.",
+        "oneLiner": "للفرق التي تحتاج إلى تعاون وكلاء ذكاء اصطناعي متعددين وأتمتة سير العمل المعقدة"
+      },
+      "es": {
+        "description": "Framework para orquestar agentes de IA autónomos con juego de roles.",
+        "oneLiner": "Para equipos que necesitan que múltiples agentes de IA colaboren y automaticen flujos de trabajo complejos"
+      },
+      "ko": {
+        "description": "역할극을 하는 자율 AI 에이전트를 오케스트레이션하는 프레임워크입니다.",
+        "oneLiner": "여러 AI 에이전트가 협업하고 복잡한 워크플로우를 자동화해야 하는 팀을 위한"
+      },
+      "ja": {
+        "description": "ロールプレイ型の自律AIエージェントをオーケストレーションするフレームワークです。",
+        "oneLiner": "複数の AI エージェントが協働して複雑なワークフローを自動化する必要があるチーム向け"
+      }
+    }
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "owner": "langgenius",
+    "description": "Dify is an open-source LLM app development platform.",
+    "stars": 97000,
+    "language": "TypeScript",
+    "category": "Platform",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "llm",
+      "workflow",
+      "chatbot",
+      "rag"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "开源 LLM 应用开发平台，提供可视化编排和运营能力，加速 AI 应用落地。",
+        "oneLiner": "适合想用可视化界面快速搭建和部署 AI 应用的团队"
+      },
+      "en": {
+        "description": "Dify is an open-source LLM app development platform.",
+        "oneLiner": "For teams that want to quickly build and deploy AI apps through a visual interface"
+      },
+      "ar": {
+        "description": "Dify هي منصة مفتوحة المصدر لتطوير تطبيقات نماذج اللغة الكبيرة.",
+        "oneLiner": "للفرق التي تريد بناء ونشر تطبيقات الذكاء الاصطناعي بسرعة عبر واجهة مرئية"
+      },
+      "es": {
+        "description": "Dify es una plataforma de desarrollo de aplicaciones LLM open-source.",
+        "oneLiner": "Para equipos que quieren construir y desplegar aplicaciones de IA rápidamente a través de una interfaz visual"
+      },
+      "ko": {
+        "description": "Dify는 오픈소스 LLM 애플리케이션 개발 플랫폼입니다.",
+        "oneLiner": "비주얼 인터페이스를 통해 AI 애플리케이션을 빠르게 구축하고 배포하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "DifyはオープンソースのLLMアプリ開発プラットフォームです。",
+        "oneLiner": "ビジュアルインターフェースを通じて AI アプリを迅速に構築・デプロイしたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "flowise",
+    "name": "Flowise",
+    "owner": "FlowiseAI",
+    "description": "Drag & drop UI to build your customized LLM flow.",
+    "stars": 43000,
+    "language": "TypeScript",
+    "category": "Platform",
+    "updatedAt": "2026-04-14",
+    "topics": [
+      "low-code",
+      "workflow",
+      "llm"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "通过拖拽式 UI 构建定制化 LLM 流程，将复杂 AI 管道简化为可视化节点图。",
+        "oneLiner": "适合喜欢用拖拽方式构建 AI 工作流的非技术人员"
+      },
+      "en": {
+        "description": "Drag & drop UI to build your customized LLM flow.",
+        "oneLiner": "For non-technical users who prefer building AI workflows through drag-and-drop"
+      },
+      "ar": {
+        "description": "واجهة السحب والإفلات لبناء تدفق نموذج اللغة الكبيرة المخصص.",
+        "oneLiner": "للمستخدمين غير التقنيين الذين يفضلون بناء سير عمل الذكاء الاصطناعي عبر السحب والإفلات"
+      },
+      "es": {
+        "description": "Interfaz de arrastrar y soltar para construir tu flujo LLM personalizado.",
+        "oneLiner": "Para usuarios no técnicos que prefieren construir flujos de trabajo de IA mediante arrastrar y soltar"
+      },
+      "ko": {
+        "description": "드래그 앤 드롭 UI로 맞춤형 LLM 플로우를 구축합니다.",
+        "oneLiner": "드래그 앤 드롭 방식으로 AI 워크플로우를 구축하는 것을 선호하는 비기술 사용자를 위한"
+      },
+      "ja": {
+        "description": "ドラッグ＆ドロップUIでカスタマイズされたLLMフローを構築します。",
+        "oneLiner": "ドラッグアンドドロップで AI ワークフローを構築したい非技術者向け"
+      }
+    }
+  },
+  {
+    "id": "opengpts",
+    "name": "OpenGPTs",
+    "owner": "langchain-ai",
+    "description": "Open source alternative to OpenAI's GPTs and Assistants API.",
+    "stars": 9800,
+    "language": "Python",
+    "category": "Application",
+    "updatedAt": "2026-03-20",
+    "topics": [
+      "gpt",
+      "assistant",
+      "open-source"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "OpenAI GPTs 和 Assistants API 的开源替代方案，支持本地部署和完全自定义。",
+        "oneLiner": "适合想快速创建可定制 GPT 助手、对接多种工具的开发者"
+      },
+      "en": {
+        "description": "Open source alternative to OpenAI's GPTs and Assistants API.",
+        "oneLiner": "For developers who want to quickly create customizable GPT assistants with multiple tools"
+      },
+      "ar": {
+        "description": "بديل مفتوح المصدر لـ GPTs وAssistants API من OpenAI.",
+        "oneLiner": "للمطورين الذين يرغبون في إنشاء مساعدين GPT قابلين للتخصيص بسرعة مع أدوات متعددة"
+      },
+      "es": {
+        "description": "Alternativa open-source a los GPTs y Assistants API de OpenAI.",
+        "oneLiner": "Para desarrolladores que quieren crear rápidamente asistentes GPT personalizables con múltiples herramientas"
+      },
+      "ko": {
+        "description": "OpenAI의 GPTs와 Assistants API의 오픈소스 대안입니다.",
+        "oneLiner": "여러 도구와 연동하여 커스터마이징 가능한 GPT 어시스턴트를 빠르게 만들고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "OpenAIのGPTsおよびAssistants APIのオープンソース代替品です。",
+        "oneLiner": "複数のツールと連携してカスタマイズ可能な GPT アシスタントを迅速に作成したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "owner": "paul-gauthier",
+    "description": "AI pair programming in your terminal.",
+    "stars": 37000,
+    "language": "Python",
+    "category": "Coding",
+    "updatedAt": "2026-04-17",
+    "topics": [
+      "coding",
+      "pair-programming",
+      "cli"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "在终端中与 AI 进行结对编程，直接理解和修改大型代码库，提升开发效率。",
+        "oneLiner": "适合在终端工作、想直接让 AI 修改大型代码库的开发者"
+      },
+      "en": {
+        "description": "AI pair programming in your terminal.",
+        "oneLiner": "For developers who work in the terminal and want AI to directly modify large codebases"
+      },
+      "ar": {
+        "description": "البرمجة الزوجية بالذكاء الاصطناعي في الطرفية.",
+        "oneLiner": "للمطورين الذين يعملون في الطرفية ويريدون من الذكاء الاصطناعي تعديل قواعد البيانات البرمجية الكبيرة مباشرة"
+      },
+      "es": {
+        "description": "Programación en pareja con IA en tu terminal.",
+        "oneLiner": "Para desarrolladores que trabajan en la terminal y quieren que la IA modifique grandes bases de código directamente"
+      },
+      "ko": {
+        "description": "터미널에서 AI와 페어 프로그래밍을 합니다.",
+        "oneLiner": "터미널에서 작업하며 AI가 대규모 코드베이스를 직접 수정하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "ターミナル内でAIとペアプログラミングを行います。",
+        "oneLiner": "ターミナルで作業し、AI に大規模コードベースを直接修正させたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "owner": "continuedev",
+    "description": "Open-source AI code assistant for all IDEs.",
+    "stars": 28000,
+    "language": "TypeScript",
+    "category": "Coding",
+    "updatedAt": "2026-04-16",
+    "topics": [
+      "ide",
+      "coding",
+      "assistant"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "适用于所有 IDE 的开源 AI 代码助手，为任何编辑器带来 GPT-4 级别的编程辅助。",
+        "oneLiner": "适合想在任何编辑器中获得 GPT-4 级代码辅助的开发者"
+      },
+      "en": {
+        "description": "Open-source AI code assistant for all IDEs.",
+        "oneLiner": "For developers who want GPT-4-level coding assistance in any editor"
+      },
+      "ar": {
+        "description": "مساعد برمجي مفتوح المصدر بالذكاء الاصطناعي لجميع بيئات التطوير.",
+        "oneLiner": "للمطورين الذين يريدون مساعدة برمجية بمستوى GPT-4 في أي محرر"
+      },
+      "es": {
+        "description": "Asistente de código AI open-source para todos los IDEs.",
+        "oneLiner": "Para desarrolladores que quieren asistencia de código a nivel GPT-4 en cualquier editor"
+      },
+      "ko": {
+        "description": "모든 IDE를 위한 오픈소스 AI 코드 어시스턴트입니다.",
+        "oneLiner": "모든 에디터에서 GPT-4 수준의 코드 지원을 받고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "すべてのIDE向けのオープンソースAIコードアシスタントです。",
+        "oneLiner": "あらゆるエディタで GPT-4 レベルのコーディング支援を得たい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "metagpt",
+    "name": "MetaGPT",
+    "owner": "geekan",
+    "description": "Multi-Agent Framework for programming, writing, and more.",
+    "stars": 53000,
+    "language": "Python",
+    "category": "Multi-Agent",
+    "updatedAt": "2026-04-10",
+    "topics": [
+      "sota",
+      "multi-agent",
+      "software-dev"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "多智能体框架，让 AI 扮演产品经理、架构师和程序员等角色协作完成软件项目。",
+        "oneLiner": "适合想让 AI Agent 扮演产品经理、架构师自动完成软件交付的团队"
+      },
+      "en": {
+        "description": "Multi-Agent Framework for programming, writing, and more.",
+        "oneLiner": "For teams that want AI agents to play PM and architect roles and autonomously deliver software"
+      },
+      "ar": {
+        "description": "إطار عمل متعدد الوكلاء للبرمجة والكتابة وأكثر.",
+        "oneLiner": "للفرق التي تريد من وكلاء الذكاء الاصطناعي لعب أدوار مدير المنتج والمهندس المعماري وتسليم البرمجيات بشكل مستقل"
+      },
+      "es": {
+        "description": "Framework multi-agente para programación, escritura y más.",
+        "oneLiner": "Para equipos que quieren que agentes de IA desempeñen roles de PM y arquitecto y entreguen software de forma autónoma"
+      },
+      "ko": {
+        "description": "프로그래밍, 글쓰기 등을 위한 다중 에이전트 프레임워크입니다.",
+        "oneLiner": "AI 에이전트가 PM과 아키텍트 역할을 수행하고 소프트웨어를 자율적으로 전달하기를 원하는 팀을 위한"
+      },
+      "ja": {
+        "description": "プログラミング、ライティングなどのためのマルチエージェントフレームワークです。",
+        "oneLiner": "AI エージェントに PM やアーキテクトの役割を担わせ、自律的にソフトウェアを開発させたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "chatdev",
+    "name": "ChatDev",
+    "owner": "OpenBMB",
+    "description": "Create customized software using natural language idea.",
+    "stars": 31000,
+    "language": "Python",
+    "category": "Multi-Agent",
+    "updatedAt": "2026-03-28",
+    "topics": [
+      "software-dev",
+      "chat",
+      "team"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "通过自然语言描述需求，驱动多个 AI 角色协作，从零生成定制化软件。",
+        "oneLiner": "适合想用自然语言驱动多 AI 角色协作开发软件的产品经理"
+      },
+      "en": {
+        "description": "Create customized software using natural language idea.",
+        "oneLiner": "For product managers who want to drive multi-AI role collaboration through natural language"
+      },
+      "ar": {
+        "description": "إنشاء برمجيات مخصصة باستخدام الأفكار باللغة الطبيعية.",
+        "oneLiner": "لمديري المنتجات الذين يريدون قيادة تعاون أدوات AI متعددة من خلال اللغة الطبيعية"
+      },
+      "es": {
+        "description": "Crea software personalizado usando ideas en lenguaje natural.",
+        "oneLiner": "Para gerentes de producto que quieren impulsar la colaboración de múltiples roles de IA a través de lenguaje natural"
+      },
+      "ko": {
+        "description": "자연어 아이디어를 사용하여 맞춤형 소프트웨어를 생성합니다.",
+        "oneLiner": "자연어를 통해 다중 AI 역할 협업을 주도하고 싶은 제품 관리자를 위한"
+      },
+      "ja": {
+        "description": "自然言語のアイデアを使ってカスタマイズされたソフトウェアを作成します。",
+        "oneLiner": "自然言語で複数の AI ロールの協働を推進したいプロダクトマネージャー向け"
+      }
+    }
+  },
+  {
+    "id": "babyagi",
+    "name": "BabyAGI",
+    "owner": "yoheinakajima",
+    "description": "AI-powered task management system using OpenAI and Pinecone.",
+    "stars": 21000,
+    "language": "Python",
+    "category": "Automation",
+    "updatedAt": "2026-01-15",
+    "topics": [
+      "task-management",
+      "automation",
+      "gpt"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "基于 OpenAI 和 Pinecone 的 AI 驱动任务管理系统，自动创建并执行目标导向的任务链。",
+        "oneLiner": "适合想理解 AI Agent 核心原理、学习自主任务循环的初学者"
+      },
+      "en": {
+        "description": "AI-powered task management system using OpenAI and Pinecone.",
+        "oneLiner": "For beginners who want to understand core AI agent principles and learn autonomous task loops"
+      },
+      "ar": {
+        "description": "نظام إدارة مهام مدعوم بالذكاء الاصطناعي باستخدام OpenAI وPinecone.",
+        "oneLiner": "للمبتدئين الذين يريدون فهم المبادئ الأساسية لوكلاء الذكاء الاصطناعي وتعلم حلقات المهام المستقلة"
+      },
+      "es": {
+        "description": "Sistema de gestión de tareas impulsado por IA usando OpenAI y Pinecone.",
+        "oneLiner": "Para principiantes que quieren entender los principios básicos de agentes de IA y aprender bucles de tareas autónomas"
+      },
+      "ko": {
+        "description": "OpenAI와 Pinecone을 사용한 AI 기반 작업 관리 시스템입니다.",
+        "oneLiner": "AI 에이전트의 핵심 원리를 이해하고 자율적 작업 루프를 학습하고 싶은 초보자를 위한"
+      },
+      "ja": {
+        "description": "OpenAIとPineconeを使用したAI駆動のタスク管理システムです。",
+        "oneLiner": "AI エージェントの核心的原理を理解し、自律的タスクループを学びたい初学者向け"
+      }
+    }
+  },
+  {
+    "id": "superagi",
+    "name": "SuperAGI",
+    "owner": "TransformerOptimus",
+    "description": "A dev-first open source autonomous AI agent framework.",
+    "stars": 19000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-02-20",
+    "topics": [
+      "autonomous",
+      "dev-tool",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "面向开发者的开源自主 AI Agent 框架，支持工具集成和可扩展的 Agent 基础设施。",
+        "oneLiner": "适合需要可扩展 Agent 基础设施、支持工具集成和自主循环的开发者"
+      },
+      "en": {
+        "description": "A dev-first open source autonomous AI agent framework.",
+        "oneLiner": "For developers who need extensible agent infrastructure with tool integration and autonomous loops"
+      },
+      "ar": {
+        "description": "إطار عمل مفتوح المصدر لوكلاء ذكاء اصطناعي مستقلين موجه للمطورين.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى بنية تحتية قابلة للتوسع للوكلاء مع تكامل الأدوات والحلقات المستقلة"
+      },
+      "es": {
+        "description": "Un framework de agentes de IA autónomos open-source centrado en desarrolladores.",
+        "oneLiner": "Para desarrolladores que necesitan infraestructura de agentes extensible con integración de herramientas y bucles autónomos"
+      },
+      "ko": {
+        "description": "개발자 중심의 오픈소스 자율 AI 에이전트 프레임워크입니다.",
+        "oneLiner": "도구 통합과 자율 루프를 지원하는 확장 가능한 에이전트 인프라가 필요한 개발자를 위한"
+      },
+      "ja": {
+        "description": "開発者優先のオープンソース自律AIエージェントフレームワークです。",
+        "oneLiner": "ツール統合と自律ループを備えた拡張可能なエージェントインフラが必要な開発者向け"
+      }
+    }
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "owner": "run-llama",
+    "description": "LlamaIndex is a data framework for your LLM applications.",
+    "stars": 42000,
+    "language": "Python",
+    "category": "RAG",
+    "updatedAt": "2026-04-17",
+    "topics": [
+      "rag",
+      "data",
+      "indexing"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 LLM 应用提供数据框架，连接私有数据源让 AI 基于你的知识回答问题。",
+        "oneLiner": "适合想将私有数据接入 LLM、构建知识问答系统的开发者"
+      },
+      "en": {
+        "description": "LlamaIndex is a data framework for your LLM applications.",
+        "oneLiner": "For developers who want to connect private data to LLMs and build knowledge Q&A systems"
+      },
+      "ar": {
+        "description": "LlamaIndex هو إطار بيانات لتطبيقات نماذج اللغة الكبيرة.",
+        "oneLiner": "للمطورين الذين يريدون ربط البيانات الخاصة بنماذج اللغة الكبيرة وبناء أنظمة الأسئلة والأجوبة المعرفية"
+      },
+      "es": {
+        "description": "LlamaIndex es un framework de datos para tus aplicaciones LLM.",
+        "oneLiner": "Para desarrolladores que quieren conectar datos privados a LLMs y construir sistemas de preguntas y respuestas basados en conocimiento"
+      },
+      "ko": {
+        "description": "LlamaIndex는 LLM 애플리케이션을 위한 데이터 프레임워크입니다.",
+        "oneLiner": "프라이빗 데이터를 LLM에 연결하고 지식 기반 Q&A 시스템을 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "LlamaIndexはLLMアプリケーション向けのデータフレームワークです。",
+        "oneLiner": "プライベートデータを LLM に接続し、知識ベースの Q&A システムを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "haystack",
+    "name": "Haystack",
+    "owner": "deepset-ai",
+    "description": "End-to-end NLP framework for building search, question answering systems.",
+    "stars": 19000,
+    "language": "Python",
+    "category": "RAG",
+    "updatedAt": "2026-04-12",
+    "topics": [
+      "nlp",
+      "search",
+      "qa"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "端到端 NLP 框架，为搜索和问答系统提供强大的流水线能力，让私有文档具备语义检索。",
+        "oneLiner": "适合需要端到端语义搜索和问答流水线的开发者"
+      },
+      "en": {
+        "description": "End-to-end NLP framework for building search, question answering systems.",
+        "oneLiner": "For developers who need end-to-end semantic search and Q&A pipelines"
+      },
+      "ar": {
+        "description": "إطار عمل NLP شامل لبناء أنظمة البحث والأسئلة والأجوبة.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى خطوط أنابيب البحث الدلالي والأسئلة والأجوبة من البداية إلى النهاية"
+      },
+      "es": {
+        "description": "Framework NLP end-to-end para construir sistemas de búsqueda y preguntas y respuestas.",
+        "oneLiner": "Para desarrolladores que necesitan pipelines de búsqueda semántica y preguntas y respuestas de extremo a extremo"
+      },
+      "ko": {
+        "description": "검색 및 질의응답 시스템 구축을 위한 엔드투엔드 NLP 프레임워크입니다.",
+        "oneLiner": "엔드투엔드 의미 검색 및 Q&A 파이프라인이 필요한 개발자를 위한"
+      },
+      "ja": {
+        "description": "検索・Q&Aシステム構築のためのエンドツーエンドNLPフレームワークです。",
+        "oneLiner": "エンドツーエンドの意味検索および Q&A パイプラインが必要な開発者向け"
+      }
+    }
+  },
+  {
+    "id": "quivr",
+    "name": "Quivr",
+    "owner": "QuivrHQ",
+    "description": "Your GenAI Second Brain. A personal productivity assistant.",
+    "stars": 37000,
+    "language": "TypeScript",
+    "category": "RAG",
+    "updatedAt": "2026-04-08",
+    "topics": [
+      "productivity",
+      "brain",
+      "second-brain"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "你的 GenAI 第二大脑，将文档和知识库转化为可实时对话的个人生产力助理。",
+        "oneLiner": "适合想将文档和知识库转化为 AI 对话助理的个人和团队"
+      },
+      "en": {
+        "description": "Your GenAI Second Brain. A personal productivity assistant.",
+        "oneLiner": "For individuals and teams who want to turn documents and knowledge bases into AI conversational assistants"
+      },
+      "ar": {
+        "description": "عقلك الثاني بالذكاء الاصطناعي. مساعد شخصي للإنتاجية.",
+        "oneLiner": "للأفراد والفرق الذين يريدون تحويل المستندات وقواعد المعرفة إلى مساعدين محادثة بالذكاء الاصطناعي"
+      },
+      "es": {
+        "description": "Tu Segundo Cerebro GenAI. Un asistente personal de productividad.",
+        "oneLiner": "Para individuos y equipos que quieren convertir documentos y bases de conocimiento en asistentes conversacionales de IA"
+      },
+      "ko": {
+        "description": "당신의 GenAI 두 번째 뇌. 개인 생산성 비서입니다.",
+        "oneLiner": "문서와 지식 기반을 AI 대화 어시스턴트로 전환하고 싶은 개인과 팀을 위한"
+      },
+      "ja": {
+        "description": "あなたのGenAIセカンドブレイン。パーソナルプロダクティビティアシスタントです。",
+        "oneLiner": "文書やナレッジベースを AI 会話アシスタントに変換したい個人やチーム向け"
+      }
+    }
+  },
+  {
+    "id": "gpt-engineer",
+    "name": "GPT-Engineer",
+    "owner": "gordonhart",
+    "description": "Specify what you want it to build, the AI asks for clarification, and then builds it.",
+    "stars": 65000,
+    "language": "Python",
+    "category": "Coding",
+    "updatedAt": "2026-03-30",
+    "topics": [
+      "code-generation",
+      "gpt",
+      "builder"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "通过澄清式对话明确需求后，自动生成完整可运行的代码项目，降低软件开发门槛。",
+        "oneLiner": "适合不会写代码但想通过对话快速搭建完整项目原型的人"
+      },
+      "en": {
+        "description": "Specify what you want it to build, the AI asks for clarification, and then builds it.",
+        "oneLiner": "Great for non-coders who want to build complete project prototypes through conversation"
+      },
+      "ar": {
+        "description": "حدد ما تريد بناءه، يسألك الذكاء الاصطناعي للتوضيح، ثم يبنيه.",
+        "oneLiner": "مثالي لمن لا يجيدون البرمجة ويرغبون في بناء نماذج أولية كاملة عبر المحادثة"
+      },
+      "es": {
+        "description": "Especifica lo que quieres construir, la IA pide aclaraciones y luego lo construye.",
+        "oneLiner": "Ideal para personas sin conocimientos de código que quieren construir prototipos completos conversando"
+      },
+      "ko": {
+        "description": "원하는 것을 지정하면 AI가 명확히 질문하고, 그 다음 구축합니다.",
+        "oneLiner": "코딩 없이 대화만으로 완전한 프로젝트 프로토타입을 빠르게 만들고 싶은 사람에게 적합"
+      },
+      "ja": {
+        "description": "構築したいものを指定すると、AIが確認を求め、次に構築します。",
+        "oneLiner": "コーディングなしで対話から完全なプロジェクト原型を迅速に構築したい人に最適"
+      }
+    }
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "owner": "All-Hands-AI",
+    "description": "Code Less, Make More. AI software development agent.",
+    "stars": 54000,
+    "language": "Python",
+    "category": "Coding",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "devin",
+      "coding",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "像人类软件工程师一样端到端完成编码、测试和部署的 AI 开发代理。",
+        "oneLiner": "适合想让 AI 像人类工程师一样端到端完成软件开发全流程的团队"
+      },
+      "en": {
+        "description": "Code Less, Make More. AI software development agent.",
+        "oneLiner": "For teams that want AI to handle the full software development lifecycle like a human engineer"
+      },
+      "ar": {
+        "description": "اكتب أقل، أنجز أكثر. وكيل تطوير برمجيات بالذكاء الاصطناعي.",
+        "oneLiner": "للفرق التي تريد من الذكاء الاصطناعي التعامل مع دورة حياة تطوير البرمجيات بالكامل مثل مهندس بشري"
+      },
+      "es": {
+        "description": "Code Less, Make More. Agente de desarrollo de software con IA.",
+        "oneLiner": "Para equipos que quieren que la IA maneje todo el ciclo de vida del desarrollo de software como un ingeniero humano"
+      },
+      "ko": {
+        "description": "더 적게 코드를 짜고, 더 많이 만드세요. AI 소프트웨어 개발 에이전트입니다.",
+        "oneLiner": "AI가 인간 엔지니어처럼 소프트웨어 개발 전체 라이프사이클을 처리하기를 원하는 팀을 위한"
+      },
+      "ja": {
+        "description": "Code Less, Make More. AIソフトウェア開発エージェントです。",
+        "oneLiner": "AI に人間のエンジニアのようにソフトウェア開発の全ライフサイクルを処理させたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "owner": "cline",
+    "description": "Autonomous coding agent right in your IDE.",
+    "stars": 43000,
+    "language": "TypeScript",
+    "category": "Coding",
+    "updatedAt": "2026-04-17",
+    "topics": [
+      "ide",
+      "autonomous",
+      "coding"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "IDE 内的自主编码代理，能自动阅读代码、规划修改并执行编辑验证。",
+        "oneLiner": "在 IDE 内自主阅读代码、规划修改、执行编辑并验证结果，无需人工逐步指导"
+      },
+      "en": {
+        "description": "Autonomous coding agent right in your IDE.",
+        "oneLiner": "Autonomously reads code, plans modifications, executes edits, and verifies results within the IDE without step-by-step guidance"
+      },
+      "ar": {
+        "description": "وكيل برمجة مستقل مباشرة في بيئة التطوير الخاصة بك.",
+        "oneLiner": "يقرأ الشفرة ويخطط للتعديلات وينفذ التحرير ويتحقق من النتائج داخل IDE بشكل مستقل دون إرشادات خطوة بخطوة"
+      },
+      "es": {
+        "description": "Agente de codificación autónomo directamente en tu IDE.",
+        "oneLiner": "Lee código, planifica modificaciones, ejecuta ediciones y verifica resultados dentro del IDE de forma autónoma sin guía paso a paso"
+      },
+      "ko": {
+        "description": "IDE 내에서 바로 작동하는 자율 코딩 에이전트입니다.",
+        "oneLiner": "IDE 내에서 코드를 자율적으로 읽고 수정을 계획하며 편집을 실행하고 결과를 검증하여 단계별 안내 없이 작업"
+      },
+      "ja": {
+        "description": "IDE内で直接動作する自律コーディングエージェントです。",
+        "oneLiner": "IDE内でコードを自律的に読み込み、修正を計画・実行・検証し、ステップバイステップの指示なしで作業する"
+      }
+    }
+  },
+  {
+    "id": "copilotkit",
+    "name": "CopilotKit",
+    "owner": "CopilotKit",
+    "description": "AI Copilot infrastructure for React apps.",
+    "stars": 18000,
+    "language": "TypeScript",
+    "category": "DevTool",
+    "updatedAt": "2026-04-15",
+    "topics": [
+      "react",
+      "copilot",
+      "ui"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 React 应用提供 AI Copilot 基础设施，快速嵌入聊天界面和上下文感知辅助。",
+        "oneLiner": "适合想在 React 应用中快速嵌入 AI Copilot 聊天和辅助功能的开发者"
+      },
+      "en": {
+        "description": "AI Copilot infrastructure for React apps.",
+        "oneLiner": "For developers who want to quickly embed AI Copilot chat and assistance into React apps"
+      },
+      "ar": {
+        "description": "بنية تحتية لـ AI Copilot لتطبيقات React.",
+        "oneLiner": "للمطورين الذين يريدون تضمين دردشة Copilot بالذكاء الاصطناعي والمساعدة في تطبيقات React بسرعة"
+      },
+      "es": {
+        "description": "Infraestructura de AI Copilot para aplicaciones React.",
+        "oneLiner": "Para desarrolladores que quieren incorporar rápidamente chat y asistencia de AI Copilot en aplicaciones React"
+      },
+      "ko": {
+        "description": "React 앱을 위한 AI Copilot 인프라입니다.",
+        "oneLiner": "React 앱에 AI Copilot 채팅 및 지원 기능을 빠르게 임베드하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "Reactアプリ向けのAI Copilotインフラストラクチャです。",
+        "oneLiner": "React アプリに AI Copilot チャットや支援機能を迅速に組み込みたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "vanna",
+    "name": "Vanna",
+    "owner": "vanna-ai",
+    "description": "Chat with your SQL database using LLMs.",
+    "stars": 15000,
+    "language": "Python",
+    "category": "Application",
+    "updatedAt": "2026-04-11",
+    "topics": [
+      "sql",
+      "database",
+      "chat"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "用自然语言与 SQL 数据库对话，让非技术人员也能轻松获取数据洞察。",
+        "oneLiner": "适合想让非技术人员用自然语言查询 SQL 数据库的团队"
+      },
+      "en": {
+        "description": "Chat with your SQL database using LLMs.",
+        "oneLiner": "For teams that want non-technical users to query SQL databases in natural language"
+      },
+      "ar": {
+        "description": "دردش مع قاعدة بيانات SQL الخاصة بك باستخدام نماذج اللغة الكبيرة.",
+        "oneLiner": "للفرق التي تريد من المستخدمين غير التقنيين الاستعلام عن قواعد بيانات SQL بلغة طبيعية"
+      },
+      "es": {
+        "description": "Chatea con tu base de datos SQL usando LLMs.",
+        "oneLiner": "Para equipos que quieren que usuarios no técnicos consulten bases de datos SQL en lenguaje natural"
+      },
+      "ko": {
+        "description": "대규모 언어 모델을 사용하여 SQL 데이터베이스와 채팅하세요.",
+        "oneLiner": "비기술 사용자가 자연어로 SQL 데이터베이스를 질의할 수 있게 하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "大規模言語モデルを使ってSQLデータベースとチャットします。",
+        "oneLiner": "非技術者が自然言語で SQL データベースをクエリできるようにしたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "agno",
+    "name": "Agno",
+    "owner": "agno-agi",
+    "description": "A lightweight library for building multimodal agents.",
+    "stars": 26000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-16",
+    "topics": [
+      "lightweight",
+      "multimodal",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "轻量级多模态 Agent 库，用极少量代码构建支持文本、图像和音频的 AI Agent。",
+        "oneLiner": "适合想用极少代码构建多模态 AI Agent 的开发者"
+      },
+      "en": {
+        "description": "A lightweight library for building multimodal agents.",
+        "oneLiner": "For developers who want to build multimodal AI agents with minimal code"
+      },
+      "ar": {
+        "description": "مكتبة خفيفة لبناء وكلاء متعددي الوسائط.",
+        "oneLiner": "للمطورين الذين يريدون بناء وكلاء ذكاء اصطناعي متعدد الوسائط بحد أدنى من الكود"
+      },
+      "es": {
+        "description": "Una librería ligera para construir agentes multimodales.",
+        "oneLiner": "Para desarrolladores que quieren construir agentes de IA multimodales con código mínimo"
+      },
+      "ko": {
+        "description": "멀티모달 에이전트를 구축하기 위한 경량 라이브러리입니다.",
+        "oneLiner": "최소한의 코드로 멀티모달 AI 에이전트를 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "マルチモーダルエージェントを構築するための軽量ライブラリです。",
+        "oneLiner": "最小限のコードでマルチモーダル AI エージェントを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "smolagents",
+    "name": "smolagents",
+    "owner": "huggingface",
+    "description": "The simplest library to build AI agents from Hugging Face.",
+    "stars": 32000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-17",
+    "topics": [
+      "huggingface",
+      "minimal",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "Hugging Face 出品的最简 Agent 库，用极少代码展示 Agent 框架的核心原理。",
+        "oneLiner": "适合想理解 Agent 框架本质、用不到千行代码定制自己 Agent 的开发者"
+      },
+      "en": {
+        "description": "The simplest library to build AI agents from Hugging Face.",
+        "oneLiner": "For developers who want to understand agent framework essence and customize their own agent in under 1,000 lines"
+      },
+      "ar": {
+        "description": "أبسط مكتبة لبناء وكلاء ذكاء اصطناعي من Hugging Face.",
+        "oneLiner": "للمطورين الذين يريدون فهم جوهر أطر الوكلاء وتخصيص وكلائهم الخاصين في أقل من 1000 سطر"
+      },
+      "es": {
+        "description": "La librería más simple para construir agentes de IA de Hugging Face.",
+        "oneLiner": "Para desarrolladores que quieren entender la esencia de los frameworks de agentes y personalizar su propio agente en menos de 1,000 líneas"
+      },
+      "ko": {
+        "description": "Hugging Face에서 제공하는 가장 간단한 AI 에이전트 구축 라이브러리입니다.",
+        "oneLiner": "에이전트 프레임워크의 본질을 이해하고 1000줄 미만으로 자신만의 에이전트를 커스터마이징하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "Hugging Faceによる最もシンプルなAIエージェント構築ライブラリです。",
+        "oneLiner": "エージェントフレームワークの本質を理解し、1000 行未満で独自のエージェントをカスタマイズしたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "mastra",
+    "name": "Mastra",
+    "owner": "mastra-ai",
+    "description": "The TypeScript agent framework for building reliable AI applications.",
+    "stars": 12000,
+    "language": "TypeScript",
+    "category": "Framework",
+    "updatedAt": "2026-04-14",
+    "topics": [
+      "typescript",
+      "reliability",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "面向 TypeScript 生态的可靠 Agent 框架，提供类型安全的工作流编排能力。",
+        "oneLiner": "适合在 TypeScript 生态中构建类型安全 AI 应用的开发者"
+      },
+      "en": {
+        "description": "The TypeScript agent framework for building reliable AI applications.",
+        "oneLiner": "For developers building type-safe AI applications in the TypeScript ecosystem"
+      },
+      "ar": {
+        "description": "إطار عمل وكلاء TypeScript لبناء تطبيقات ذكاء اصطناعي موثوقة.",
+        "oneLiner": "للمطورين الذين يبنون تطبيقات ذكاء اصطناعي آمنة من حيث النوع في النظام البيئي TypeScript"
+      },
+      "es": {
+        "description": "El framework de agentes TypeScript para construir aplicaciones de IA confiables.",
+        "oneLiner": "Para desarrolladores que construyen aplicaciones de IA con seguridad de tipos en el ecosistema TypeScript"
+      },
+      "ko": {
+        "description": "신뢰할 수 있는 AI 애플리케이션 구축을 위한 TypeScript 에이전트 프레임워크입니다.",
+        "oneLiner": "TypeScript 생태계에서 타입 안전한 AI 애플리케이션을 구축하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "信頼性の高いAIアプリケーション構築のためのTypeScriptエージェントフレームワークです。",
+        "oneLiner": "TypeScript エコシステムで型安全な AI アプリケーションを構築する開発者向け"
+      }
+    }
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "owner": "n8n-io",
+    "description": "Free and source-available fair-code licensed workflow automation tool.",
+    "stars": 74000,
+    "language": "TypeScript",
+    "category": "Automation",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "workflow",
+      "automation",
+      "no-code"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "公平代码许可的工作流自动化工具，通过可视化节点编辑器连接任意 API 和服务。",
+        "oneLiner": "适合想用可视化方式连接 API 和服务、构建自动化工作流的技术人员"
+      },
+      "en": {
+        "description": "Free and source-available fair-code licensed workflow automation tool.",
+        "oneLiner": "For technical users who want to visually connect APIs and services to build automated workflows"
+      },
+      "ar": {
+        "description": "أداة أتمتة سير العمل مرخصة بترخيص fair-code مجانية ومفتوحة المصدر.",
+        "oneLiner": "للمستخدمين التقنيين الذين يريدون ربط واجهات برمجة التطبيقات والخدمات بشكل مرئي لبناء سير عمل آلية"
+      },
+      "es": {
+        "description": "Herramienta de automatización de flujos de trabajo con licencia fair-code gratuita y código disponible.",
+        "oneLiner": "Para usuarios técnicos que quieren conectar APIs y servicios de forma visual para construir flujos de trabajo automatizados"
+      },
+      "ko": {
+        "description": "공정 코드 라이선스 기반의 묣료 워크플로우 자동화 도구입니다.",
+        "oneLiner": "API와 서비스를 시각적으로 연결하여 자동화 워크플로우를 구축하고 싶은 기술 사용자를 위한"
+      },
+      "ja": {
+        "description": "公平コードライセンスの無料ワークフロー自動化ツールです。",
+        "oneLiner": "API やサービスを視覚的に接続して自動化ワークフローを構築したい技術者向け"
+      }
+    }
+  },
+  {
+    "id": "dialoqbase",
+    "name": "Dialoqbase",
+    "owner": "n4ze3m",
+    "description": "Create custom chatbots with your knowledge base.",
+    "stars": 7500,
+    "language": "TypeScript",
+    "category": "Platform",
+    "updatedAt": "2026-03-25",
+    "topics": [
+      "chatbot",
+      "knowledge-base",
+      "custom"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "基于你的知识库快速创建定制化聊天机器人，无需机器学习专业知识。",
+        "oneLiner": "适合想基于自有数据搭建 AI 聊天机器人并自托管的团队"
+      },
+      "en": {
+        "description": "Create custom chatbots with your knowledge base.",
+        "oneLiner": "For teams that want to build AI chatbots based on their own data and self-host them"
+      },
+      "ar": {
+        "description": "إنشاء روبوتات دردشة مخصصة باستخدام قاعدة المعرفة الخاصة بك.",
+        "oneLiner": "للفرق التي تريد بناء روبوتات دردشة بالذكاء الاصطناعي بناءً على بياناتها الخاصة واستضافتها ذاتياً"
+      },
+      "es": {
+        "description": "Crea chatbots personalizados con tu base de conocimiento.",
+        "oneLiner": "Para equipos que quieren construir chatbots de IA basados en sus propios datos y autoalojarlos"
+      },
+      "ko": {
+        "description": "지식 기반을 활용하여 맞춤형 챗봇을 생성합니다.",
+        "oneLiner": "자체 데이터를 기반으로 AI 챗봇을 구축하고 자체 호스팅하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "ナレッジベースを使ってカスタムチャットボットを作成します。",
+        "oneLiner": "独自のデータに基づいて AI チャットボットを構築し、自己ホスティングしたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "taskingai",
+    "name": "TaskingAI",
+    "owner": "TaskingAI",
+    "description": "The open source platform for AI-native application development.",
+    "stars": 11000,
+    "language": "Python",
+    "category": "Platform",
+    "updatedAt": "2026-04-13",
+    "topics": [
+      "ai-native",
+      "app-dev",
+      "api"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "AI 原生应用开发开源平台，统一管理多模型 API，让开发者专注应用逻辑。",
+        "oneLiner": "适合需要统一管理多个 LLM 提供商、专注应用逻辑开发的团队"
+      },
+      "en": {
+        "description": "The open source platform for AI-native application development.",
+        "oneLiner": "For teams that need to统一管理 multiple LLM providers and focus on application logic development"
+      },
+      "ar": {
+        "description": "المنصة المفتوحة المصدر لتطوير التطبيقات الأصيلة بالذكاء الاصطناعي.",
+        "oneLiner": "للفرق التي تحتاج إلى إدارة موفري LLM المتعددين بشكل موحد والتركيز على تطوير منطق التطبيق"
+      },
+      "es": {
+        "description": "La plataforma open-source para el desarrollo de aplicaciones nativas de IA.",
+        "oneLiner": "Para equipos que necesitan administrar múltiples proveedores de LLM de manera统一 y enfocarse en el desarrollo de la lógica de la aplicación"
+      },
+      "ko": {
+        "description": "AI 네이티브 애플리케이션 개발을 위한 오픈소스 플랫폼입니다.",
+        "oneLiner": "여러 LLM 공급자를 통합 관리하고 애플리케이션 로직 개발에 집중해야 하는 팀을 위한"
+      },
+      "ja": {
+        "description": "AIネイティブアプリケーション開発のためのオープンソースプラットフォームです。",
+        "oneLiner": "複数の LLM プロバイダーを統合管理し、アプリケーションロジックの開発に集中したいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "phidata",
+    "name": "Phidata",
+    "owner": "phidatahq",
+    "description": "Build AI Agents with memory, knowledge and tools.",
+    "stars": 25000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-15",
+    "topics": [
+      "memory",
+      "tools",
+      "knowledge"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 AI Agent 赋予记忆、知识和工具能力，让它在使用过程中不断学习和进化。",
+        "oneLiner": "适合想为 Agent 添加记忆、知识和工具调用能力、让它越用越聪明的开发者"
+      },
+      "en": {
+        "description": "Build AI Agents with memory, knowledge and tools.",
+        "oneLiner": "For developers who want to add memory, knowledge, and tool-calling capabilities to agents so they get smarter over time"
+      },
+      "ar": {
+        "description": "بناء وكلاء ذكاء اصطناعي بذاكرة ومعرفة وأدوات.",
+        "oneLiner": "للمطورين الذين يريدون إضافة ذاكرة ومعرفة وقدرات استدعاء الأدوات للوكلاء ليصبحوا أكثر ذكاءً مع الاستخدام"
+      },
+      "es": {
+        "description": "Construye agentes de IA con memoria, conocimiento y herramientas.",
+        "oneLiner": "Para desarrolladores que quieren agregar capacidades de memoria, conocimiento y llamada a herramientas a los agentes para que mejoren con el uso"
+      },
+      "ko": {
+        "description": "기억, 지식, 도구를 갖춘 AI 에이전트를 구축합니다.",
+        "oneLiner": "에이전트에 기억, 지식, 도구 호출 기능을 추가하여 사용할수록 더 똑똑해지게 하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "記憶、知識、ツールを持つAIエージェントを構築します。",
+        "oneLiner": "エージェントに記憶、知識、ツール呼び出し機能を追加し、使うほど賢くさせたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "memgpt",
+    "name": "MemGPT",
+    "owner": "cpacker",
+    "description": "Teaching LLMs memory management for unbounded context.",
+    "stars": 14000,
+    "language": "Python",
+    "category": "RAG",
+    "updatedAt": "2026-04-09",
+    "topics": [
+      "memory",
+      "context",
+      "llm"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "让 LLM 拥有操作系统般的内存管理能力，突破上下文长度限制实现无限记忆。",
+        "oneLiner": "适合想让 LLM 突破上下文限制、像操作系统一样管理对话记忆的开发者"
+      },
+      "en": {
+        "description": "Teaching LLMs memory management for unbounded context.",
+        "oneLiner": "For developers who want LLMs to break context limits and manage conversation memory like an OS"
+      },
+      "ar": {
+        "description": "تعليم نماذج اللغة الكبيرة إدارة الذاكرة لسياق غير محدود.",
+        "oneLiner": "للمطورين الذين يريدون من نماذج اللغة الكبيرة تجاوز حدود السياق وإدارة ذاكرة المحادثة مثل نظام التشغيل"
+      },
+      "es": {
+        "description": "Enseñando gestión de memoria a los LLMs para contexto ilimitado.",
+        "oneLiner": "Para desarrolladores que quieren que los LLMs superen los límites de contexto y gestionen la memoria de conversación como un sistema operativo"
+      },
+      "ko": {
+        "description": "무제한 컨텍스트를 위한 대규모 언어 모델 메모리 관리를 가르칩니다.",
+        "oneLiner": "LLM이 컨텍스트 제한을 극복하고 운영체제처럼 대화 메모리를 관리하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "無制限のコンテキストのための大規模言語モデルのメモリ管理を教えます。",
+        "oneLiner": "LLM がコンテキスト制限を突破し、OS のように会話メモリを管理させたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "autogen",
+    "name": "AutoGen",
+    "owner": "microsoft",
+    "description": "A programming framework for building AI agents from Microsoft Research.",
+    "stars": 46000,
+    "language": "Python",
+    "category": "Multi-Agent",
+    "updatedAt": "2026-04-17",
+    "topics": [
+      "microsoft",
+      "research",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "微软研究院推出的编程框架，支持对话式、可定制和可组合的 Agent 抽象。",
+        "oneLiner": "适合想用微软生态构建多 Agent 协作系统的开发者"
+      },
+      "en": {
+        "description": "A programming framework for building AI agents from Microsoft Research.",
+        "oneLiner": "For developers who want to build multi-agent collaborative systems in the Microsoft ecosystem"
+      },
+      "ar": {
+        "description": "إطار برمجة لبناء وكلاء ذكاء اصطناعي من Microsoft Research.",
+        "oneLiner": "للمطورين الذين يريدون بناء أنظمة تعاونية متعددة الوكلاء في النظام البيئي Microsoft"
+      },
+      "es": {
+        "description": "Un framework de programación para construir agentes de IA de Microsoft Research.",
+        "oneLiner": "Para desarrolladores que quieren construir sistemas colaborativos multi-agente en el ecosistema de Microsoft"
+      },
+      "ko": {
+        "description": "Microsoft Research의 AI 에이전트 구축 프로그래밍 프레임워크입니다.",
+        "oneLiner": "Microsoft 생태계에서 다중 에이전트 협업 시스템을 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "Microsoft ResearchによるAIエージェント構築のためのプログラミングフレームワークです。",
+        "oneLiner": "Microsoft エコシステムでマルチエージェント協働システムを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "camel",
+    "name": "CAMEL",
+    "owner": "camel-ai",
+    "description": "Finding the Scaling Law of Agents. Communicative Agents for Mind Exploration.",
+    "stars": 11000,
+    "language": "Python",
+    "category": "Multi-Agent",
+    "updatedAt": "2026-04-05",
+    "topics": [
+      "communication",
+      "scaling",
+      "research"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "探索通信型 Agent 的规模化法则，研究多个 AI 如何通过自然语言协作探索心智。",
+        "oneLiner": "适合想研究多 Agent 通信协作和智能扩展法则的研究者"
+      },
+      "en": {
+        "description": "Communicative Agents for Mind Exploration.",
+        "oneLiner": "For researchers who want to study multi-agent communication collaboration and intelligence scaling laws"
+      },
+      "ar": {
+        "description": "وكلاء تواصلي لاستكشاف العقل.",
+        "oneLiner": "للباحثين الذين يريدون دراسة تعاون تواصل الوكلاء المتعددين وقوانين توسع الذكاء"
+      },
+      "es": {
+        "description": "Agentes comunicativos para la exploración de la mente.",
+        "oneLiner": "Para investigadores que quieren estudiar la colaboración en comunicación multi-agente y las leyes de escalado de inteligencia"
+      },
+      "ko": {
+        "description": "마음 탐구를 위한 커뮤니케이티브 에이전트입니다.",
+        "oneLiner": "다중 에이전트 통신 협업과 지능 스케일링 법칙을 연구하고 싶은 연구자를 위한"
+      },
+      "ja": {
+        "description": "マインド・エクスプロレーションのためのコミュニカティブ・エージェントです。",
+        "oneLiner": "マルチエージェント通信協働や知性のスケーリング法則を研究したい研究者向け"
+      }
+    }
+  },
+  {
+    "id": "prefect",
+    "name": "Prefect",
+    "owner": "PrefectHQ",
+    "description": "The easiest way to elevate a script from manual to resilient, scheduled workflows.",
+    "stars": 18000,
+    "language": "Python",
+    "category": "Automation",
+    "updatedAt": "2026-04-16",
+    "topics": [
+      "workflow",
+      "orchestration",
+      "data"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "将手动脚本提升为有弹性的计划工作流，提供观测性和错误恢复能力，无需重写现有代码。",
+        "oneLiner": "适合想把临时脚本升级为可观测、可重试生产工作流的开发者"
+      },
+      "en": {
+        "description": "The easiest way to elevate a script from manual to resilient, scheduled workflows.",
+        "oneLiner": "For developers who want to upgrade ad-hoc scripts into observable, retryable production workflows"
+      },
+      "ar": {
+        "description": "أسهل طريقة لرفع سكربت يدوي إلى سير عمل مرنة ومجدولة.",
+        "oneLiner": "للمطورين الذين يريدون ترقية السكربتات المؤقتة إلى سير عمل إنتاجية قابلة للملاحظة وإعادة المحاولة"
+      },
+      "es": {
+        "description": "La forma más fácil de elevar un script manual a flujos de trabajo resilientes y programados.",
+        "oneLiner": "Para desarrolladores que quieren elevar scripts ad-hoc a flujos de trabajo de producción observables y reintentables"
+      },
+      "ko": {
+        "description": "수동 스크립트를 탄력적이고 예약된 워크플로우로 쉽게 업그레이드합니다.",
+        "oneLiner": "임시 스크립트를 관찰 가능하고 재시도 가능한 프로덕션 워크플로우로 업그레이드하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "手動スクリプトを弾力性のあるスケジュールワークフローに簡単に昇格させます。",
+        "oneLiner": "アドホックスクリプトを観測可能で再試行可能な本番ワークフローにアップグレードしたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "owner": "langchain-ai",
+    "description": "Build resilient language agents as graphs.",
+    "stars": 15000,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-17",
+    "topics": [
+      "graph",
+      "state-machine",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "用图结构建模 Agent 的决策流程，让复杂的多步推理可视化、可调试且可靠。",
+        "oneLiner": "适合想用图结构建模 Agent 决策流程、让复杂推理可视化的开发者"
+      },
+      "en": {
+        "description": "Build resilient language agents as graphs.",
+        "oneLiner": "For developers who want to model agent decision flows as graphs and visualize complex reasoning"
+      },
+      "ar": {
+        "description": "بناء وكلاء لغة مرنين كرسوم بيانية.",
+        "oneLiner": "للمطورين الذين يريدون نمذجة تدفقات قرار الوكلاء كرسوم بيانية وتصور الاستدلال المعقد"
+      },
+      "es": {
+        "description": "Construye agentes de lenguaje resilientes como grafos.",
+        "oneLiner": "Para desarrolladores que quieren modelar flujos de decisión de agentes como gráficos y visualizar el razonamiento complejo"
+      },
+      "ko": {
+        "description": "그래프로 탄력적인 언어 에이전트를 구축합니다.",
+        "oneLiner": "에이전트 의사 결정 흐름을 그래프로 모델링하고 복잡한 추론을 시각화하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "グラフとして弾力性のある言語エージェントを構築します。",
+        "oneLiner": "エージェントの意思決定フローをグラフとしてモデリングし、複雑な推論を可視化したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "opencli",
+    "name": "OpenCLI",
+    "owner": "jackwener",
+    "description": "Turn any website, Electron app, or local tool into a deterministic CLI for humans and AI agents.",
+    "stars": 16301,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "cli",
+      "agent",
+      "automation",
+      "browser",
+      "mcp"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "将任意网站、Electron 应用或本地工具转换为供人类和 AI Agent 使用的确定性 CLI 接口。",
+        "oneLiner": "适合想把任意网站变成 CLI 工具、让 AI Agent 零成本调用全网信息的人"
+      },
+      "en": {
+        "description": "Turn any website, Electron app, or local tool into a deterministic CLI for humans and AI agents.",
+        "oneLiner": "For anyone who wants to turn any website into a CLI tool and let AI agents access the web at zero cost"
+      },
+      "ar": {
+        "description": "تحويل أي موقع أو تطبيق Electron أو أداة محلية إلى واجهة CLI حتمية للبشر ووكلاء الذكاء الاصطناعي.",
+        "oneLiner": "لأي شخص يريد تحويل أي موقع إلى أداة CLI والسماح لوكلاء الذكاء الاصطناعي بالوصول إلى الويب بتكلفة صفرية"
+      },
+      "es": {
+        "description": "Convierte cualquier sitio web, aplicación Electron o herramienta local en una CLI determinista para humanos y agentes de IA.",
+        "oneLiner": "Para cualquiera que quiera convertir cualquier sitio web en una herramienta CLI y permitir que los agentes de IA accedan a la web sin costo"
+      },
+      "ko": {
+        "description": "임의의 웹사이트, Electron 앱 또는 로컬 도구를 인간과 AI 에이전트를 위한 결정론적 CLI로 변환합니다.",
+        "oneLiner": "모든 웹사이트를 CLI 도구로 변환하고 AI 에이전트가 물가 없이 웹에 접근할 수 있게 하고 싶은 사람을 위한"
+      },
+      "ja": {
+        "description": "任意のウェブサイト、Electron アプリ、またはローカルツールを、人間と AI エージェントのための決定論的 CLI に変換します。",
+        "oneLiner": "任意のウェブサイトを CLI ツールに変換し、AI エージェントがゼロコストでウェブにアクセスできるようにしたい人向け"
+      }
+    }
+  },
+  {
+    "id": "officecli",
+    "name": "OfficeCLI",
+    "owner": "iOfficeAI",
+    "description": "The first Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files.",
+    "stars": 1965,
+    "language": "C#",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "office",
+      "agent",
+      "automation",
+      "mcp",
+      "document"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "全球首个专为 AI Agent 设计的 Office 套件，支持读取、编辑和自动化处理 Word、Excel 和 PowerPoint 文件。",
+        "oneLiner": "适合想让 AI Agent 直接读写 Office 文档、无需安装 Office 的团队"
+      },
+      "en": {
+        "description": "The first Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files.",
+        "oneLiner": "For teams that want AI agents to directly read and write Office documents without installing Office"
+      },
+      "ar": {
+        "description": "أول مجموعة Office مبنية خصيصاً لوكلاء الذكاء الاصطناعي لقراءة وتحرير وأتمتة ملفات Word وExcel وPowerPoint.",
+        "oneLiner": "للفرق التي تريد من وكلاء الذكاء الاصطناعي قراءة وكتابة مستندات Office مباشرة دون تثبيت Office"
+      },
+      "es": {
+        "description": "La primera suite Office diseñada específicamente para agentes de IA para leer, editar y automatizar archivos Word, Excel y PowerPoint.",
+        "oneLiner": "Para equipos que quieren que agentes de IA lean y escriban documentos de Office directamente sin instalar Office"
+      },
+      "ko": {
+        "description": "AI 에이전트가 Word, Excel, PowerPoint 파일을 읽고, 편집하고, 자동화할 수 있도록 특별히 설계된 최초의 Office 스위트입니다.",
+        "oneLiner": "Office 설치 없이 AI 에이전트가 Office 문서를 직접 읽고 쓰게 하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "AI エージェントが Word、Excel、PowerPoint ファイルを読み取り、編集し、自動化できるよう特別に設計された、世界初の Office スイートです。",
+        "oneLiner": "Office のインストールなしに AI エージェントが Office 文書を直接読み書きできるようにしたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "autocli",
+    "name": "AutoCLI",
+    "owner": "nashsu",
+    "description": "A blazing fast Rust rewrite of OpenCLI, turning 55+ platforms into CLI tools with zero runtime dependencies.",
+    "stars": 2242,
+    "language": "Rust",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "cli",
+      "agent",
+      "rust",
+      "browser",
+      "automation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "OpenCLI 的 Rust 重写版，4.7MB 单二进制文件，零运行时依赖，将 55+ 平台转换为 CLI 工具。",
+        "oneLiner": "适合想要超轻量、零依赖的 Rust CLI 工具来让 AI Agent 控制全网信息的人"
+      },
+      "en": {
+        "description": "A blazing fast Rust rewrite of OpenCLI, turning 55+ platforms into CLI tools with zero runtime dependencies.",
+        "oneLiner": "For those who want an ultra-lightweight, zero-dependency Rust CLI tool for AI agents to control web information"
+      },
+      "ar": {
+        "description": "إعادة كتابة OpenCLI بلغة Rust فائقة السرعة، تحوّل 55+ منصة إلى أدوات CLI بدون أي تبعيات زمنية تشغيل.",
+        "oneLiner": "لأولئك الذين يريدون أداة CLI خفيفة الوزن للغاية وبدون تبعيات مكتوبة بلغة Rust للسماح لوكلاء الذكاء الاصطناعي بالتحكم في معلومات الويب"
+      },
+      "es": {
+        "description": "Una reescritura en Rust ultrarrápida de OpenCLI, que convierte 55+ plataformas en herramientas CLI sin dependencias de tiempo de ejecución.",
+        "oneLiner": "Para aquellos que quieren una herramienta CLI ultraligera en Rust sin dependencias para que los agentes de IA controlen la información web"
+      },
+      "ko": {
+        "description": "OpenCLI의 Rust 초고속 재작성판으로, 4.7MB 단일 바이너리에 런타임 의존성이 전혀 없으며 55개 이상의 플랫폼을 CLI 도구로 변환합니다.",
+        "oneLiner": "AI 에이전트가 웹 정보를 제어할 수 있도록 초경량이고 제로 의존성인 Rust CLI 도구를 원하는 사람을 위한"
+      },
+      "ja": {
+        "description": "OpenCLI の Rust による超高速リライト版。4.7MB の単一バイナリでランタイム依存がなく、55 以上のプラットフォームを CLI ツールに変換します。",
+        "oneLiner": "AI エージェントがウェブ情報を制御できるよう、超軽量でゼロ依存の Rust CLI ツールが欲しい人向け"
+      }
+    }
+  },
+  {
+    "id": "loom-mcp-server",
+    "name": "Loom MCP Server",
+    "owner": "Spongeacer",
+    "description": "Persistent memory for AI agents. Saves tasks, decisions, and file relationships across sessions, then injects them into a structured, cache-optimized prompt on every restart. Tracks file health, maps dependencies, and flags stale code automatically.",
+    "stars": 0,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "memory",
+      "agent",
+      "context"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "AI Agent 的持久化记忆系统。跨会话保存任务、决策和文件关系，每次重启时注入到结构化、缓存优化的提示中。跟踪文件健康度、映射依赖关系、自动标记过时代码。",
+        "oneLiner": "适合想让 AI Agent 拥有跨会话持久记忆、自动跟踪代码健康度的开发者"
+      },
+      "en": {
+        "description": "Persistent memory for AI agents. Saves tasks, decisions, and file relationships across sessions, then injects them into a structured, cache-optimized prompt on every restart. Tracks file health, maps dependencies, and flags stale code automatically.",
+        "oneLiner": "For developers who want AI agents to have cross-session persistent memory and auto-track code health"
+      },
+      "ar": {
+        "description": "ذاكرة دائمة لوكلاء الذكاء الاصطناعي. تحفظ المهام والقرارات وعلاقات الملفات عبر الجلسات، ثم تحقنها في موجه منظم ومحسّن للتخزين المؤقت عند كل إعادة تشغيل. تتبع صحة الملفات، وترسم الاعتماديات، وتُعلّم الشيفرة القديمة تلقائياً.",
+        "oneLiner": "للمطورين الذين يريدون من وكلاء الذكاء الاصطناعي امتلاك ذاكرة دائمة عبر الجلسات وتتبع صحة الكود تلقائياً"
+      },
+      "es": {
+        "description": "Memoria persistente para agentes de IA. Guarda tareas, decisiones y relaciones de archivos entre sesiones, y luego las inyecta en un prompt estructurado y optimizado para caché en cada reinicio. Rastrea la salud de archivos, mapea dependencias y marca código obsoleto automáticamente.",
+        "oneLiner": "Para desarrolladores que quieren que los agentes de IA tengan memoria persistente entre sesiones y rastreen la salud del código automáticamente"
+      },
+      "ko": {
+        "description": "AI 에이전트를 위한 지속적 메모리 시스템입니다. 세션 간 작업, 결정 및 파일 관계를 저장하고, 매번 재시작할 때 구조화되고 캐시 최적화된 프롬프트에 주입합니다. 파일 상태를 추적하고, 종속성을 매핑하며, 오래된 코드를 자동으로 플래그합니다.",
+        "oneLiner": "AI 에이전트가 세션 간 지속 메모리를 가지고 코드 상태를 자동으로 추적하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェント向けの永続メモリシステム。セッション間でタスク、決定事項、ファイル関係を保存し、再起動時に構造化されたキャッシュ最適化プロンプトに注入します。ファイル健全性を追跡し、依存関係をマッピングし、古いコードを自動的にフラグ付けします。",
+        "oneLiner": "AI エージェントにセッションをまたぐ持続的メモリを持たせ、コードの健全性を自動追跡したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "pawwork",
+    "name": "Pawwork",
+    "owner": "Astro-Han",
+    "description": "AI workstation that works out of the box. Download, open, get to work.",
+    "stars": 1,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "workstation",
+      "agent",
+      "desktop"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "开箱即用的 AI 工作站。下载、打开、直接开始工作。",
+        "oneLiner": "适合想要一个零配置、下载即用的 AI 工作站的人"
+      },
+      "en": {
+        "description": "AI workstation that works out of the box. Download, open, get to work.",
+        "oneLiner": "For anyone who wants a zero-config, download-and-use AI workstation"
+      },
+      "ar": {
+        "description": "محطة عمل مدعومة بالذكاء الاصطناعي تعمل فور التثبيت. حمّل، افتح، وابدأ العمل.",
+        "oneLiner": "لأي شخص يريد محطة عمل مدعومة بالذكاء الاصطناعي بدون إعدادات، يمكن تحميلها واستخدامها على الفور"
+      },
+      "es": {
+        "description": "Estación de trabajo de IA lista para usar. Descarga, abre y empieza a trabajar.",
+        "oneLiner": "Para cualquiera que quiera una estación de trabajo de IA sin configuración, que se descarga y usa de inmediato"
+      },
+      "ko": {
+        "description": "바로 사용 가능한 AI 워크스테이션입니다. 다운로드하고, 열고, 바로 작업을 시작하세요.",
+        "oneLiner": "제로 설정으로 다운로드 후 즉시 사용할 수 있는 AI 워크스테이션을 원하는 사람을 위한"
+      },
+      "ja": {
+        "description": "すぐに使える AI ワークステーション。ダウンロードして開くだけで、すぐに作業を開始できます。",
+        "oneLiner": "ゼロ設定でダウンロードしてすぐに使える AI ワークステーションが欲しい人向け"
+      }
+    }
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "owner": "google-gemini",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 101658,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "cli",
+      "agent",
+      "gemini",
+      "coding"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "将 Gemini 的强大能力直接带入终端的开源 AI Agent，支持代码辅助和自然语言查询。",
+        "oneLiner": "适合想在终端中使用 Gemini 进行代码辅助和自然语言查询的开发者"
+      },
+      "en": {
+        "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+        "oneLiner": "For developers who want to use Gemini for code assistance and natural language queries in the terminal"
+      },
+      "ar": {
+        "description": "وكيل ذكاء اصطناعي مفتوح المصدر يجلب قوة Gemini مباشرة إلى طرفيتك.",
+        "oneLiner": "للمطورين الذين يريدون استخدام Gemini للمساعدة في البرمجة والاستعلامات باللغة الطبيعية في الطرفية"
+      },
+      "es": {
+        "description": "Un agente de IA de código abierto que lleva el poder de Gemini directamente a tu terminal.",
+        "oneLiner": "Para desarrolladores que quieren usar Gemini para asistencia de código y consultas en lenguaje natural en la terminal"
+      },
+      "ko": {
+        "description": "Gemini의 강력한 기능을 터미널로 직접 가져오는 오픈소스 AI 에이전트입니다.",
+        "oneLiner": "터미널에서 Gemini를 사용하여 코드 지원 및 자연어 쿼리를 수행하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "Gemini の強力な機能をターミナルに直接もたらすオープンソースの AI エージェントです。",
+        "oneLiner": "ターミナルで Gemini を使用してコード支援や自然言語クエリを行いたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "browser-use",
+    "name": "Browser Use",
+    "owner": "browser-use",
+    "description": "Make websites accessible for AI agents. Automate tasks online with ease.",
+    "stars": 88376,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "browser",
+      "automation",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "让 AI Agent 能够像人类一样浏览网页、点击元素、填写表单，轻松自动化在线任务。",
+        "oneLiner": "适合需要 AI Agent 自动浏览网页、执行在线任务的开发者"
+      },
+      "en": {
+        "description": "Make websites accessible for AI agents. Automate tasks online with ease.",
+        "oneLiner": "For developers who need AI agents to automatically browse websites and execute online tasks"
+      },
+      "ar": {
+        "description": "جعل المواقع متاحة لوكلاء الذكاء الاصطناعي. أتمتة المهام عبر الإنترنت بسهولة.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى وكلاء ذكاء اصطناعي لتصفح المواقع تلقائياً وتنفيذ المهام عبر الإنترنت"
+      },
+      "es": {
+        "description": "Haz que los sitios web sean accesibles para agentes de IA. Automatiza tareas en línea con facilidad.",
+        "oneLiner": "Para desarrolladores que necesitan agentes de IA para navegar automáticamente por sitios web y ejecutar tareas en línea"
+      },
+      "ko": {
+        "description": "AI 에이전트가 웹사이트에 접근할 수 있도록 합니다. 온라인 작업을 쉽게 자동화하세요.",
+        "oneLiner": "AI 에이전트가 웹사이트를 자동으로 탐색하고 온라인 작업을 실행해야 하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェントがウェブサイトにアクセスできるようにします。オンライン作業を簡単に自動化します。",
+        "oneLiner": "AI エージェントにウェブサイトを自動的に閲覧し、オンラインタスクを実行させたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "ragflow",
+    "name": "RAGFlow",
+    "owner": "infiniflow",
+    "description": "RAGFlow is a leading open-source RAG engine that fuses cutting-edge RAG with Agent capabilities.",
+    "stars": 78416,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "rag",
+      "agent",
+      "retrieval"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "将前沿 RAG 技术与 Agent 能力相结合，为 LLM 构建卓越的上下文层。",
+        "oneLiner": "适合需要构建企业级 RAG 应用、让私有文档具备智能检索能力的团队"
+      },
+      "en": {
+        "description": "RAGFlow is a leading open-source RAG engine that fuses cutting-edge RAG with Agent capabilities.",
+        "oneLiner": "For teams that need to build enterprise-grade RAG apps and give private documents intelligent retrieval capabilities"
+      },
+      "ar": {
+        "description": "محرك RAG مفتوح المصدر رائد يدمج أحدث تقنيات RAG مع قدرات الوكلاء.",
+        "oneLiner": "للفرق التي تحتاج إلى بناء تطبيقات RAG على مستوى المؤسسات ومنح المستندات الخاصة قدرات استرجاع ذكية"
+      },
+      "es": {
+        "description": "RAGFlow es un motor RAG de código abierto líder que fusiona RAG de vanguardia con capacidades de Agentes.",
+        "oneLiner": "Para equipos que necesitan construir aplicaciones RAG de nivel empresarial y dar a documentos privados capacidades de recuperación inteligente"
+      },
+      "ko": {
+        "description": "최첨단 RAG 기술과 에이전트 기능을 결합한 선도적인 오픈소스 RAG 엔진입니다.",
+        "oneLiner": "엔터프라이즈급 RAG 애플리케이션을 구축하고 프라이빗 문서에 지능형 검색 기능을 제공해야 하는 팀을 위한"
+      },
+      "ja": {
+        "description": "最先端の RAG 技術とエージェント機能を融合させた業界をリードするオープンソース RAG エンジンです。",
+        "oneLiner": "エンタープライズグレードの RAG アプリを構築し、プライベート文書にインテリジェントな検索機能を提供したいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "lobehub",
+    "name": "LobeHub",
+    "owner": "lobehub",
+    "description": "The ultimate space for work and life to find, build, and collaborate with agent teammates.",
+    "stars": 75321,
+    "language": "TypeScript",
+    "category": "Platform",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "chat",
+      "multi-agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "发现、构建和与成长型 Agent 队友协作的终极空间，支持多 Agent 协作和团队设计。",
+        "oneLiner": "适合想发现、构建和与 AI Agent teammate 协作的个人和团队"
+      },
+      "en": {
+        "description": "The ultimate space for work and life to find, build, and collaborate with agent teammates.",
+        "oneLiner": "For individuals and teams who want to discover, build, and collaborate with AI agent teammates"
+      },
+      "ar": {
+        "description": "المساحة المثالية للعمل والحياة للعثور على زملاء الوكلاء وبنائهم والتعاون معهم.",
+        "oneLiner": "للأفراد والفرق الذين يريدون اكتشاف وبناء والتعاون مع زملاء الوكلاء الذكاء الاصطناعي"
+      },
+      "es": {
+        "description": "El espacio definitivo para el trabajo y la vida para encontrar, construir y colaborar con compañeros agentes.",
+        "oneLiner": "Para individuos y equipos que quieren descubrir, construir y colaborar con compañeros agentes de IA"
+      },
+      "ko": {
+        "description": "성장하는 에이전트 팀원을 찾고, 구축하고, 협업할 수 있는 궁극적인 작업 및 생활 공간입니다.",
+        "oneLiner": "AI 에이전트 팀원을 발견하고, 구축하고, 협업하고 싶은 개인과 팀을 위한"
+      },
+      "ja": {
+        "description": "成長するエージェントのチームメイトを見つけ、構築し、協力するための究極の作業・生活空間です。",
+        "oneLiner": "AI エージェントのチームメイトを発見・構築・協働したい個人やチーム向け"
+      }
+    }
+  },
+  {
+    "id": "llamafactory",
+    "name": "LlamaFactory",
+    "owner": "hiyouga",
+    "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs.",
+    "stars": 70250,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "llm",
+      "fine-tuning",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "支持 100 多种大语言模型和视觉语言模型的高效统一微调框架。",
+        "oneLiner": "适合需要对 100+ 大模型进行高效微调的开发者"
+      },
+      "en": {
+        "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs.",
+        "oneLiner": "For developers who need to efficiently fine-tune 100+ large models"
+      },
+      "ar": {
+        "description": "إطار عمل موحد وفعال لضبط الدقة الفائقة لأكثر من 100 نموذج لغوي كبير ونماذج لغوية بصرية.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى ضبط دقة فائقة لأكثر من 100 نموذج كبير بكفاءة"
+      },
+      "es": {
+        "description": "Ajuste fino eficiente y unificado de más de 100 LLMs y VLMs.",
+        "oneLiner": "Para desarrolladores que necesitan ajustar finamente más de 100 modelos grandes de manera eficiente"
+      },
+      "ko": {
+        "description": "100개 이상의 LLM과 VLM에 대한 통합 효율적 미세 조정 프레임워크입니다.",
+        "oneLiner": "100개 이상의 대형 모델을 효율적으로 미세 조정해야 하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "100 以上の LLM と VLM の統合的で効率的なファインチューニング。",
+        "oneLiner": "100 以上の大規模モデルを効率的にファインチューニングしたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "mem0",
+    "name": "Mem0",
+    "owner": "mem0ai",
+    "description": "Universal memory layer for AI Agents. Adds memory to any AI agent.",
+    "stars": 53408,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "memory",
+      "agent",
+      "context"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 AI Agent 提供跨会话的持久记忆能力，让 Agent 越用越聪明。",
+        "oneLiner": "适合想为 AI Agent 添加持久记忆、让它跨会话保持上下文的开发者"
+      },
+      "en": {
+        "description": "Universal memory layer for AI Agents. Adds memory to any AI agent.",
+        "oneLiner": "For developers who want to add persistent memory to AI agents so they retain context across sessions"
+      },
+      "ar": {
+        "description": "طبقة ذاكرة عالمية لوكلاء الذكاء الاصطناعي. تضيف ذاكرة لأي وكيل ذكاء اصطناعي.",
+        "oneLiner": "للمطورين الذين يريدون إضافة ذاكرة دائمة لوكلاء الذكاء الاصطناعي للاحتفاظ بالسياق عبر الجلسات"
+      },
+      "es": {
+        "description": "Capa de memoria universal para Agentes de IA. Agrega memoria a cualquier agente de IA.",
+        "oneLiner": "Para desarrolladores que quieren agregar memoria persistente a los agentes de IA para que conserven el contexto entre sesiones"
+      },
+      "ko": {
+        "description": "AI 에이전트를 위한 범용 메모리 계층입니다. 모든 AI 에이전트에 메모리를 추가합니다.",
+        "oneLiner": "AI 에이전트에 지속적인 메모리를 추가하여 세션 간 컨텍스트를 유지하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェントのためのユニバーサルメモリ層です。任意の AI エージェントにメモリを追加します。",
+        "oneLiner": "AI エージェントに持続的なメモリを追加し、セッション間でコンテキストを保持させたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "cherry-studio",
+    "name": "Cherry Studio",
+    "owner": "CherryHQ",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants.",
+    "stars": 43751,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "chat",
+      "agent",
+      "desktop"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "AI 生产力工作室，支持智能聊天、自主 Agent 和 300 多个助手，统一接入前沿大模型。",
+        "oneLiner": "适合想要一个集成 300+ 助手、支持多模型切换的 AI 生产力工作台的团队"
+      },
+      "en": {
+        "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants.",
+        "oneLiner": "For teams that want an AI productivity workbench with 300+ assistants and multi-model switching"
+      },
+      "ar": {
+        "description": "استوديو إنتاجية مدعوم بالذكاء الاصطناعي مع دردشة ذكية، وكلاء مستقلين، وأكثر من 300 مساعد.",
+        "oneLiner": "للفرق التي تريد محطة عمل إنتاجية مدعومة بالذكاء الاصطناعي مع أكثر من 300 مساعد وتحويل متعدد النماذج"
+      },
+      "es": {
+        "description": "Estudio de productividad de IA con chat inteligente, agentes autónomos y más de 300 asistentes.",
+        "oneLiner": "Para equipos que quieren un banco de trabajo de productividad de IA con más de 300 asistentes y cambio de modelo múltiple"
+      },
+      "ko": {
+        "description": "스마트 채팅, 자율 에이전트, 300개 이상의 어시스턴트를 갖춘 AI 생산성 스튜디오입니다.",
+        "oneLiner": "300개 이상의 어시스턴트와 다중 모델 전환을 지원하는 AI 생산성 워크벤치를 원하는 팀을 위한"
+      },
+      "ja": {
+        "description": "スマートチャット、自律エージェント、300 以上のアシスタントを備えた AI 生産性スタジオです。",
+        "oneLiner": "300 以上のアシスタントとマルチモデル切り替えを備えた AI 生産性ワークベンチが欲しいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "goose",
+    "name": "Goose",
+    "owner": "aaif-goose",
+    "description": "An open source, extensible AI agent that goes beyond code suggestions.",
+    "stars": 42566,
+    "language": "Rust",
+    "category": "Coding",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "coding",
+      "agent",
+      "rust"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "开源可扩展 AI Agent，支持安装、执行、编辑和测试，兼容任何 LLM。",
+        "oneLiner": "超越代码建议的开源可扩展 AI Agent"
+      },
+      "en": {
+        "description": "An open source, extensible AI agent that goes beyond code suggestions.",
+        "oneLiner": "Open-source extensible AI agent that goes beyond code suggestions"
+      },
+      "ar": {
+        "description": "وكيل ذكاء اصطناعي مفتوح المصدر وقابل للتوسيع يتجاوز اقتراحات الكود.",
+        "oneLiner": "وكيل ذكاء اصطناعي مفتوح المصدر قابل للتوسع يتجاوز اقتراحات الكود"
+      },
+      "es": {
+        "description": "Un agente de IA de código abierto y extensible que va más allá de las sugerencias de código.",
+        "oneLiner": "Agente de IA de código abierto extensible que va más allá de las sugerencias de código"
+      },
+      "ko": {
+        "description": "코드 제안을 넘어서는 오픈소스 확장 가능한 AI 에이전트입니다.",
+        "oneLiner": "코드 제안을 넘어서는 오픈소스 확장 가능한 AI 에이전트"
+      },
+      "ja": {
+        "description": "コード提案を超えるオープンソースで拡張可能な AI エージェントです。",
+        "oneLiner": "コード提案を超えるオープンソースの拡張可能な AI エージェント"
+      }
+    }
+  },
+  {
+    "id": "agentgpt",
+    "name": "AgentGPT",
+    "owner": "reworkd",
+    "description": "Assemble, configure, and deploy autonomous AI Agents in your browser.",
+    "stars": 36005,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "browser",
+      "autonomous"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "在浏览器中直接组装、配置和部署自主 AI Agent，无需安装任何软件。",
+        "oneLiner": "适合想在浏览器中直接部署自主 AI Agent、无需安装任何软件的人"
+      },
+      "en": {
+        "description": "Assemble, configure, and deploy autonomous AI Agents in your browser.",
+        "oneLiner": "For anyone who wants to deploy autonomous AI agents directly in the browser without installing anything"
+      },
+      "ar": {
+        "description": "تجميع وتكوين ونشر وكلاء ذكاء اصطناعي مستقلين في متصفحك.",
+        "oneLiner": "لأي شخص يريد نشر وكلاء ذكاء اصطناعي مستقلين مباشرة في المتصفح دون تثبيت أي شيء"
+      },
+      "es": {
+        "description": "Ensambla, configura y despliega agentes de IA autónomos en tu navegador.",
+        "oneLiner": "Para cualquiera que quiera desplegar agentes de IA autónomos directamente en el navegador sin instalar nada"
+      },
+      "ko": {
+        "description": "브라우저에서 자율 AI 에이전트를 조립, 구성 및 배포하세요.",
+        "oneLiner": "아무것도 설치하지 않고 브라우저에서 직접 자율 AI 에이전트를 배포하고 싶은 사람을 위한"
+      },
+      "ja": {
+        "description": "ブラウザ内で自律型 AI エージェントを組み立て、設定し、デプロイします。",
+        "oneLiner": "何もインストールせずにブラウザで自律型 AI エージェントを直接デプロイしたい人向け"
+      }
+    }
+  },
+  {
+    "id": "khoj",
+    "name": "Khoj",
+    "owner": "khoj-ai",
+    "description": "Your AI second brain. Self-hostable. Build custom agents, schedule automations.",
+    "stars": 34143,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "automation",
+      "self-hosted"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "自托管的 AI 第二大脑，支持从文档或网络获取答案，构建自定义 Agent 和定时自动化。",
+        "oneLiner": "适合想构建自托管 AI 第二大脑、实现文档问答和自动化的个人和团队"
+      },
+      "en": {
+        "description": "Your AI second brain. Self-hostable. Build custom agents, schedule automations.",
+        "oneLiner": "For individuals and teams who want to build a self-hosted AI second brain for document Q&A and automation"
+      },
+      "ar": {
+        "description": "دماغك الثاني المدعوم بالذكاء الاصطناعي. قابل للاستضافة الذاتية. بناء وكلاء مخصصين وجدولة الأتمتة.",
+        "oneLiner": "للأفراد والفرق الذين يريدون بناء دماغ ثاني مدعوم بالذكاء الاصطناعي ذاتي الاستضافة للأسئلة والأجوبة المستندية والأتمتة"
+      },
+      "es": {
+        "description": "Tu segundo cerebro de IA. Autoalojable. Construye agentes personalizados, programa automatizaciones.",
+        "oneLiner": "Para individuos y equipos que quieren construir un segundo cerebro de IA autoalojado para preguntas y respuestas de documentos y automatización"
+      },
+      "ko": {
+        "description": "당신의 AI 두 번째 뇌입니다. 자체 호스팅 가능합니다. 커스텀 에이전트를 구축하고 자동화를 예약하세요.",
+        "oneLiner": "자체 호스팅 AI 두 번째 뇌를 구축하여 문서 Q&A 및 자동화를 구현하고 싶은 개인과 팀을 위한"
+      },
+      "ja": {
+        "description": "あなたの AI セカンドブレインです。自己ホスティング可能。カスタムエージェントを構築し、自動化をスケジュールします。",
+        "oneLiner": "自己ホスティング型 AI セカンドブレインを構築し、文書 Q&A や自動化を実現したい個人やチーム向け"
+      }
+    }
+  },
+  {
+    "id": "gpt-researcher",
+    "name": "GPT Researcher",
+    "owner": "assafelovic",
+    "description": "An autonomous agent that conducts deep research on any topic using any LLM.",
+    "stars": 26526,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "research",
+      "agent",
+      "autonomous"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "自主 Agent，能够使用任何 LLM 对任何主题进行深度研究，生成综合报告。",
+        "oneLiner": "适合需要对任意主题进行深度研究、自动生成综合报告的研究人员"
+      },
+      "en": {
+        "description": "An autonomous agent that conducts deep research on any topic using any LLM.",
+        "oneLiner": "For researchers who need to conduct deep research on any topic and automatically generate comprehensive reports"
+      },
+      "ar": {
+        "description": "وكيل مستقل يجري أبحاثاً عميقة في أي موضوع باستخدام أي نموذج لغوي كبير.",
+        "oneLiner": "للباحثين الذين يحتاجون إلى إجراء أبحاث عميقة في أي موضوع وإنشاء تقارير شاملة تلقائياً"
+      },
+      "es": {
+        "description": "Un agente autónomo que realiza investigaciones profundas sobre cualquier tema utilizando cualquier LLM.",
+        "oneLiner": "Para investigadores que necesitan realizar investigaciones profundas sobre cualquier tema y generar automáticamente informes comprehensivos"
+      },
+      "ko": {
+        "description": "모든 LLM을 사용하여 모든 주제에 대해 심층 연구를 수행하는 자율 에이전트입니다.",
+        "oneLiner": "모든 주제에 대해 심층 연구를 수행하고 종합 보고서를 자동으로 생성해야 하는 연구자를 위한"
+      },
+      "ja": {
+        "description": "任意の LLM を使用して任意のトピックについて深い調査を行う自律エージェントです。",
+        "oneLiner": "任意のトピックについて深い調査を行い、包括的なレポートを自動生成したい研究者向け"
+      }
+    }
+  },
+  {
+    "id": "eliza",
+    "name": "Eliza",
+    "owner": "elizaOS",
+    "description": "Autonomous agents for everyone. A simple, fast, and lightweight agent framework.",
+    "stars": 18204,
+    "language": "TypeScript",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "social",
+      "autonomous"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为每个人打造的自主 Agent 框架，简单、快速、轻量，支持社交媒体和链上交互。",
+        "oneLiner": "适合想快速搭建社交媒体或链上自主 Agent 的开发者"
+      },
+      "en": {
+        "description": "Autonomous agents for everyone. A simple, fast, and lightweight agent framework.",
+        "oneLiner": "For developers who want to quickly set up social media or on-chain autonomous agents"
+      },
+      "ar": {
+        "description": "وكلاء مستقلون للجميع. إطار عمل بسيط وسريع وخفيف الوزن للوكلاء.",
+        "oneLiner": "للمطورين الذين يريدون إعداد وكلاء مستقلين على وسائل التواصل الاجتماعي أو blockchain بسرعة"
+      },
+      "es": {
+        "description": "Agentes autónomos para todos. Un marco de agentes simple, rápido y ligero.",
+        "oneLiner": "Para desarrolladores que quieren configurar rápidamente agentes autónomos en redes sociales o en cadena"
+      },
+      "ko": {
+        "description": "모두를 위한 자율 에이전트입니다. 간단하고, 빠륾고, 가벼운 에이전트 프레임워크입니다.",
+        "oneLiner": "소셜 미디어 또는 온체인 자율 에이전트를 빠르게 설정하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "すべての人のための自律エージェントです。シンプルで、高速で、軽量なエージェントフレームワークです。",
+        "oneLiner": "ソーシャルメディアやオンチェーンの自律エージェントを迅速に構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "skyvern",
+    "name": "Skyvern",
+    "owner": "Skyvern-AI",
+    "description": "Automate browser based workflows with AI using LLMs and computer vision.",
+    "stars": 21245,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "browser",
+      "automation",
+      "ai"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "使用 LLM 和计算机视觉自动化基于浏览器的工作流，无需编写脚本。",
+        "oneLiner": "适合想用 LLM 和计算机视觉自动化浏览器工作流、无需编写脚本的团队"
+      },
+      "en": {
+        "description": "Automate browser based workflows with AI using LLMs and computer vision.",
+        "oneLiner": "For teams that want to automate browser workflows using LLMs and computer vision without writing scripts"
+      },
+      "ar": {
+        "description": "أتمتة سير العمل القائمة على المتصفح باستخدام الذكاء الاصطناعي ونماذج اللغة الكبيرة ورؤية الحاسوب.",
+        "oneLiner": "للفرق التي تريد أتمتة سير عمل المتصفح باستخدام نماذج اللغة الكبيرة ورؤية الحاسوب دون كتابة سكربتات"
+      },
+      "es": {
+        "description": "Automatiza flujos de trabajo basados en navegador con IA usando LLMs y visión por computadora.",
+        "oneLiner": "Para equipos que quieren automatizar flujos de trabajo de navegador usando LLMs y visión por computadora sin escribir scripts"
+      },
+      "ko": {
+        "description": "LLM과 컴퓨터 비전을 사용하여 AI로 브라우저 기반 워크플로우를 자동화하세요.",
+        "oneLiner": "스크립트를 작성하지 않고 LLM과 컴퓨터 비전을 사용하여 브라우저 워크플로우를 자동화하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "LLM とコンピュータビジョンを使用して、ブラウザベースのワークフローを AI で自動化します。",
+        "oneLiner": "スクリプトを書かずに LLM とコンピュータビジョンを使ってブラウザワークフローを自動化したいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "nanobrowser",
+    "name": "Nanobrowser",
+    "owner": "nanobrowser",
+    "description": "Open-Source Chrome extension for AI-powered web automation.",
+    "stars": 12703,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "browser",
+      "automation",
+      "extension"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "开源 Chrome 扩展，支持使用自己的 LLM API 密钥运行多 Agent 工作流，OpenAI Operator 的替代方案。",
+        "oneLiner": "适合想用自有 LLM API 在浏览器中运行多 Agent 自动化工作流的人"
+      },
+      "en": {
+        "description": "Open-Source Chrome extension for AI-powered web automation.",
+        "oneLiner": "For anyone who wants to run multi-agent automation workflows in the browser using their own LLM API"
+      },
+      "ar": {
+        "description": "إضافة Chrome مفتوحة المصدر لأتمتة الويب المدفوعة بالذكاء الاصطناعي.",
+        "oneLiner": "لأي شخص يريد تشغيل سير عمل أتمتة متعدد الوكلاء في المتصفح باستخدام واجهة برمجة تطبيقات LLM الخاصة به"
+      },
+      "es": {
+        "description": "Extensión de Chrome de código abierto para automatización web impulsada por IA.",
+        "oneLiner": "Para cualquiera que quiera ejecutar flujos de trabajo de automatización multi-agente en el navegador usando su propia API de LLM"
+      },
+      "ko": {
+        "description": "AI 기반 웹 자동화를 위한 오픈소스 Chrome 확장 프로그램입니다.",
+        "oneLiner": "자체 LLM API를 사용하여 브라우저에서 다중 에이전트 자동화 워크플로우를 실행하고 싶은 사람을 위한"
+      },
+      "ja": {
+        "description": "AI を活用したウェブ自動化のためのオープンソース Chrome 拡張機能です。",
+        "oneLiner": "独自の LLM API を使用してブラウザ内でマルチエージェント自動化ワークフローを実行したい人向け"
+      }
+    }
+  },
+  {
+    "id": "crawlee",
+    "name": "Crawlee",
+    "owner": "apify",
+    "description": "A web scraping and browser automation library for Node.js to build reliable crawlers.",
+    "stars": 22837,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "scraping",
+      "browser",
+      "automation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 Node.js 构建可靠爬虫的网页抓取和浏览器自动化库，支持 Puppeteer、Playwright 和 Cheerio。",
+        "oneLiner": "适合需要构建可靠网络爬虫、提取数据用于 AI 和 RAG 的开发者"
+      },
+      "en": {
+        "description": "A web scraping and browser automation library for Node.js to build reliable crawlers.",
+        "oneLiner": "For developers who need to build reliable web crawlers and extract data for AI and RAG"
+      },
+      "ar": {
+        "description": "مكتبة كشط الويب وأتمتة المتصفح لـ Node.js لبناء زواحف موثوقة.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى بناء زواحف ويب موثوقة واستخراج البيانات للذكاء الاصطناعي و RAG"
+      },
+      "es": {
+        "description": "Una biblioteca de web scraping y automatización de navegador para Node.js para construir rastreadores confiables.",
+        "oneLiner": "Para desarrolladores que necesitan construir rastreadores web confiables y extraer datos para IA y RAG"
+      },
+      "ko": {
+        "description": "Node.js에서 안정적인 크롤러를 구축하기 위한 웹 스크래핑 및 브라우저 자동화 라이브러리입니다.",
+        "oneLiner": "신뢰할 수 있는 웹 크롤러를 구축하고 AI 및 RAG용 데이터를 추출해야 하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "Node.js で信頼性の高いクローラーを構築するためのウェブスクレイピングおよびブラウザ自動化ライブラリです。",
+        "oneLiner": "信頼性の高い Web クローラーを構築し、AI や RAG 用にデータを抽出したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "playwright-mcp",
+    "name": "Playwright MCP",
+    "owner": "microsoft",
+    "description": "Playwright MCP server for browser automation.",
+    "stars": 31047,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "browser",
+      "automation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "微软官方 Playwright MCP 服务器，让 AI Agent 能够控制浏览器进行自动化操作。",
+        "oneLiner": "适合想让 AI Agent 通过 MCP 协议控制浏览器进行自动化的开发者"
+      },
+      "en": {
+        "description": "Playwright MCP server for browser automation.",
+        "oneLiner": "For developers who want AI agents to control browsers for automation via the MCP protocol"
+      },
+      "ar": {
+        "description": "خادم Playwright MCP لأتمتة المتصفح.",
+        "oneLiner": "للمطورين الذين يريدون من وكلاء الذكاء الاصطناعي التحكم في المتصفحات للأتمتة عبر بروتوكول MCP"
+      },
+      "es": {
+        "description": "Servidor MCP de Playwright para automatización de navegador.",
+        "oneLiner": "Para desarrolladores que quieren que agentes de IA controlen navegadores para automatización mediante el protocolo MCP"
+      },
+      "ko": {
+        "description": "브라우저 자동화를 위한 Playwright MCP 서버입니다.",
+        "oneLiner": "MCP 프로토콜을 통해 AI 에이전트가 브라우저를 제어하여 자동화를 수행하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "ブラウザ自動化のための Playwright MCP サーバーです。",
+        "oneLiner": "MCP プロトコルを介して AI エージェントにブラウザを制御させて自動化したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "fastmcp",
+    "name": "FastMCP",
+    "owner": "PrefectHQ",
+    "description": "The fast, Pythonic way to build MCP servers and clients.",
+    "stars": 24628,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "python",
+      "server"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "快速、Pythonic 的方式构建 MCP 服务器和客户端，简化 AI Agent 工具集成。",
+        "oneLiner": "适合想用 Python 快速构建 MCP 服务器和客户端的开发者"
+      },
+      "en": {
+        "description": "The fast, Pythonic way to build MCP servers and clients.",
+        "oneLiner": "For developers who want to quickly build MCP servers and clients in Python"
+      },
+      "ar": {
+        "description": "الطريقة السريعة والبايثونية لبناء خوادم وعملاء MCP.",
+        "oneLiner": "للمطورين الذين يريدون بناء خوادم وعملاء MCP بسرعة في Python"
+      },
+      "es": {
+        "description": "La forma rápida y Pythonica de construir servidores y clientes MCP.",
+        "oneLiner": "Para desarrolladores que quieren construir rápidamente servidores y clientes MCP en Python"
+      },
+      "ko": {
+        "description": "MCP 서버와 클라이언트를 구축하는 빠르고 Pythonic한 방법입니다.",
+        "oneLiner": "Python으로 MCP 서버와 클라이언트를 빠르게 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "MCP サーバーとクライアントを構築するための高速で Pythonic な方法です。",
+        "oneLiner": "Python で MCP サーバーとクライアントを迅速に構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "github-mcp-server",
+    "name": "GitHub MCP Server",
+    "owner": "github",
+    "description": "GitHub's official MCP Server for AI agent integration.",
+    "stars": 28998,
+    "language": "Go",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "github",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "GitHub 官方 MCP 服务器，让 AI Agent 能够直接操作 GitHub 仓库、Issue 和 PR。",
+        "oneLiner": "适合想让 AI Agent 直接操作 GitHub 仓库、Issue 和 PR 的开发者"
+      },
+      "en": {
+        "description": "GitHub's official MCP Server for AI agent integration.",
+        "oneLiner": "For developers who want AI agents to directly operate GitHub repos, issues, and PRs"
+      },
+      "ar": {
+        "description": "خادم MCP الرسمي من GitHub لتكامل وكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للمطورين الذين يريدون من وكلاء الذكاء الاصطناعي التعامل مباشرة مع مستودعات GitHub والمشكلات وطلبات السحب"
+      },
+      "es": {
+        "description": "Servidor MCP oficial de GitHub para integración de agentes de IA.",
+        "oneLiner": "Para desarrolladores que quieren que agentes de IA operen directamente repositorios, issues y PRs de GitHub"
+      },
+      "ko": {
+        "description": "AI 에이전트 통합을 위한 GitHub의 공식 MCP 서버입니다.",
+        "oneLiner": "AI 에이전트가 GitHub 저장소, 이슈 및 PR을 직접 조작하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェント統合のための GitHub 公式 MCP サーバーです。",
+        "oneLiner": "AI エージェントに GitHub リポジトリ、Issue、PR を直接操作させたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "awesome-mcp-servers",
+    "name": "Awesome MCP Servers",
+    "owner": "punkpeye",
+    "description": "A collection of MCP servers for AI agents.",
+    "stars": 85006,
+    "language": "N/A",
+    "category": "Collection",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "awesome",
+      "list"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "MCP 服务器精选合集，为 AI Agent 提供丰富的工具集成选择和参考。",
+        "oneLiner": "适合想发现和集成 MCP 服务器、扩展 AI Agent 工具能力的开发者"
+      },
+      "en": {
+        "description": "A collection of MCP servers for AI agents.",
+        "oneLiner": "For developers who want to discover and integrate MCP servers to extend AI agent tooling capabilities"
+      },
+      "ar": {
+        "description": "مجموعة من خوادم MCP لوكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للمطورين الذين يريدون اكتشاف ودمج خوادم MCP لتوسيع قدرات أدوات وكلاء الذكاء الاصطناعي"
+      },
+      "es": {
+        "description": "Una colección de servidores MCP para agentes de IA.",
+        "oneLiner": "Para desarrolladores que quieren descubrir e integrar servidores MCP para extender las capacidades de herramientas de agentes de IA"
+      },
+      "ko": {
+        "description": "AI 에이전트를 위한 MCP 서버 모음집입니다.",
+        "oneLiner": "MCP 서버를 발견하고 통합하여 AI 에이전트 도구 기능을 확장하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェント向けの MCP サーバーのコレクションです。",
+        "oneLiner": "MCP サーバーを発見・統合して AI エージェントのツール機能を拡張したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "figma-context-mcp",
+    "name": "Figma Context MCP",
+    "owner": "GLips",
+    "description": "MCP server to provide Figma layout information to AI coding agents.",
+    "stars": 14417,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "figma",
+      "design"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 AI 编码 Agent 提供 Figma 布局信息的 MCP 服务器，打通设计与代码。",
+        "oneLiner": "适合想让 AI 编码 Agent 直接读取 Figma 设计稿、打通设计到代码的开发者"
+      },
+      "en": {
+        "description": "MCP server to provide Figma layout information to AI coding agents.",
+        "oneLiner": "For developers who want AI coding agents to read Figma designs directly and bridge design to code"
+      },
+      "ar": {
+        "description": "خادم MCP لتوفير معلومات تخطيط Figma لوكلاء البرمجة بالذكاء الاصطناعي.",
+        "oneLiner": "للمطورين الذين يريدون من وكلاء البرمجة بالذكاء الاصطناعي قراءة تصميمات Figma مباشرة وربط التصميم بالكود"
+      },
+      "es": {
+        "description": "Servidor MCP para proporcionar información de diseño de Figma a agentes de codificación de IA.",
+        "oneLiner": "Para desarrolladores que quieren que agentes de codificación de IA lean diseños de Figma directamente y conecten diseño con código"
+      },
+      "ko": {
+        "description": "AI 코딩 에이전트에게 Figma 레이아웃 정보를 제공하는 MCP 서버입니다.",
+        "oneLiner": "AI 코딩 에이전트가 Figma 디자인을 직접 읽고 디자인과 코드를 연결하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI コーディングエージェントに Figma レイアウト情報を提供する MCP サーバーです。",
+        "oneLiner": "AI コーディングエージェントに Figma デザインを直接読み取らせ、デザインからコードへの橋渡しをしたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "mcp-use",
+    "name": "MCP Use",
+    "owner": "mcp-use",
+    "description": "The fullstack MCP framework to develop MCP Apps and Servers for AI Agents.",
+    "stars": 9785,
+    "language": "TypeScript",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "framework",
+      "fullstack"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 ChatGPT / Claude 开发 MCP 应用和为 AI Agent 构建 MCP 服务器的全栈框架。",
+        "oneLiner": "适合想为 ChatGPT 和 Claude 开发 MCP 应用和服务器、扩展 AI 能力的开发者"
+      },
+      "en": {
+        "description": "The fullstack MCP framework to develop MCP Apps and Servers for AI Agents.",
+        "oneLiner": "For developers who want to build MCP apps and servers for ChatGPT and Claude to extend AI capabilities"
+      },
+      "ar": {
+        "description": "إطار عمل MCP الشامل لتطوير تطبيقات وخوادم MCP لوكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للمطورين الذين يريدون بناء تطبيقات وخوادم MCP لـ ChatGPT و Claude لتوسيع قدرات الذكاء الاصطناعي"
+      },
+      "es": {
+        "description": "El marco MCP fullstack para desarrollar aplicaciones y servidores MCP para Agentes de IA.",
+        "oneLiner": "Para desarrolladores que quieren construir aplicaciones y servidores MCP para ChatGPT y Claude para extender capacidades de IA"
+      },
+      "ko": {
+        "description": "AI 에이전트를 위한 MCP 앱과 서버를 개발하는 풀스택 MCP 프레임워크입니다.",
+        "oneLiner": "ChatGPT와 Claude를 위해 MCP 앱과 서버를 구축하여 AI 기능을 확장하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェント向けの MCP アプリとサーバーを開発するためのフルスタック MCP フレームワークです。",
+        "oneLiner": "ChatGPT や Claude 向けに MCP アプリやサーバーを構築して AI 機能を拡張したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "firecrawl-mcp",
+    "name": "Firecrawl MCP",
+    "owner": "firecrawl",
+    "description": "Official Firecrawl MCP Server - Adds powerful web scraping to AI agents.",
+    "stars": 6084,
+    "language": "JavaScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "scraping",
+      "web"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "Firecrawl 官方 MCP 服务器，为 Cursor、Claude 和任何 LLM 客户端添加强大的网页抓取和搜索能力。",
+        "oneLiner": "适合想为 AI Agent 添加强大网页抓取和搜索能力的开发者"
+      },
+      "en": {
+        "description": "Official Firecrawl MCP Server - Adds powerful web scraping to AI agents.",
+        "oneLiner": "For developers who want to add powerful web scraping and search capabilities to AI agents"
+      },
+      "ar": {
+        "description": "خادم Firecrawl MCP الرسمي — يضيف كشط الويب القوي لوكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للمطورين الذين يريدون إضافة قدرات قوية لكشط الويب والبحث لوكلاء الذكاء الاصطناعي"
+      },
+      "es": {
+        "description": "Servidor MCP oficial de Firecrawl — Agrega potentes capacidades de web scraping a agentes de IA.",
+        "oneLiner": "Para desarrolladores que quieren agregar potentes capacidades de web scraping y búsqueda a agentes de IA"
+      },
+      "ko": {
+        "description": "공식 Firecrawl MCP 서버 — AI 에이전트에 강력한 웹 스크래핑 기능을 추가합니다.",
+        "oneLiner": "AI 에이전트에 강력한 웹 스크래핑 및 검색 기능을 추가하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "公式 Firecrawl MCP サーバー — AI エージェントに強力な Web スクレイピング機能を追加します。",
+        "oneLiner": "AI エージェントに強力な Web スクレイピングや検索機能を追加したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "desktopcommander",
+    "name": "DesktopCommander",
+    "owner": "wonderwhy-er",
+    "description": "MCP server that gives Claude terminal control, file search and diff editing.",
+    "stars": 5913,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "terminal",
+      "files"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 Claude 提供终端控制、文件系统搜索和差异文件编辑功能的 MCP 服务器。",
+        "oneLiner": "适合想让 Claude 获得终端控制、文件搜索和差异编辑能力的开发者"
+      },
+      "en": {
+        "description": "MCP server that gives Claude terminal control, file search and diff editing.",
+        "oneLiner": "For developers who want to give Claude terminal control, file search, and diff editing capabilities"
+      },
+      "ar": {
+        "description": "خادم MCP يمنح Claude التحكم في الطرفية والبحث في الملفات وتحرير الفروق.",
+        "oneLiner": "للمطورين الذين يريدون منح Claude التحكم في الطرفية والبحث في الملفات وقدرات تحرير الفروق"
+      },
+      "es": {
+        "description": "Servidor MCP que le da a Claude control de terminal, búsqueda de archivos y edición de diferencias.",
+        "oneLiner": "Para desarrolladores que quieren dar a Claude control de terminal, búsqueda de archivos y capacidades de edición de diferencias"
+      },
+      "ko": {
+        "description": "Claude에게 터미널 제어, 파일 검색 및 diff 편집 기능을 제공하는 MCP 서버입니다.",
+        "oneLiner": "Claude에게 터미널 제어, 파일 검색 및 diff 편집 기능을 제공하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "Claude にターミナル制御、ファイル検索、差分編集機能を提供する MCP サーバーです。",
+        "oneLiner": "Claude にターミナル制御、ファイル検索、差分編集機能を与えたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "cowagent",
+    "name": "CowAgent",
+    "owner": "zhayujie",
+    "description": "Super AI assistant based on LLM with active thinking and task planning.",
+    "stars": 43446,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "assistant",
+      "wechat",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "基于大模型的超级 AI 助理，能主动思考、任务规划、访问外部资源，支持微信/飞书/钉钉等多平台接入。",
+        "oneLiner": "适合想在微信/飞书/钉钉等平台部署超级 AI 助理的个人和企业"
+      },
+      "en": {
+        "description": "Super AI assistant based on LLM with active thinking and task planning.",
+        "oneLiner": "For individuals and enterprises who want to deploy super AI assistants on WeChat, Lark, DingTalk, and other platforms"
+      },
+      "ar": {
+        "description": "مساعد ذكاء اصطناعي متقدم يعتمد على النماذج اللغوية الكبيرة مع التفكير النشاطي وتخطيط المهام.",
+        "oneLiner": "للأفراد والمؤسسات الذين يريدون نشر مساعدين ذكاء اصطناعي فائقين على WeChat و Lark و DingTalk ومنصات أخرى"
+      },
+      "es": {
+        "description": "Súper asistente de IA basado en LLM con pensamiento activo y planificación de tareas.",
+        "oneLiner": "Para individuos y empresas que quieren desplegar súper asistentes de IA en WeChat, Lark, DingTalk y otras plataformas"
+      },
+      "ko": {
+        "description": "능동적 사고와 작업 계획을 갖춘 LLM 기반 슈퍼 AI 어시스턴트입니다.",
+        "oneLiner": "WeChat, Lark, DingTalk 등의 플랫폼에 슈퍼 AI 어시스턴트를 배포하고 싶은 개인과 기업을 위한"
+      },
+      "ja": {
+        "description": "能動的な思考とタスク計画を備えた LLM ベースのスーパー AI アシスタントです。",
+        "oneLiner": "WeChat、Lark、DingTalk などのプラットフォームにスーパー AI アシスタントをデプロイしたい個人や企業向け"
+      }
+    }
+  },
+  {
+    "id": "zeroclaw",
+    "name": "ZeroClaw",
+    "owner": "zeroclaw-labs",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure.",
+    "stars": 30307,
+    "language": "Rust",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "assistant",
+      "rust",
+      "local"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "快速、小巧、完全自主的 AI 个人助理基础设施，任何操作系统、任何平台都可部署。",
+        "oneLiner": "适合想要一个快速小巧、可在任意平台部署的完全自主 AI 助理的人"
+      },
+      "en": {
+        "description": "Fast, small, and fully autonomous AI personal assistant infrastructure.",
+        "oneLiner": "For anyone who wants a fast, small, fully autonomous AI assistant deployable on any platform"
+      },
+      "ar": {
+        "description": "بنية تحتية سريعة وصغيرة وكاملة الوكالة لمساعد شخصي مدعوم بالذكاء الاصطناعي.",
+        "oneLiner": "لأي شخص يريد مساعد ذكاء اصطناعي سريع وصغير وذاتي بالكامل قابل للنشر على أي منصة"
+      },
+      "es": {
+        "description": "Infraestructura de asistente personal de IA rápida, pequeña y completamente autónoma.",
+        "oneLiner": "Para cualquiera que quiera un asistente de IA rápido, pequeño y completamente autónomo desplegable en cualquier plataforma"
+      },
+      "ko": {
+        "description": "빠르고, 작고, 완전히 자율적인 AI 개인 비서 인프라입니다.",
+        "oneLiner": "모든 플랫폼에 배포할 수 있는 빠르고 작고 완전히 자율적인 AI 어시스턴트를 원하는 사람을 위한"
+      },
+      "ja": {
+        "description": "高速で小型で完全自律の AI パーソナルアシスタントインフラストラクチャです。",
+        "oneLiner": "あらゆるプラットフォームにデプロイ可能な高速・小型・完全自律型 AI アシスタントが欲しい人向け"
+      }
+    }
+  },
+  {
+    "id": "openbb",
+    "name": "OpenBB",
+    "owner": "OpenBB-finance",
+    "description": "Financial data platform for analysts, quants and AI agents.",
+    "stars": 66030,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "finance",
+      "data",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "面向分析师、量化交易者和 AI Agent 的金融数据平台，提供全面的金融数据访问能力。",
+        "oneLiner": "适合需要金融数据平台来支持分析和量化交易的分析师和团队"
+      },
+      "en": {
+        "description": "Financial data platform for analysts, quants and AI agents.",
+        "oneLiner": "For analysts and teams that need a financial data platform to support analysis and quantitative trading"
+      },
+      "ar": {
+        "description": "منصة بيانات مالية للمحللين والكميين ووكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للمحللين والفرق التي تحتاج إلى منصة بيانات مالية لدعم التحليل والتداول الكمي"
+      },
+      "es": {
+        "description": "Plataforma de datos financieros para analistas, cuantitativos y agentes de IA.",
+        "oneLiner": "Para analistas y equipos que necesitan una plataforma de datos financieros para apoyar el análisis y el trading cuantitativo"
+      },
+      "ko": {
+        "description": "분석가, 퀀트 및 AI 에이전트를 위한 금융 데이터 플랫폼입니다.",
+        "oneLiner": "분석 및 정량 거래를 지원하기 위해 금융 데이터 플랫폼이 필요한 애널리스트와 팀을 위한"
+      },
+      "ja": {
+        "description": "アナリスト、クォンツ、AI エージェント向けの金融データプラットフォームです。",
+        "oneLiner": "分析や定量的取引をサポートする金融データプラットフォームが必要なアナリストやチーム向け"
+      }
+    }
+  },
+  {
+    "id": "praiseonai",
+    "name": "PraisonAI",
+    "owner": "MervinPraison",
+    "description": "Hire a 24/7 AI Workforce. Build autonomous agents that research, plan, code, and execute.",
+    "stars": 6954,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "workforce",
+      "autonomous"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "24/7 AI 劳动力平台，5 行代码部署自主 Agent，内置记忆、RAG 和 100+ LLM 支持。",
+        "oneLiner": "适合想快速部署 24/7 自主 AI 劳动力、处理研究到执行全流程的团队"
+      },
+      "en": {
+        "description": "Hire a 24/7 AI Workforce. Build autonomous agents that research, plan, code, and execute.",
+        "oneLiner": "For teams that want to quickly deploy a 24/7 autonomous AI workforce handling research to execution"
+      },
+      "ar": {
+        "description": "وظف قوة عمل مدعومة بالذكاء الاصطناعي على مدار الساعة. بناء وكلاء مستقلين يبحثون ويخططون ويكتبون الكود وينفذون.",
+        "oneLiner": "للفرق التي تريد نشر قوة عمل ذكاء اصطناعي مستقلة على مدار الساعة بسرعة للتعامل مع البحث حتى التنفيذ"
+      },
+      "es": {
+        "description": "Contrata una fuerza laboral de IA 24/7. Construye agentes autónomos que investigan, planean, codifican y ejecutan.",
+        "oneLiner": "Para equipos que quieren desplegar rápidamente una fuerza laboral de IA autónoma 24/7 que maneje desde la investigación hasta la ejecución"
+      },
+      "ko": {
+        "description": "24/7 AI 인력을 고용하세요. 연구하고, 계획하고, 코딩하고, 실행하는 자율 에이전트를 구축하세요.",
+        "oneLiner": "연구부터 실행까지 처리하는 24/7 자율 AI 인력을 빠르게 배포하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "24時間365日の AI 労働力を雇いましょう。研究、計画、コーディング、実行を行う自律エージェントを構築します。",
+        "oneLiner": "調査から実行までを処理する 24時間365日の自律 AI 労働力を迅速にデプロイしたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "agent-zero",
+    "name": "Agent Zero",
+    "owner": "agent0ai",
+    "description": "A powerful AI framework for building autonomous agents.",
+    "stars": 17057,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "autonomous",
+      "framework"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "强大的 AI 框架，用于构建能够自主决策、规划和执行的智能 Agent。",
+        "oneLiner": "适合想构建能自主决策和执行的强大 AI Agent 的开发者"
+      },
+      "en": {
+        "description": "A powerful AI framework for building autonomous agents.",
+        "oneLiner": "For developers who want to build powerful AI agents capable of autonomous decision-making and execution"
+      },
+      "ar": {
+        "description": "إطار عمل قوي للذكاء الاصطناعي لبناء وكلاء مستقلين.",
+        "oneLiner": "للمطورين الذين يريدون بناء وكلاء ذكاء اصطناعي أقوياء قادرين على اتخاذ القرارات والتنفيذ بشكل مستقل"
+      },
+      "es": {
+        "description": "Un potente marco de IA para construir agentes autónomos.",
+        "oneLiner": "Para desarrolladores que quieren construir agentes de IA potentes capaces de tomar decisiones y ejecutar de forma autónoma"
+      },
+      "ko": {
+        "description": "자율 에이전트를 구축하기 위한 강력한 AI 프레임워크입니다.",
+        "oneLiner": "자율 의사결정 및 실행이 가능한 강력한 AI 에이전트를 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "自律エージェントを構築するための強力な AI フレームワークです。",
+        "oneLiner": "自律的な意思決定と実行が可能な強力な AI エージェントを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "pentagi",
+    "name": "Pentagi",
+    "owner": "vxcontrol",
+    "description": "Fully autonomous AI Agents system for complex penetration testing.",
+    "stars": 15155,
+    "language": "Go",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "security",
+      "pentest",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "完全自主的 AI Agent 系统，能够执行复杂的渗透测试任务和安全评估。",
+        "oneLiner": "适合需要完全自主的 AI Agent 执行复杂渗透测试的安全团队"
+      },
+      "en": {
+        "description": "Fully autonomous AI Agents system for complex penetration testing.",
+        "oneLiner": "For security teams that need fully autonomous AI agents to perform complex penetration testing"
+      },
+      "ar": {
+        "description": "نظام وكلاء ذكاء اصطناعي مستقل بالكامل لاختبار الاختراق المعقد.",
+        "oneLiner": "لفرق الأمان التي تحتاج إلى وكلاء ذكاء اصطناعي مستقلين بالكامل لأداء اختبارات الاختراق المعقدة"
+      },
+      "es": {
+        "description": "Sistema de Agentes de IA completamente autónomo para pruebas de penetración complejas.",
+        "oneLiner": "Para equipos de seguridad que necesitan agentes de IA completamente autónomos para realizar pruebas de penetración complejas"
+      },
+      "ko": {
+        "description": "복잡한 침투 테스트를 위한 완전히 자율적인 AI 에이전트 시스템입니다.",
+        "oneLiner": "복잡한 침투 테스트를 수행하기 위해 완전히 자율적인 AI 에이전트가 필요한 보안 팀을 위한"
+      },
+      "ja": {
+        "description": "複雑なペネトレーションテストのための完全自律型 AI エージェントシステムです。",
+        "oneLiner": "複雑なペネトレーションテストを実行するための完全自律型 AI エージェントが必要なセキュリティチーム向け"
+      }
+    }
+  },
+  {
+    "id": "upsionic",
+    "name": "Upsonic",
+    "owner": "Upsonic",
+    "description": "Build autonomous AI agents in Python with minimal boilerplate.",
+    "stars": 7831,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "python",
+      "autonomous"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "用最少样板代码在 Python 中构建自主 AI Agent，简化 Agent 开发流程。",
+        "oneLiner": "适合想用最少样板代码在 Python 中构建自主 AI Agent 的开发者"
+      },
+      "en": {
+        "description": "Build autonomous AI agents in Python with minimal boilerplate.",
+        "oneLiner": "For developers who want to build autonomous AI agents in Python with minimal boilerplate code"
+      },
+      "ar": {
+        "description": "بناء وكلاء ذكاء اصطناعي مستقلين في Python مع الحد الأدنى من الكود.",
+        "oneLiner": "للمطورين الذين يريدون بناء وكلاء ذكاء اصطناعي مستقلين في Python بأقل قدر من الكود"
+      },
+      "es": {
+        "description": "Construye agentes de IA autónomos en Python con código repetitivo mínimo.",
+        "oneLiner": "Para desarrolladores que quieren construir agentes de IA autónomos en Python con código repetitivo mínimo"
+      },
+      "ko": {
+        "description": "최소한의 상용구 코드로 Python에서 자율 AI 에이전트를 구축하세요.",
+        "oneLiner": "최소한의 상용구 코드로 Python에서 자율 AI 에이전트를 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "最小限のボイラープレートコードで Python に自律型 AI エージェントを構築します。",
+        "oneLiner": "最小限のボイラープレートコードで Python に自律型 AI エージェントを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "agent-lab",
+    "name": "Agent Laboratory",
+    "owner": "SamuelSchmidgall",
+    "description": "An end-to-end autonomous research workflow for implementing research ideas.",
+    "stars": 5512,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "research",
+      "agent",
+      "automation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "端到端自主研究工作流，旨在协助人类研究员实现研究想法并自动化实验过程。",
+        "oneLiner": "适合想借助自主研究工作流加速研究构想实现的研究人员"
+      },
+      "en": {
+        "description": "An end-to-end autonomous research workflow for implementing research ideas.",
+        "oneLiner": "For researchers who want to accelerate research idea implementation with autonomous research workflows"
+      },
+      "ar": {
+        "description": "سير عمل بحثي مستقل شامل لتحقيق أفكار البحث.",
+        "oneLiner": "للباحثين الذين يريدون تسريع تنفيذ أفكار البحث باستخدام سير عمل بحثي مستقل"
+      },
+      "es": {
+        "description": "Un flujo de trabajo de investigación autónomo de extremo a extremo para implementar ideas de investigación.",
+        "oneLiner": "Para investigadores que quieren acelerar la implementación de ideas de investigación con flujos de trabajo de investigación autónomos"
+      },
+      "ko": {
+        "description": "연구 아이디어를 구현하기 위한 엔드투엔드 자율 연구 워크플로우입니다.",
+        "oneLiner": "자율 연구 워크플로우를 통해 연구 아이디어 구현을 가속화하고 싶은 연구자를 위한"
+      },
+      "ja": {
+        "description": "研究アイデアを実装するためのエンドツーエンドの自律型研究工作フローです。",
+        "oneLiner": "自律型研究工作フローで研究アイデアの実装を加速させたい研究者向け"
+      }
+    }
+  },
+  {
+    "id": "swe-agent",
+    "name": "SWE-agent",
+    "owner": "SWE-agent",
+    "description": "Takes a GitHub issue and tries to automatically fix it using your LM of choice.",
+    "stars": 19003,
+    "language": "Python",
+    "category": "Coding",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "coding",
+      "agent",
+      "github"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "接收 GitHub Issue 并尝试使用你选择的语言模型自动修复它，也可用于网络安全或竞技编程。",
+        "oneLiner": "适合想让 AI 自动修复 GitHub Issue、处理网络安全或竞技编程的开发者"
+      },
+      "en": {
+        "description": "Takes a GitHub issue and tries to automatically fix it using your LM of choice.",
+        "oneLiner": "For developers who want AI to automatically fix GitHub issues and handle cybersecurity or competitive coding"
+      },
+      "ar": {
+        "description": "يأخذ مشكلة GitHub ويحاول إصلاحها تلقائياً باستخدام نموذج اللغة الذي تختاره.",
+        "oneLiner": "للمطورين الذين يريدون من الذكاء الاصطناعي إصلاح مشكلات GitHub تلقائياً والتعامل مع الأمن السيبراني أو البرمجة التنافسية"
+      },
+      "es": {
+        "description": "Toma un problema de GitHub e intenta solucionarlo automáticamente usando el modelo de lenguaje de tu elección.",
+        "oneLiner": "Para desarrolladores que quieren que la IA solucione automáticamente problemas de GitHub y maneje ciberseguridad o programación competitiva"
+      },
+      "ko": {
+        "description": "GitHub 이슈를 가져와 선택한 언어 모델을 사용하여 자동으로 수정하려고 시도합니다.",
+        "oneLiner": "AI가 GitHub 이슈를 자동으로 수정하고 사이버 보안 또는 경쟁 코딩을 처리하기를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "GitHub の issue を受け取り、選択した言語モデルを使用して自動的に修正しようとします。",
+        "oneLiner": "AI に GitHub の issue を自動修正させ、サイバーセキュリティや競技プログラミングを処理させたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "pydantic-ai",
+    "name": "Pydantic AI",
+    "owner": "pydantic",
+    "description": "AI Agent Framework, the Pydantic way.",
+    "stars": 16448,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "framework",
+      "python"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "以 Pydantic 方式构建 AI Agent 的框架，类型安全、验证可靠。",
+        "oneLiner": "适合想用 Pydantic 方式构建类型安全、可靠 AI Agent 的 Python 开发者"
+      },
+      "en": {
+        "description": "AI Agent Framework, the Pydantic way.",
+        "oneLiner": "For Python developers who want to build type-safe, reliable AI agents the Pydantic way"
+      },
+      "ar": {
+        "description": "إطار عمل وكيل الذكاء الاصطناعي، على طريقة Pydantic.",
+        "oneLiner": "لمطوري Python الذين يريدون بناء وكلاء ذكاء اصطناعي آمنين من حيث النوع وموثوقين بطريقة Pydantic"
+      },
+      "es": {
+        "description": "Marco de Agentes de IA, a la manera de Pydantic.",
+        "oneLiner": "Para desarrolladores de Python que quieren construir agentes de IA seguros y confiables a la manera de Pydantic"
+      },
+      "ko": {
+        "description": "Pydantic 방식의 AI 에이전트 프레임워크입니다.",
+        "oneLiner": "Pydantic 방식으로 타입 안전하고 신뢰할 수 있는 AI 에이전트를 구축하고 싶은 Python 개발자를 위한"
+      },
+      "ja": {
+        "description": "Pydantic 流の AI エージェントフレームワークです。",
+        "oneLiner": "Pydantic 流に型安全で信頼性の高い AI エージェントを構築したい Python 開発者向け"
+      }
+    }
+  },
+  {
+    "id": "qwen-agent",
+    "name": "Qwen-Agent",
+    "owner": "QwenLM",
+    "description": "Agent framework and applications built upon Qwen>=3.0.",
+    "stars": 16071,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "qwen",
+      "framework"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "基于 Qwen>=3.0 构建的 Agent 框架和应用，支持函数调用、MCP、代码解释器、RAG 等。",
+        "oneLiner": "适合基于 Qwen 大模型构建 Agent 应用、需要函数调用和 MCP 支持的开发者"
+      },
+      "en": {
+        "description": "Agent framework and applications built upon Qwen>=3.0.",
+        "oneLiner": "For developers building agent apps on Qwen models who need function calling and MCP support"
+      },
+      "ar": {
+        "description": "إطار عمل وتطبيقات الوكلاء المبنية على Qwen>=3.0.",
+        "oneLiner": "للمطورين الذين يبنون تطبيقات الوكلاء على نماذج Qwen ويحتاجون إلى دعم استدعاء الوظائف و MCP"
+      },
+      "es": {
+        "description": "Marco de agentes y aplicaciones construidas sobre Qwen>=3.0.",
+        "oneLiner": "Para desarrolladores que construyen aplicaciones de agentes en modelos Qwen y necesitan soporte para llamada de funciones y MCP"
+      },
+      "ko": {
+        "description": "Qwen>=3.0 기반으로 구축된 에이전트 프레임워크 및 애플리케이션입니다.",
+        "oneLiner": "Qwen 모델 기반으로 에이전트 앱을 구축하고 함수 호출 및 MCP 지원이 필요한 개발자를 위한"
+      },
+      "ja": {
+        "description": "Qwen>=3.0 をベースに構築されたエージェントフレームワークおよびアプリケーションです。",
+        "oneLiner": "Qwen モデル上でエージェントアプリを構築し、関数呼び出しや MCP サポートが必要な開発者向け"
+      }
+    }
+  },
+  {
+    "id": "langchain4j",
+    "name": "LangChain4j",
+    "owner": "langchain4j",
+    "description": "Java library for building LLM-powered applications on the JVM.",
+    "stars": 11658,
+    "language": "Java",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "java",
+      "llm"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "用于在 JVM 上构建 LLM 驱动应用的 Java 库，支持工具调用、Agent 和 RAG，集成 Quarkus 和 Spring Boot。",
+        "oneLiner": "适合在 JVM 生态中构建 LLM 应用、需要工具调用和 Agent 支持的 Java 开发者"
+      },
+      "en": {
+        "description": "Java library for building LLM-powered applications on the JVM.",
+        "oneLiner": "For Java developers building LLM apps in the JVM ecosystem who need tool calling and agent support"
+      },
+      "ar": {
+        "description": "مكتبة Java لبناء التطبيقات المدعومة بنماذج اللغة الكبيرة على JVM.",
+        "oneLiner": "لمطوري Java الذين يبنون تطبيقات LLM في النظام البيئي JVM ويحتاجون إلى دعم استدعاء الأدوات والوكلاء"
+      },
+      "es": {
+        "description": "Biblioteca Java para construir aplicaciones impulsadas por LLM en la JVM.",
+        "oneLiner": "Para desarrolladores de Java que construyen aplicaciones LLM en el ecosistema JVM y necesitan soporte para llamada de herramientas y agentes"
+      },
+      "ko": {
+        "description": "JVM에서 LLM 기반 애플리케이션을 구축하기 위한 Java 라이브러리입니다.",
+        "oneLiner": "JVM 생태계에서 LLM 애플리케이션을 구축하고 도구 호출 및 에이전트 지원이 필요한 Java 개발자를 위한"
+      },
+      "ja": {
+        "description": "JVM 上で LLM 駆動アプリケーションを構築するための Java ライブラリです。",
+        "oneLiner": "JVM エコシステムで LLM アプリを構築し、ツール呼び出しやエージェントサポートが必要な Java 開発者向け"
+      }
+    }
+  },
+  {
+    "id": "livekit-agents",
+    "name": "LiveKit Agents",
+    "owner": "livekit",
+    "description": "A framework for building realtime voice AI agents.",
+    "stars": 10091,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "voice",
+      "agent",
+      "realtime"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "构建实时语音 AI Agent 的框架，支持语音对话、视频交互和实时处理。",
+        "oneLiner": "适合想构建实时语音对话 AI Agent 的开发者"
+      },
+      "en": {
+        "description": "A framework for building realtime voice AI agents.",
+        "oneLiner": "For developers who want to build real-time voice conversational AI agents"
+      },
+      "ar": {
+        "description": "إطار عمل لبناء وكلاء ذكاء اصطناعي صوتيين في الوقت الفعلي.",
+        "oneLiner": "للمطورين الذين يريدون بناء وكلاء ذكاء اصطناعي صوتيين تفاعليين في الوقت الفعلي"
+      },
+      "es": {
+        "description": "Un marco para construir agentes de IA de voz en tiempo real.",
+        "oneLiner": "Para desarrolladores que quieren construir agentes de IA de voz conversacionales en tiempo real"
+      },
+      "ko": {
+        "description": "실시간 음성 AI 에이전트를 구축하기 위한 프레임워크입니다.",
+        "oneLiner": "실시간 음성 대화 AI 에이전트를 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "リアルタイム音声 AI エージェントを構築するためのフレームワークです。",
+        "oneLiner": "リアルタイム音声対話 AI エージェントを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "openai-agents-python",
+    "name": "OpenAI Agents Python",
+    "owner": "openai",
+    "description": "A lightweight, powerful framework for multi-agent workflows.",
+    "stars": 22042,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "openai",
+      "multi-agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "OpenAI 官方轻量级多 Agent 工作流框架，支持工具调用、Agent 编排和状态管理。",
+        "oneLiner": "适合想用 OpenAI 官方框架构建多 Agent 工作流的开发者"
+      },
+      "en": {
+        "description": "A lightweight, powerful framework for multi-agent workflows.",
+        "oneLiner": "For developers who want to build multi-agent workflows using the official OpenAI framework"
+      },
+      "ar": {
+        "description": "إطار عمل خفيف الوزن وقوي لسير العمل متعدد الوكلاء.",
+        "oneLiner": "للمطورين الذين يريدون بناء سير عمل متعدد الوكلاء باستخدام إطار عمل OpenAI الرسمي"
+      },
+      "es": {
+        "description": "Un marco ligero y potente para flujos de trabajo multi-agente.",
+        "oneLiner": "Para desarrolladores que quieren construir flujos de trabajo multi-agente usando el framework oficial de OpenAI"
+      },
+      "ko": {
+        "description": "다중 에이전트 워크플로우를 위한 가볍고 강력한 프레임워크입니다.",
+        "oneLiner": "OpenAI 공식 프레임워크를 사용하여 다중 에이전트 워크플로우를 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "マルチエージェントワークフローのための軽量で強力なフレームワークです。",
+        "oneLiner": "OpenAI の公式フレームワークを使用してマルチエージェントワークフローを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "openai-swarm",
+    "name": "Swarm",
+    "owner": "openai",
+    "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration.",
+    "stars": 21333,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "openai",
+      "orchestration"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "探索人体工学、轻量级多 Agent 编排的教育框架，由 OpenAI 解决方案团队管理。",
+        "oneLiner": "适合想学习轻量级多 Agent 编排的教育者和研究者"
+      },
+      "en": {
+        "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration.",
+        "oneLiner": "For educators and researchers who want to learn lightweight multi-agent orchestration"
+      },
+      "ar": {
+        "description": "إطار عمل تعليمي يستكشف التنظيم متعدد الوكلاء الخفيف والمريح.",
+        "oneLiner": "للمعلمين والباحثين الذين يريدون تعلم التنظيم متعدد الوكلاء الخفيف الوزن"
+      },
+      "es": {
+        "description": "Marco educativo que explora la orquestación multi-agente ergonómica y ligera.",
+        "oneLiner": "Para educadores e investigadores que quieren aprender orquestación multi-agente ligera"
+      },
+      "ko": {
+        "description": "인체공학적이고 가벼운 다중 에이전트 오케스트레이션을 탐구하는 교육용 프레임워크입니다.",
+        "oneLiner": "경량 다중 에이전트 오케스트레이션을 학습하고 싶은 교육자와 연구자를 위한"
+      },
+      "ja": {
+        "description": "人間工学に基づいた軽量なマルチエージェントオーケストレーションを探求する教育用フレームワークです。",
+        "oneLiner": "軽量なマルチエージェントオーケストレーションを学びたい教育者や研究者向け"
+      }
+    }
+  },
+  {
+    "id": "12-factor-agents",
+    "name": "12 Factor Agents",
+    "owner": "humanlayer",
+    "description": "Principles for building LLM-powered software good enough for production.",
+    "stars": 19358,
+    "language": "TypeScript",
+    "category": "Best Practices",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "best-practices",
+      "llm"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "构建足够好以投入生产的 LLM 驱动软件的原则指南，类似 12-Factor App。",
+        "oneLiner": "适合想构建生产级 LLM 应用、遵循最佳实践的架构师和开发者"
+      },
+      "en": {
+        "description": "Principles for building LLM-powered software good enough for production.",
+        "oneLiner": "For architects and developers who want to build production-grade LLM apps following best practices"
+      },
+      "ar": {
+        "description": "مبادئ لبناء برمجيات مدفوعة بنماذج اللغة الكبيرة جيدة بما يكفي للإنتاج.",
+        "oneLiner": "للمهندسين المعماريين والمطورين الذين يريدون بناء تطبيقات LLM جاهزة للإنتاج باتباع أفضل الممارسات"
+      },
+      "es": {
+        "description": "Principios para construir software impulsado por LLM lo suficientemente bueno para producción.",
+        "oneLiner": "Para arquitectos y desarrolladores que quieren construir aplicaciones LLM de nivel producción siguiendo las mejores prácticas"
+      },
+      "ko": {
+        "description": "프로덕션에 충분히 적합한 LLM 기반 소프트웨어를 구축하기 위한 원칙입니다.",
+        "oneLiner": "모범 사례를 따라 프로덕션급 LLM 애플리케이션을 구축하고 싶은 아키텍트와 개발자를 위한"
+      },
+      "ja": {
+        "description": "本番環境に十分な品質の LLM 駆動ソフトウェアを構築するための原則です。",
+        "oneLiner": "ベストプラクティスに従って本番環境対応の LLM アプリを構築したいアーキテクトや開発者向け"
+      }
+    }
+  },
+  {
+    "id": "agent-s",
+    "name": "Agent S",
+    "owner": "simular-ai",
+    "description": "An open agentic framework that uses computers like a human.",
+    "stars": 10871,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "computer",
+      "automation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "像人类一样使用计算机的开放 Agent 框架，支持 GUI 交互、文件操作和多步骤任务。",
+        "oneLiner": "适合想构建像人类一样使用计算机的开放 Agent 系统的研究者"
+      },
+      "en": {
+        "description": "An open agentic framework that uses computers like a human.",
+        "oneLiner": "For researchers who want to build open agent systems that use computers like humans"
+      },
+      "ar": {
+        "description": "إطار عمل وكيلي مفتوح يستخدم الحواسيب مثل الإنسان.",
+        "oneLiner": "للباحثين الذين يريدون بناء أنظمة وكيل مفتوحة تستخدم الحواسيب مثل البشر"
+      },
+      "es": {
+        "description": "Un marco agentico abierto que usa computadoras como un humano.",
+        "oneLiner": "Para investigadores que quieren construir sistemas de agentes abiertos que usen computadoras como humanos"
+      },
+      "ko": {
+        "description": "인간처럼 컴퓨터를 사용하는 오픈 에이전틱 프레임워크입니다.",
+        "oneLiner": "인간처럼 컴퓨터를 사용하는 오픈 에이전트 시스템을 구축하고 싶은 연구자를 위한"
+      },
+      "ja": {
+        "description": "人間のようにコンピューターを使用するオープンなエージェンティックフレームワークです。",
+        "oneLiner": "人間のようにコンピューターを使用するオープンエージェントシステムを構築したい研究者向け"
+      }
+    }
+  },
+  {
+    "id": "pocket-flow",
+    "name": "PocketFlow",
+    "owner": "The-Pocket",
+    "description": "100-line LLM framework. Let Agents build Agents!",
+    "stars": 10433,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "framework",
+      "minimal"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "仅 100 行代码的 LLM 框架，让 Agent 构建 Agent，极简设计，易于理解和扩展。",
+        "oneLiner": "适合想用最简洁代码理解并实现 Agent 框架的开发者"
+      },
+      "en": {
+        "description": "100-line LLM framework. Let Agents build Agents!",
+        "oneLiner": "For developers who want to understand and implement agent frameworks with the most concise code"
+      },
+      "ar": {
+        "description": "إطار عمل LLM من 100 سطر. دع الوكلاء يبنون الوكلاء!",
+        "oneLiner": "للمطورين الذين يريدون فهم وتنفيذ أطر الوكلاء بأكثر الكود إيجازاً"
+      },
+      "es": {
+        "description": "Marco LLM de 100 líneas. ¡Deja que los agentes construyan agentes!",
+        "oneLiner": "Para desarrolladores que quieren entender e implementar frameworks de agentes con el código más conciso"
+      },
+      "ko": {
+        "description": "100줄짜리 LLM 프레임워크입니다. 에이전트가 에이전트를 구축하게 하세요!",
+        "oneLiner": "가장 간결한 코드로 에이전트 프레임워크를 이해하고 구현하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "100 行の LLM フレームワークです。エージェントにエージェントを構築させましょう！",
+        "oneLiner": "最も簡潔なコードでエージェントフレームワークを理解・実装したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "ten-framework",
+    "name": "TEN Framework",
+    "owner": "TEN-framework",
+    "description": "Open-source framework for conversational voice AI agents.",
+    "stars": 10430,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "voice",
+      "agent",
+      "conversation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "对话式语音 AI Agent 的开源框架，支持实时语音交互和多语言对话。",
+        "oneLiner": "适合想构建对话式语音 AI Agent 的开发者"
+      },
+      "en": {
+        "description": "Open-source framework for conversational voice AI agents.",
+        "oneLiner": "For developers who want to build conversational voice AI agents"
+      },
+      "ar": {
+        "description": "إطار عمل مفتوح المصدر لوكلاء الذكاء الاصطناعي الصوتيين التفاعليين.",
+        "oneLiner": "للمطورين الذين يريدون بناء وكلاء ذكاء اصطناعي صوتيين تفاعليين"
+      },
+      "es": {
+        "description": "Marco de código abierto para agentes de IA de voz conversacionales.",
+        "oneLiner": "Para desarrolladores que quieren construir agentes de IA de voz conversacionales"
+      },
+      "ko": {
+        "description": "대화형 음성 AI 에이전트를 위한 오픈소스 프레임워크입니다.",
+        "oneLiner": "대화형 음성 AI 에이전트를 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "会話型音声 AI エージェントのためのオープンソースフレームワークです。",
+        "oneLiner": "会話型音声 AI エージェントを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "librechat",
+    "name": "LibreChat",
+    "owner": "danny-avila",
+    "description": "Enhanced ChatGPT Clone with Agents, MCP, and multi-provider support.",
+    "stars": 35743,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "chat",
+      "agent",
+      "mcp"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "增强版 ChatGPT 克隆，支持 Agent、MCP、DeepSeek、Anthropic、OpenAI 等多提供商，可自托管。",
+        "oneLiner": "适合想自托管一个支持多模型和 Agent 的增强版 ChatGPT 克隆的团队"
+      },
+      "en": {
+        "description": "Enhanced ChatGPT Clone with Agents, MCP, and multi-provider support.",
+        "oneLiner": "For teams that want to self-host an enhanced ChatGPT clone supporting multiple models and agents"
+      },
+      "ar": {
+        "description": "استنساخ ChatGPT المحسن مع دعم الوكلاء و MCP والمزودين المتعددين.",
+        "oneLiner": "للفرق التي تريد استضافة ذاتية لاستنساخ ChatGPT محسن يدعم نماذج متعددة ووكلاء"
+      },
+      "es": {
+        "description": "Clon mejorado de ChatGPT con Agentes, MCP y soporte multi-proveedor.",
+        "oneLiner": "Para equipos que quieren autoalojar un clon mejorado de ChatGPT que soporte múltiples modelos y agentes"
+      },
+      "ko": {
+        "description": "Agent, MCP 및 다중 공급자 지원이 포함된 향상된 ChatGPT 클론입니다.",
+        "oneLiner": "다중 모델과 에이전트를 지원하는 향상된 ChatGPT 클론을 자체 호스팅하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "Agent、MCP、マルチプロバイダー対応の強化版 ChatGPT クローンです。",
+        "oneLiner": "複数のモデルとエージェントをサポートする強化版 ChatGPT クローンを自己ホスティングしたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "roo-code",
+    "name": "Roo Code",
+    "owner": "RooCodeInc",
+    "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+    "stars": 23186,
+    "language": "TypeScript",
+    "category": "Coding",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "coding",
+      "agent",
+      "ide"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "在代码编辑器中获得一整个 AI Agent 开发团队，支持多角色协作和自主编码。",
+        "oneLiner": "适合想在代码编辑器中获得一整个 AI 开发团队的开发者"
+      },
+      "en": {
+        "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+        "oneLiner": "For developers who want a whole AI dev team inside their code editor"
+      },
+      "ar": {
+        "description": "يمنحك Roo Code فريق تطوير كامل من وكلاء الذكاء الاصطناعي في محرر الكود الخاص بك.",
+        "oneLiner": "للمطورين الذين يريدون فريق تطوير كامل مدعوم بالذكاء الاصطناعي داخل محرر الكود الخاص بهم"
+      },
+      "es": {
+        "description": "Roo Code te da un equipo de desarrollo completo de agentes de IA en tu editor de código.",
+        "oneLiner": "Para desarrolladores que quieren un equipo completo de desarrollo de IA dentro de su editor de código"
+      },
+      "ko": {
+        "description": "Roo Code는 코드 편집기에서 AI 에이전트로 구성된 전체 개발 팀을 제공합니다.",
+        "oneLiner": "코드 편집기 안에서 완전한 AI 개발 팀을 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "Roo Code は、コードエディターに AI エージェントの開発チーム全体を提供します。",
+        "oneLiner": "コードエディター内に AI 開発チーム全体を得たい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "agenticseek",
+    "name": "AgenticSeek",
+    "owner": "Fosowl",
+    "description": "Fully Local Manus AI. No APIs, no monthly bills.",
+    "stars": 25978,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "local",
+      "autonomous"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "完全本地的 Manus AI 替代方案，无需 API 和月费，支持自主思考、网页浏览和编码。",
+        "oneLiner": "适合想要完全本地运行、无需 API 费用的自主 AI Agent 的人"
+      },
+      "en": {
+        "description": "Fully Local Manus AI. No APIs, no monthly bills.",
+        "oneLiner": "For anyone who wants a fully local autonomous AI agent with no API costs"
+      },
+      "ar": {
+        "description": "Manus AI محلي بالكامل. لا واجهات برمجة تطبيقات، لا فواتير شهرية.",
+        "oneLiner": "لأي شخص يريد وكيل ذكاء اصطناعي مستقل محلي بالكامل بدون تكاليف واجهة برمجة التطبيقات"
+      },
+      "es": {
+        "description": "Manus AI completamente local. Sin APIs, sin facturas mensuales.",
+        "oneLiner": "Para cualquiera que quiera un agente de IA autónomo completamente local sin costos de API"
+      },
+      "ko": {
+        "description": "완전히 로컬인 Manus AI입니다. API 없음, 월별 요금 없음.",
+        "oneLiner": "API 비용 없이 완전히 로컬에서 실행되는 자율 AI 에이전트를 원하는 사람을 위한"
+      },
+      "ja": {
+        "description": "完全にローカルな Manus AI です。API なし、月額料金なし。",
+        "oneLiner": "API コストなしで完全にローカルに実行される自律型 AI エージェントが欲しい人向け"
+      }
+    }
+  },
+  {
+    "id": "plandex",
+    "name": "Plandex",
+    "owner": "plandex-ai",
+    "description": "Open source AI coding agent for large projects and real world tasks.",
+    "stars": 15258,
+    "language": "Go",
+    "category": "Coding",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "coding",
+      "agent",
+      "go"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "开源 AI 编码 Agent，专为大型项目和真实世界任务设计，支持批量文件修改和复杂重构。",
+        "oneLiner": "适合需要 AI 编码 Agent 处理大型项目和真实世界复杂任务的开发者"
+      },
+      "en": {
+        "description": "Open source AI coding agent for large projects and real world tasks.",
+        "oneLiner": "For developers who need an AI coding agent to handle large projects and real-world complex tasks"
+      },
+      "ar": {
+        "description": "وكيل برمجة مفتوح المصدر بالذكاء الاصطناعي للمشاريع الكبيرة والمهام الواقعية.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى وكيل برمجة بالذكاء الاصطناعي للتعامل مع المشاريع الكبيرة والمهام المعقدة في العالم الحقيقي"
+      },
+      "es": {
+        "description": "Agente de codificación de IA de código abierto para proyectos grandes y tareas del mundo real.",
+        "oneLiner": "Para desarrolladores que necesitan un agente de codificación de IA para manejar proyectos grandes y tareas complejas del mundo real"
+      },
+      "ko": {
+        "description": "대규모 프로젝트 및 실제 작업을 위한 오픈소스 AI 코딩 에이전트입니다.",
+        "oneLiner": "대규모 프로젝트와 실제 복잡한 작업을 처리할 AI 코딩 에이전트가 필요한 개발자를 위한"
+      },
+      "ja": {
+        "description": "大規模プロジェクトおよび実際のタスク向けのオープンソース AI コーディングエージェントです。",
+        "oneLiner": "大規模プロジェクトや実世界の複雑なタスクを処理する AI コーディングエージェントが必要な開発者向け"
+      }
+    }
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "owner": "opencode-ai",
+    "description": "A powerful AI coding agent built for the terminal.",
+    "stars": 12077,
+    "language": "Go",
+    "category": "Coding",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "coding",
+      "agent",
+      "terminal"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "专为终端打造的强大 AI 编码 Agent，支持代码生成、重构和自动修复。",
+        "oneLiner": "适合想要一个专为终端打造的强大 AI 编码 Agent 的开发者"
+      },
+      "en": {
+        "description": "A powerful AI coding agent built for the terminal.",
+        "oneLiner": "For developers who want a powerful AI coding agent built specifically for the terminal"
+      },
+      "ar": {
+        "description": "وكيل برمجة قوي بالذكاء الاصطناعي مبني للطرفية.",
+        "oneLiner": "للمطورين الذين يريدون وكيل برمجة قوي بالذكاء الاصطناعي مبني خصيصاً للطرفية"
+      },
+      "es": {
+        "description": "Un potente agente de codificación de IA construido para la terminal.",
+        "oneLiner": "Para desarrolladores que quieren un potente agente de codificación de IA construido específicamente para la terminal"
+      },
+      "ko": {
+        "description": "터미널용으로 구축된 강력한 AI 코딩 에이전트입니다.",
+        "oneLiner": "터미널 전용으로 구축된 강력한 AI 코딩 에이전트를 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "ターミナル向けに構築された強力な AI コーディングエージェントです。",
+        "oneLiner": "ターミナル専用に構築された強力な AI コーディングエージェントが欲しい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "cognee",
+    "name": "Cognee",
+    "owner": "topoteretes",
+    "description": "Knowledge Engine for AI Agent Memory in 6 lines of code.",
+    "stars": 16312,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "memory",
+      "agent",
+      "knowledge"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "6 行代码即可为 AI Agent 构建知识引擎和记忆系统，支持图数据库和向量检索。",
+        "oneLiner": "适合想用最简洁代码为 AI Agent 添加知识引擎和记忆的开发者"
+      },
+      "en": {
+        "description": "Knowledge Engine for AI Agent Memory in 6 lines of code.",
+        "oneLiner": "For developers who want to add a knowledge engine and memory to AI agents with the most concise code"
+      },
+      "ar": {
+        "description": "محرك معرفة لذاكرة وكيل الذكاء الاصطناعي في 6 أسطر من الكود.",
+        "oneLiner": "للمطورين الذين يريدون إضافة محرك معرفة وذاكرة لوكلاء الذكاء الاصطناعي بأكثر الكود إيجازاً"
+      },
+      "es": {
+        "description": "Motor de conocimiento para la memoria de Agentes de IA en 6 líneas de código.",
+        "oneLiner": "Para desarrolladores que quieren agregar un motor de conocimiento y memoria a agentes de IA con el código más conciso"
+      },
+      "ko": {
+        "description": "6줄의 코드로 AI 에이전트 메모리를 위한 지식 엔진입니다.",
+        "oneLiner": "가장 간결한 코드로 AI 에이전트에 지식 엔진과 메모리를 추가하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "6 行のコードで AI エージェントのメモリのための知識エンジンです。",
+        "oneLiner": "最も簡潔なコードで AI エージェントに知識エンジンやメモリを追加したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "warp",
+    "name": "Warp",
+    "owner": "warpdotdev",
+    "description": "The agentic development environment, built for coding with multiple AI agents.",
+    "stars": 26447,
+    "language": "N/A",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "terminal",
+      "agent",
+      "coding"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为使用多个 AI Agent 编码而构建的 Agentic 开发环境终端，支持自然语言命令和智能补全。",
+        "oneLiner": "适合想在终端中使用多个 AI Agent 协同编码的开发者"
+      },
+      "en": {
+        "description": "The agentic development environment, built for coding with multiple AI agents.",
+        "oneLiner": "For developers who want to use multiple AI agents collaboratively for coding in the terminal"
+      },
+      "ar": {
+        "description": "بيئة التطوير الوكيلية، مبنية للبرمجة مع وكلاء ذكاء اصطناعي متعددين.",
+        "oneLiner": "للمطورين الذين يريدون استخدام وكلاء ذكاء اصطناعي متعددين بشكل تعاوني للبرمجة في الطرفية"
+      },
+      "es": {
+        "description": "El entorno de desarrollo agentico, construido para programar con múltiples agentes de IA.",
+        "oneLiner": "Para desarrolladores que quieren usar múltiples agentes de IA de forma colaborativa para programar en la terminal"
+      },
+      "ko": {
+        "description": "여러 AI 에이전트와 함께 코딩하기 위해 구축된 에이전틱 개발 환경입니다.",
+        "oneLiner": "터미널에서 여러 AI 에이전트가 협업하여 코딩하는 것을 원하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "複数の AI エージェントを使用したコーディングのために構築されたエージェンティック開発環境です。",
+        "oneLiner": "ターミナルで複数の AI エージェントが協働してコーディングするのを使いたい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "mineru",
+    "name": "MinerU",
+    "owner": "opendatalab",
+    "description": "Transforms complex documents into LLM-ready markdown/JSON for Agentic workflows.",
+    "stars": 60370,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "document",
+      "agent",
+      "parser"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "将 PDF 和 Office 等复杂文档转换为 LLM 就绪的 Markdown/JSON，供 Agentic 工作流使用。",
+        "oneLiner": "适合需要将 PDF 和 Office 文档转换为 LLM 可用格式、供 Agent 工作流使用的团队"
+      },
+      "en": {
+        "description": "Transforms complex documents into LLM-ready markdown/JSON for Agentic workflows.",
+        "oneLiner": "For teams that need to convert PDF and Office documents into LLM-usable formats for agent workflows"
+      },
+      "ar": {
+        "description": "يحول المستندات المعقدة إلى markdown/JSON جاهز لنماذج اللغة الكبيرة لسير العمل الوكيلية.",
+        "oneLiner": "للفرق التي تحتاج إلى تحويل مستندات PDF و Office إلى تنسيقات قابلة للاستخدام من قبل نماذج اللغة الكبيرة لسير عمل الوكلاء"
+      },
+      "es": {
+        "description": "Transforma documentos complejos en markdown/JSON listos para LLM para flujos de trabajo agenticos.",
+        "oneLiner": "Para equipos que necesitan convertir documentos PDF y Office a formatos utilizables por LLM para flujos de trabajo de agentes"
+      },
+      "ko": {
+        "description": "복잡한 문서를 에이전틱 워크플로우를 위한 LLM 준비 Markdown/JSON으로 변환합니다.",
+        "oneLiner": "PDF 및 Office 문서를 에이전트 워크플로우용 LLM 사용 가능한 형식으로 변환해야 하는 팀을 위한"
+      },
+      "ja": {
+        "description": "複雑な文書をエージェンティックワークフロー用の LLM 対応 Markdown/JSON に変換します。",
+        "oneLiner": "PDF や Office 文書をエージェントワークフロー用の LLM 利用可能な形式に変換する必要があるチーム向け"
+      }
+    }
+  },
+  {
+    "id": "humanlayer",
+    "name": "HumanLayer",
+    "owner": "humanlayer",
+    "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+    "stars": 10467,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "coding",
+      "human-in-the-loop"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "让 AI 编码 Agent 在复杂代码库中解决难题的最佳方式，支持人在回路审批和反馈。",
+        "oneLiner": "适合想让 AI 编码 Agent 在复杂代码库中解决难题、需要人在回路反馈的团队"
+      },
+      "en": {
+        "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+        "oneLiner": "For teams that want AI coding agents to solve hard problems in complex codebases with human-in-the-loop feedback"
+      },
+      "ar": {
+        "description": "أفضل طريقة لجعل وكلاء البرمجة بالذكاء الاصطناعي يحلون المشكلات الصعبة في قواعد البيانات البرمجية المعقدة.",
+        "oneLiner": "للفرق التي تريد من وكلاء البرمجة بالذكاء الاصطناعي حل المشكلات الصعبة في قواعد البيانات البرمجية المعقدة مع تغذية راجعة من الإنسان"
+      },
+      "es": {
+        "description": "La mejor manera de hacer que los agentes de codificación de IA resuelvan problemas difíciles en bases de código complejas.",
+        "oneLiner": "Para equipos que quieren que agentes de codificación de IA resuelvan problemas difíciles en bases de código complejas con retroalimentación humana"
+      },
+      "ko": {
+        "description": "AI 코딩 에이전트가 복잡한 코드베이스에서 어려운 문제를 해결하도록 하는 가장 좋은 방법입니다.",
+        "oneLiner": "복잡한 코드베이스에서 어려운 문제를 해결하는 AI 코딩 에이전트가 필요하고 인간 피드백을 원하는 팀을 위한"
+      },
+      "ja": {
+        "description": "AI コーディングエージェントが複雑なコードベースで難しい問題を解決するための最良の方法です。",
+        "oneLiner": "複雑なコードベースで難しい問題を解決する AI コーディングエージェントに人間のフィードバックを組み込みたいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "kilocode",
+    "name": "Kilocode",
+    "owner": "Kilo-Org",
+    "description": "The all-in-one agentic engineering platform with the most popular open source coding agent.",
+    "stars": 18264,
+    "language": "TypeScript",
+    "category": "Coding",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "coding",
+      "agent",
+      "platform"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "一体化 Agentic 工程平台，集成最受欢迎的开源编码 Agent，支持快速构建、发布和迭代。",
+        "oneLiner": "适合想用一体化 Agentic 工程平台快速构建、发布和迭代代码的团队"
+      },
+      "en": {
+        "description": "The all-in-one agentic engineering platform with the most popular open source coding agent.",
+        "oneLiner": "For teams that want to quickly build, ship, and iterate code with an all-in-one agentic engineering platform"
+      },
+      "ar": {
+        "description": "منصة هندسية وكيلية متكاملة مع أشهر وكيل برمجة مفتوح المصدر.",
+        "oneLiner": "للفرق التي تريد بناء وشحن وتكرار الكود بسرعة مع منصة هندسية وكيلية متكاملة"
+      },
+      "es": {
+        "description": "La plataforma de ingeniería agentica todo en uno con el agente de codificación de código abierto más popular.",
+        "oneLiner": "Para equipos que quieren construir, entregar e iterar código rápidamente con una plataforma de ingeniería agentica todo en uno"
+      },
+      "ko": {
+        "description": "가장 인기 있는 오픈소스 코딩 에이전트가 포함된 올인원 에이전틱 엔지니어링 플랫폼입니다.",
+        "oneLiner": "올인원 에이전틱 엔지니어링 플랫폼으로 코드를 빠르게 구축, 배포 및 반복하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "最も人気のあるオープンソースコーディングエージェントを備えたオールインワンのエージェンティックエンジニアリングプラットフォームです。",
+        "oneLiner": "オールインワンのエージェンティックエンジニアリングプラットフォームでコードを迅速に構築・リリース・反復したいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "unsloth",
+    "name": "Unsloth",
+    "owner": "unslothai",
+    "description": "Web UI for training and running open models locally.",
+    "stars": 62047,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "llm",
+      "training",
+      "local"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "在本地训练和运行开源模型的 Web UI，支持 Gemma、Qwen、DeepSeek、gpt-oss 等模型。",
+        "oneLiner": "适合想在本地训练和运行开源大模型的研究者和开发者"
+      },
+      "en": {
+        "description": "Web UI for training and running open models locally.",
+        "oneLiner": "For researchers and developers who want to train and run open-source large models locally"
+      },
+      "ar": {
+        "description": "واجهة مستخدم ويب لتدريب وتشغيل النماذج المفتوحة محلياً.",
+        "oneLiner": "للباحثين والمطورين الذين يريدون تدريب وتشغيل نماذج لغوية كبيرة مفتوحة المصدر محلياً"
+      },
+      "es": {
+        "description": "Interfaz web para entrenar y ejecutar modelos abiertos localmente.",
+        "oneLiner": "Para investigadores y desarrolladores que quieren entrenar y ejecutar modelos grandes de código abierto localmente"
+      },
+      "ko": {
+        "description": "로컬에서 오픈 모델을 훈련하고 실행하기 위한 Web UI입니다.",
+        "oneLiner": "오픈소스 대형 모델을 로컬에서 훈련하고 실행하고 싶은 연구자와 개발자를 위한"
+      },
+      "ja": {
+        "description": "ローカルでオープンモデルをトレーニングおよび実行するための Web UI です。",
+        "oneLiner": "オープンソースの大規模モデルをローカルでトレーニング・実行したい研究者や開発者向け"
+      }
+    }
+  },
+  {
+    "id": "microsoft-agent-framework",
+    "name": "Microsoft Agent Framework",
+    "owner": "microsoft",
+    "description": "Framework for building, orchestrating and deploying AI agents with Python and .NET support.",
+    "stars": 9559,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "framework",
+      "microsoft"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "用于构建、编排和部署 AI Agent 及多 Agent 工作流的框架，支持 Python 和 .NET。",
+        "oneLiner": "适合在 Python 或 .NET 生态中构建和部署 AI Agent 的开发者"
+      },
+      "en": {
+        "description": "Framework for building, orchestrating and deploying AI agents with Python and .NET support.",
+        "oneLiner": "For developers building and deploying AI agents in Python or .NET ecosystems"
+      },
+      "ar": {
+        "description": "إطار عمل لبناء وتنظيم ونشر وكلاء الذكاء الاصطناعي مع دعم Python و .NET.",
+        "oneLiner": "للمطورين الذين يبنون وينشرون وكلاء الذكاء الاصطناعي في النظم البيئية Python أو .NET"
+      },
+      "es": {
+        "description": "Marco para construir, orquestar y desplegar agentes de IA con soporte para Python y .NET.",
+        "oneLiner": "Para desarrolladores que construyen y despliegan agentes de IA en ecosistemas Python o .NET"
+      },
+      "ko": {
+        "description": "Python 및 .NET 지원으로 AI 에이전트를 구축, 오케스트레이션 및 배포하기 위한 프레임워크입니다.",
+        "oneLiner": "Python 또는 .NET 생태계에서 AI 에이전트를 구축하고 배포하는 개발자를 위한"
+      },
+      "ja": {
+        "description": "Python と .NET をサポートして AI エージェントを構築、オーケストレーション、デプロイするためのフレームワークです。",
+        "oneLiner": "Python や .NET エコシステムで AI エージェントを構築・デプロイする開発者向け"
+      }
+    }
+  },
+  {
+    "id": "serena",
+    "name": "Serena",
+    "owner": "oraios",
+    "description": "A powerful MCP toolkit for coding with semantic retrieval and editing.",
+    "stars": 23102,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "mcp",
+      "coding",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "强大的 MCP 编码工具包，提供语义检索和编辑能力，是 Agent 的 IDE。",
+        "oneLiner": "适合想为 AI Agent 提供语义检索和代码编辑能力的 MCP 工具开发者"
+      },
+      "en": {
+        "description": "A powerful MCP toolkit for coding with semantic retrieval and editing.",
+        "oneLiner": "For MCP tool developers who want to give AI agents semantic retrieval and code editing capabilities"
+      },
+      "ar": {
+        "description": "مجموعة أدوات MCP قوية للبرمجة مع الاسترجاع الدلالي والتحرير.",
+        "oneLiner": "لمطوري أدوات MCP الذين يريدون منح وكلاء الذكاء الاصطناعي قدرات الاسترجاع الدلالي وتحرير الكود"
+      },
+      "es": {
+        "description": "Un potente kit de herramientas MCP para codificación con recuperación semántica y edición.",
+        "oneLiner": "Para desarrolladores de herramientas MCP que quieren dar a agentes de IA capacidades de recuperación semántica y edición de código"
+      },
+      "ko": {
+        "description": "의미 검색 및 편집을 통해 코딩을 위한 강력한 MCP 툴킷입니다.",
+        "oneLiner": "AI 에이전트에게 의미 검색 및 코드 편집 기능을 제공하고 싶은 MCP 도구 개발자를 위한"
+      },
+      "ja": {
+        "description": "意味的検索と編集を備えたコーディング用の強力な MCP ツールキットです。",
+        "oneLiner": "AI エージェントに意味的検索やコード編集機能を提供したい MCP ツール開発者向け"
+      }
+    }
+  },
+  {
+    "id": "google-adk",
+    "name": "Google ADK",
+    "owner": "google",
+    "description": "Open-source Python toolkit for building AI agents with flexibility and control.",
+    "stars": 19086,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "google",
+      "python"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "Google 开源的代码优先 Python 工具包，用于构建、评估和部署复杂的 AI Agent。",
+        "oneLiner": "适合想用 Google 官方工具包构建复杂 AI Agent 的 Python 开发者"
+      },
+      "en": {
+        "description": "Open-source Python toolkit for building AI agents with flexibility and control.",
+        "oneLiner": "For Python developers who want to build complex AI agents using the official Google toolkit"
+      },
+      "ar": {
+        "description": "مجموعة أدوات Python مفتوحة المصدر لبناء وكلاء الذكاء الاصطناعي مع المرونة والتحكم.",
+        "oneLiner": "لمطوري Python الذين يريدون بناء وكلاء ذكاء اصطناعي معقدة باستخدام مجموعة أدوات Google الرسمية"
+      },
+      "es": {
+        "description": "Kit de herramientas Python de código abierto para construir agentes de IA con flexibilidad y control.",
+        "oneLiner": "Para desarrolladores de Python que quieren construir agentes de IA complejos usando el kit de herramientas oficial de Google"
+      },
+      "ko": {
+        "description": "유연성과 제어 기능을 갖춘 AI 에이전트를 구축하기 위한 오픈소스 Python 툴킷입니다.",
+        "oneLiner": "Google 공식 툴킷을 사용하여 복잡한 AI 에이전트를 구축하고 싶은 Python 개발자를 위한"
+      },
+      "ja": {
+        "description": "柔軟性と制御性を持って AI エージェントを構築するためのオープンソース Python ツールキットです。",
+        "oneLiner": "Google の公式ツールキットを使用して複雑な AI エージェントを構築したい Python 開発者向け"
+      }
+    }
+  },
+  {
+    "id": "trading-agents",
+    "name": "TradingAgents",
+    "owner": "TauricResearch",
+    "description": "Multi-Agents LLM Financial Trading Framework.",
+    "stars": 51322,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "finance",
+      "trading",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "多 Agent LLM 金融交易框架，支持协作决策、风险管理和策略优化。",
+        "oneLiner": "适合想用多 Agent LLM 框架进行智能金融交易的研究者和交易者"
+      },
+      "en": {
+        "description": "Multi-Agents LLM Financial Trading Framework.",
+        "oneLiner": "For researchers and traders who want to use a multi-agent LLM framework for intelligent financial trading"
+      },
+      "ar": {
+        "description": "إطار عمل متعدد الوكلاء للتداول المالي باستخدام نماذج اللغة الكبيرة.",
+        "oneLiner": "للباحثين والمتداولين الذين يريدون استخدام إطار عمل متعدد الوكلاء LLM للتداول المالي الذكي"
+      },
+      "es": {
+        "description": "Marco de trading financiero multi-agente con LLM.",
+        "oneLiner": "Para investigadores y traders que quieren usar un framework multi-agente LLM para trading financiero inteligente"
+      },
+      "ko": {
+        "description": "다중 에이전트 LLM 금융 거래 프레임워크입니다.",
+        "oneLiner": "다중 에이전트 LLM 프레임워크를 사용하여 지능형 금융 거래를 수행하고 싶은 연구자와 트레이더를 위한"
+      },
+      "ja": {
+        "description": "マルチエージェント LLM 金融取引フレームワークです。",
+        "oneLiner": "マルチエージェント LLM フレームワークを使用してインテリジェントな金融取引を行いたい研究者やトレーダー向け"
+      }
+    }
+  },
+  {
+    "id": "pentestgpt",
+    "name": "PentestGPT",
+    "owner": "GreyDGL",
+    "description": "Automated Penetration Testing Agentic Framework Powered by LLMs.",
+    "stars": 12641,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "security",
+      "pentest",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "由大语言模型驱动的自动化渗透测试 Agent 框架，支持交互式漏洞挖掘和报告生成。",
+        "oneLiner": "适合想用 LLM 驱动自动化渗透测试的安全研究员和红队"
+      },
+      "en": {
+        "description": "Automated Penetration Testing Agentic Framework Powered by LLMs.",
+        "oneLiner": "For security researchers and red teams who want LLM-driven automated penetration testing"
+      },
+      "ar": {
+        "description": "إطار عمل وكيلي لاختبار الاختراق الآلي مدعوم بنماذج اللغة الكبيرة.",
+        "oneLiner": "لباحثي الأمان والفرق الحمراء الذين يريدون اختبار الاختراق الآلي المدفوع بنماذج اللغة الكبيرة"
+      },
+      "es": {
+        "description": "Marco agentico de pruebas de penetración automatizadas impulsado por LLMs.",
+        "oneLiner": "Para investigadores de seguridad y equipos rojos que quieren pruebas de penetración automatizadas impulsadas por LLM"
+      },
+      "ko": {
+        "description": "LLM 기반 자동화 침투 테스트 에이전틱 프레임워크입니다.",
+        "oneLiner": "LLM 기반 자동화 침투 테스트를 원하는 보안 연구자 및 레드팀을 위한"
+      },
+      "ja": {
+        "description": "LLM を活用した自動化ペネトレーションテストのエージェンティックフレームワークです。",
+        "oneLiner": "LLM 駆動の自動化ペネトレーションテストを行いたいセキュリティ研究者やレッドチーム向け"
+      }
+    }
+  },
+  {
+    "id": "mindsdb",
+    "name": "MindsDB",
+    "owner": "mindsdb",
+    "description": "Query Engine for AI Analytics: Build self-reasoning agents across all your live data.",
+    "stars": 39002,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "analytics",
+      "agent",
+      "sql"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "AI 分析查询引擎，在所有实时数据上构建自推理 Agent。",
+        "oneLiner": "适合想在实时数据上构建自推理 AI Agent 的数据分析师和开发者"
+      },
+      "en": {
+        "description": "Query Engine for AI Analytics: Build self-reasoning agents across all your live data.",
+        "oneLiner": "For data analysts and developers who want to build self-reasoning AI agents on live data"
+      },
+      "ar": {
+        "description": "محرك استعلام لتحليلات الذكاء الاصطناعي: بناء وكلاء ذاتيي التفكير عبر جميع بياناتك المباشرة.",
+        "oneLiner": "للمحللين والمطورين الذين يريدون بناء وكلاء ذكاء اصطناعي ذاتيي التفكير على البيانات المباشرة"
+      },
+      "es": {
+        "description": "Motor de consultas para análisis de IA: construye agentes de razonamiento automático en todos tus datos en vivo.",
+        "oneLiner": "Para analistas de datos y desarrolladores que quieren construir agentes de IA de razonamiento automático sobre datos en vivo"
+      },
+      "ko": {
+        "description": "AI 분석을 위한 쿼리 엔진: 모든 실시간 데이터에서 자기 추론 에이전트를 구축하세요.",
+        "oneLiner": "실시간 데이터에서 자기 추론 AI 에이전트를 구축하고 싶은 데이터 애널리스트와 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI 分析向けクエリエンジン：すべてのライブデータで自己推論エージェントを構築します。",
+        "oneLiner": "ライブデータ上に自己推論 AI エージェントを構築したいデータアナリストや開発者向け"
+      }
+    }
+  },
+  {
+    "id": "tooljet",
+    "name": "ToolJet",
+    "owner": "ToolJet",
+    "description": "Open-source foundation for building internal tools, dashboards, workflows and AI agents.",
+    "stars": 37748,
+    "language": "JavaScript",
+    "category": "Platform",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "low-code",
+      "agent",
+      "workflow"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "开源的低代码平台，用于构建内部工具、仪表盘、工作流和 AI Agent。",
+        "oneLiner": "适合想用低代码方式快速构建内部工具和 AI Agent 自动化的团队"
+      },
+      "en": {
+        "description": "Open-source foundation for building internal tools, dashboards, workflows and AI agents.",
+        "oneLiner": "For teams that want to quickly build internal tools and AI agent automations with low-code"
+      },
+      "ar": {
+        "description": "أساس مفتوح المصدر لبناء الأدوات الداخلية ولوحات المعلومات وسير العمل ووكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للفرق التي تريد بناء الأدوات الداخلية وأتمتة وكلاء الذكاء الاصطناعي بسرعة باستخدام low-code"
+      },
+      "es": {
+        "description": "Fundamento de código abierto para construir herramientas internas, dashboards, flujos de trabajo y agentes de IA.",
+        "oneLiner": "Para equipos que quieren construir rápidamente herramientas internas y automatizaciones de agentes de IA con low-code"
+      },
+      "ko": {
+        "description": "낶부 도구, 대시보드, 워크플로우 및 AI 에이전트를 구축하기 위한 오픈소스 기반입니다.",
+        "oneLiner": "로우코드로 낶부 도구 및 AI 에이전트 자동화를 빠르게 구축하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "内部ツール、ダッシュボード、ワークフロー、AI エージェントを構築するためのオープンソース基盤です。",
+        "oneLiner": "ローコードで内部ツールや AI エージェントの自動化を迅速に構築したいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "nanobot2",
+    "name": "Nanobot",
+    "owner": "HKUDS",
+    "description": "The Ultra-Lightweight Personal AI Agent.",
+    "stars": 39957,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "lightweight",
+      "personal"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "超轻量级个人 AI Agent，支持本地运行和自定义技能。",
+        "oneLiner": "适合想要一个超轻量级、可在本地运行的个人 AI Agent 的人"
+      },
+      "en": {
+        "description": "The Ultra-Lightweight Personal AI Agent.",
+        "oneLiner": "For anyone who wants an ultra-lightweight personal AI agent that runs locally"
+      },
+      "ar": {
+        "description": "وكيل الذكاء الاصطناعي الشخصي فائق الخفة.",
+        "oneLiner": "لأي شخص يريد وكيل ذكاء اصطناعي شخصي فائق الخفة يعمل محلياً"
+      },
+      "es": {
+        "description": "El Agente de IA Personal Ultra-Ligero.",
+        "oneLiner": "Para cualquiera que quiera un agente de IA personal ultraligero que se ejecute localmente"
+      },
+      "ko": {
+        "description": "초경량 개인 AI 에이전트입니다.",
+        "oneLiner": "로컬에서 실행되는 초경량 개인 AI 에이전트를 원하는 사람을 위한"
+      },
+      "ja": {
+        "description": "超軽量のパーソナル AI エージェントです。",
+        "oneLiner": "ローカルで実行される超軽量のパーソナル AI エージェントが欲しい人向け"
+      }
+    }
+  },
+  {
+    "id": "agno2",
+    "name": "Agno",
+    "owner": "agno-agi",
+    "description": "Build, run, manage agentic software at scale.",
+    "stars": 39518,
+    "language": "Python",
+    "category": "Framework",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "scale",
+      "framework"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "大规模构建、运行和管理 Agentic 软件的平台。",
+        "oneLiner": "适合需要大规模构建和管理 Agentic 软件的团队"
+      },
+      "en": {
+        "description": "Build, run, manage agentic software at scale.",
+        "oneLiner": "For teams that need to build and manage agentic software at scale"
+      },
+      "ar": {
+        "description": "بناء وتشغيل وإدارة البرمجيات الوكيلية على نطاق واسع.",
+        "oneLiner": "للفرق التي تحتاج إلى بناء وإدارة البرمجيات الوكيلية على نطاق واسع"
+      },
+      "es": {
+        "description": "Construye, ejecuta y gestiona software agentico a escala.",
+        "oneLiner": "Para equipos que necesitan construir y gestionar software agentico a escala"
+      },
+      "ko": {
+        "description": "대규모로 에이전틱 소프트웨어를 구축, 실행 및 관리하세요.",
+        "oneLiner": "대규모로 에이전틱 소프트웨어를 구축하고 관리해야 하는 팀을 위한"
+      },
+      "ja": {
+        "description": "大規模にエージェンティックソフトウェアを構築、実行、管理します。",
+        "oneLiner": "大規模にエージェンティックソフトウェアを構築・管理する必要があるチーム向け"
+      }
+    }
+  },
+  {
+    "id": "composio2",
+    "name": "Composio",
+    "owner": "ComposioHQ",
+    "description": "Powers 1000+ toolkits, tool search, and sandboxed workbench to build AI agents.",
+    "stars": 27818,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "tools",
+      "agent",
+      "integration"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "为 AI Agent 提供 1000+ 工具包、工具搜索和沙盒工作台，将意图转化为行动。",
+        "oneLiner": "适合想为 AI Agent 集成 1000+ 工具、快速扩展能力的开发者"
+      },
+      "en": {
+        "description": "Powers 1000+ toolkits, tool search, and sandboxed workbench to build AI agents.",
+        "oneLiner": "For developers who want to integrate 1000+ tools into AI agents and rapidly expand capabilities"
+      },
+      "ar": {
+        "description": "يقوم بتشغيل 1000+ مجموعة أدوات والبحث في الأدوات ومنصة العمل المعزولة لبناء وكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للمطورين الذين يريدون دمج 1000+ أداة في وكلاء الذكاء الاصطناعي وتوسيع القدرات بسرعة"
+      },
+      "es": {
+        "description": "Potencia más de 1000 kits de herramientas, búsqueda de herramientas y banco de trabajo aislado para construir agentes de IA.",
+        "oneLiner": "Para desarrolladores que quieren integrar más de 1000 herramientas en agentes de IA y expandir capacidades rápidamente"
+      },
+      "ko": {
+        "description": "AI 에이전트를 구축하기 위해 1000개 이상의 툴킷, 툴 검색 및 샌드박스 작업대를 제공합니다.",
+        "oneLiner": "AI 에이전트에 1000개 이상의 도구를 통합하고 기능을 빠르게 확장하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェントを構築するために 1000 以上のツールキット、ツール検索、サンドボックスワークベンチを提供します。",
+        "oneLiner": "AI エージェントに 1000 以上のツールを統合し、機能を迅速に拡張したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "fastgpt3",
+    "name": "FastGPT",
+    "owner": "labring",
+    "description": "Knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow orchestration.",
+    "stars": 27764,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "rag",
+      "agent",
+      "workflow"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "基于 LLM 的知识平台，提供数据处理、RAG 检索和可视化 AI 工作流编排等开箱即用能力。",
+        "oneLiner": "适合想基于 LLM 快速搭建知识问答和可视化工作流系统的团队"
+      },
+      "en": {
+        "description": "Knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow orchestration.",
+        "oneLiner": "For teams that want to quickly set up knowledge Q&A and visual workflow systems based on LLMs"
+      },
+      "ar": {
+        "description": "منصة قائمة على المعرفة مبنية على نماذج اللغة الكبيرة مع استرجاع RAG وتنظيم سير عمل الذكاء الاصطناعي المرئي.",
+        "oneLiner": "للفرق التي تريد إعداد أنظمة الأسئلة والأجوبة المعرفية وسير العمل المرئية بسرعة بناءً على نماذج اللغة الكبيرة"
+      },
+      "es": {
+        "description": "Plataforma basada en conocimiento construida sobre LLMs con recuperación RAG y orquestación visual de flujos de IA.",
+        "oneLiner": "Para equipos que quieren configurar rápidamente sistemas de preguntas y respuestas de conocimiento y flujos de trabajo visuales basados en LLMs"
+      },
+      "ko": {
+        "description": "RAG 검색 및 시각적 AI 워크플로우 오케스트레이션을 갖춘 LLM 기반 지식 플랫폼입니다.",
+        "oneLiner": "LLM 기반으로 지식 Q&A 및 시각적 워크플로우 시스템을 빠르게 구축하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "RAG 検索と視覚的な AI ワークフローオーケストレーションを備えた LLM ベースの知識プラットフォームです。",
+        "oneLiner": "LLM ベースで知識 Q&A や視覚的ワークフローシステムを迅速に構築したいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "aihawk",
+    "name": "AIHawk",
+    "owner": "feder-cr",
+    "description": "Automates the job application process using AI.",
+    "stars": 29685,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "job",
+      "agent",
+      "automation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "利用人工智能自动化求职申请流程，支持定制化申请多个职位。",
+        "oneLiner": "适合想用 AI 自动化求职申请、提高投递效率的求职者"
+      },
+      "en": {
+        "description": "Automates the job application process using AI.",
+        "oneLiner": "For job seekers who want to use AI to automate job applications and improve submission efficiency"
+      },
+      "ar": {
+        "description": "أتمتة عملية التقدم للوظائف باستخدام الذكاء الاصطناعي.",
+        "oneLiner": "لباحثي العمل الذين يريدون استخدام الذكاء الاصطناعي لأتمتة طلبات الوظائف وتحسين كفاءة التقديم"
+      },
+      "es": {
+        "description": "Automatiza el proceso de solicitud de empleo utilizando IA.",
+        "oneLiner": "Para buscadores de empleo que quieren usar IA para automatizar solicitudes de trabajo y mejorar la eficiencia de envío"
+      },
+      "ko": {
+        "description": "AI를 사용하여 구직 신청 과정을 자동화합니다.",
+        "oneLiner": "AI를 사용하여 구직 신청을 자동화하고 제출 효율성을 높이고 싶은 구직자를 위한"
+      },
+      "ja": {
+        "description": "AI を使用して求人応募プロセスを自動化します。",
+        "oneLiner": "AI を使用して求人応募を自動化し、応募効率を向上させたい求職者向け"
+      }
+    }
+  },
+  {
+    "id": "astrbot2",
+    "name": "AstrBot",
+    "owner": "AstrBotDevs",
+    "description": "AI Agent Assistant integrating IM platforms, LLMs, plugins and AI features.",
+    "stars": 30186,
+    "language": "Python",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "assistant",
+      "im",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "集成多种即时通讯平台、大模型、插件和 AI 功能的 AI Agent 助手，可作为 OpenClaw 的替代方案。",
+        "oneLiner": "适合想在微信/飞书/钉钉等平台部署多功能 AI 助理的个人和团队"
+      },
+      "en": {
+        "description": "AI Agent Assistant integrating IM platforms, LLMs, plugins and AI features.",
+        "oneLiner": "For individuals and teams who want to deploy multi-functional AI assistants on WeChat, Lark, DingTalk, and other platforms"
+      },
+      "ar": {
+        "description": "مساعد وكيل الذكاء الاصطناعي يدمج منصات المراسلة الفورية ونماذج اللغة الكبيرة والإضافات وميزات الذكاء الاصطناعي.",
+        "oneLiner": "للأفراد والفرق الذين يريدون نشر مساعدين ذكاء اصطناعي متعدد الوظائف على WeChat و Lark و DingTalk ومنصات أخرى"
+      },
+      "es": {
+        "description": "Asistente de Agente de IA que integra plataformas de mensajería instantánea, LLMs, plugins y funciones de IA.",
+        "oneLiner": "Para individuos y equipos que quieren desplegar asistentes de IA multifuncionales en WeChat, Lark, DingTalk y otras plataformas"
+      },
+      "ko": {
+        "description": "IM 플랫폼, LLM, 플러그인 및 AI 기능을 통합한 AI 에이전트 어시스턴트입니다.",
+        "oneLiner": "WeChat, Lark, DingTalk 등의 플랫폼에 다기능 AI 어시스턴트를 배포하고 싶은 개인과 팀을 위한"
+      },
+      "ja": {
+        "description": "IM プラットフォーム、LLM、プラグイン、AI 機能を統合した AI エージェントアシスタントです。",
+        "oneLiner": "WeChat、Lark、DingTalk などのプラットフォームに多機能 AI アシスタントをデプロイしたい個人やチーム向け"
+      }
+    }
+  },
+  {
+    "id": "vercel-agent-browser",
+    "name": "Agent Browser",
+    "owner": "vercel-labs",
+    "description": "Browser automation CLI for AI agents.",
+    "stars": 29662,
+    "language": "Rust",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "browser",
+      "cli",
+      "agent"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "专为 AI Agent 设计的浏览器自动化 CLI 工具，支持命令行控制和脚本化操作。",
+        "oneLiner": "适合需要为 AI Agent 提供浏览器自动化 CLI 的开发者"
+      },
+      "en": {
+        "description": "Browser automation CLI for AI agents.",
+        "oneLiner": "For developers who need a browser automation CLI for AI agents"
+      },
+      "ar": {
+        "description": "واجهة سطر أوامر لأتمتة المتصفح لوكلاء الذكاء الاصطناعي.",
+        "oneLiner": "للمطورين الذين يحتاجون إلى واجهة سطر أوامر لأتمتة المتصفح لوكلاء الذكاء الاصطناعي"
+      },
+      "es": {
+        "description": "CLI de automatización de navegador para agentes de IA.",
+        "oneLiner": "Para desarrolladores que necesitan una CLI de automatización de navegador para agentes de IA"
+      },
+      "ko": {
+        "description": "AI 에이전트를 위한 브라우저 자동화 CLI입니다.",
+        "oneLiner": "AI 에이전트를 위한 브라우저 자동화 CLI가 필요한 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI エージェント向けのブラウザ自動化 CLI です。",
+        "oneLiner": "AI エージェント向けのブラウザ自動化 CLI が必要な開発者向け"
+      }
+    }
+  },
+  {
+    "id": "ui-tars",
+    "name": "UI TARS Desktop",
+    "owner": "bytedance",
+    "description": "The Open-Source Multimodal AI Agent Stack connecting AI models and Agent infra.",
+    "stars": 29443,
+    "language": "TypeScript",
+    "category": "Tool",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "multimodal",
+      "agent",
+      "desktop"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "开源多模态 AI Agent 技术栈，连接前沿 AI 模型和 Agent 基础设施。",
+        "oneLiner": "适合想构建多模态 AI Agent 桌面应用、连接前沿模型和基础设施的开发者"
+      },
+      "en": {
+        "description": "The Open-Source Multimodal AI Agent Stack connecting AI models and Agent infra.",
+        "oneLiner": "For developers who want to build multimodal AI agent desktop apps connecting cutting-edge models and infrastructure"
+      },
+      "ar": {
+        "description": "حزمة وكيل الذكاء الاصطناعي متعدد الوسائط مفتوحة المصدر تربط نماذج الذكاء الاصطناعي وبنية الوكلاء.",
+        "oneLiner": "للمطورين الذين يريدون بناء تطبيقات سطح مكتب وكيل ذكاء اصطناعي متعدد الوسائط تربط النماذج والبنية التحتية المتطورة"
+      },
+      "es": {
+        "description": "La pila de Agentes de IA Multimodales de código abierto que conecta modelos de IA e infraestructura de Agentes.",
+        "oneLiner": "Para desarrolladores que quieren construir aplicaciones de escritorio de agentes de IA multimodales que conecten modelos de vanguardia e infraestructura"
+      },
+      "ko": {
+        "description": "AI 모델과 에이전트 인프라를 연결하는 오픈소스 멀티모달 AI 에이전트 스택입니다.",
+        "oneLiner": "최첨단 모델과 인프라를 연결하는 멀티모달 AI 에이전트 데스크톱 앱을 구축하고 싶은 개발자를 위한"
+      },
+      "ja": {
+        "description": "AI モデルとエージェントインフラを接続するオープンソースのマルチモーダル AI エージェントスタックです。",
+        "oneLiner": "最先端のモデルとインフラを接続するマルチモーダル AI エージェントデスクトップアプリを構築したい開発者向け"
+      }
+    }
+  },
+  {
+    "id": "budibase2",
+    "name": "Budibase",
+    "owner": "Budibase",
+    "description": "AI agents, automations and apps that run your operations. Model agnostic.",
+    "stars": 27831,
+    "language": "TypeScript",
+    "category": "Platform",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "low-code",
+      "agent",
+      "automation"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "运行你的业务的 AI Agent、自动化和应用，与模型无关，支持自托管。",
+        "oneLiner": "适合想用低代码平台快速构建 AI Agent 和业务应用的团队"
+      },
+      "en": {
+        "description": "AI agents, automations and apps that run your operations. Model agnostic.",
+        "oneLiner": "For teams that want to quickly build AI agents and business apps with a low-code platform"
+      },
+      "ar": {
+        "description": "وكلاء الذكاء الاصطناعي والأتمتة والتطبيقات التي تشغل عملياتك. محايد النموذج.",
+        "oneLiner": "للفرق التي تريد بناء وكلاء ذكاء اصطناعي وتطبيقات الأعمال بسرعة باستخدام منصة low-code"
+      },
+      "es": {
+        "description": "Agentes de IA, automatizaciones y aplicaciones que ejecutan tus operaciones. Agnóstico al modelo.",
+        "oneLiner": "Para equipos que quieren construir rápidamente agentes de IA y aplicaciones de negocio con una plataforma low-code"
+      },
+      "ko": {
+        "description": "운영을 실행하는 AI 에이전트, 자동화 및 애플리케이션입니다. 모델에 구애받지 않습니다.",
+        "oneLiner": "로우코드 플랫폼으로 AI 에이전트 및 비즈니스 애플리케이션을 빠르게 구축하고 싶은 팀을 위한"
+      },
+      "ja": {
+        "description": "運用を実行する AI エージェント、自動化、アプリケーションです。モデルに依存しません。",
+        "oneLiner": "ローコードプラットフォームで AI エージェントやビジネスアプリを迅速に構築したいチーム向け"
+      }
+    }
+  },
+  {
+    "id": "simstudio",
+    "name": "Sim Studio",
+    "owner": "simstudioai",
+    "description": "Build, deploy, and orchestrate AI agents. Central intelligence layer for your AI workforce.",
+    "stars": 27821,
+    "language": "TypeScript",
+    "category": "Platform",
+    "updatedAt": "2026-04-18",
+    "topics": [
+      "agent",
+      "orchestration",
+      "workforce"
+    ],
+    "i18n": {
+      "zh": {
+        "description": "构建、部署和编排 AI Agent，为你的 AI 劳动力提供中央智能层。",
+        "oneLiner": "适合想统一构建、部署和编排 AI Agent 劳动力的中央智能平台团队"
+      },
+      "en": {
+        "description": "Build, deploy, and orchestrate AI agents. Central intelligence layer for your AI workforce.",
+        "oneLiner": "For teams that want a central intelligence platform to unify building, deploying, and orchestrating AI agent workforces"
+      },
+      "ar": {
+        "description": "بناء ونشر وتنظيم وكلاء الذكاء الاصطناعي. طبقة ذكاء مركزية لقوة عمل الذكاء الاصطناعي الخاصة بك.",
+        "oneLiner": "للفرق التي تريد منصة ذكاء مركزية لتوحيد بناء ونشر وتنظيم قوى عمل وكلاء الذكاء الاصطناعي"
+      },
+      "es": {
+        "description": "Construye, despliega y orquesta agentes de IA. Capa de inteligencia central para tu fuerza laboral de IA.",
+        "oneLiner": "Para equipos que quieren una plataforma de inteligencia central para unificar la construcción, despliegue y orquestación de fuerzas laborales de agentes de IA"
+      },
+      "ko": {
+        "description": "AI 에이전트를 구축, 배포 및 오케스트레이션하세요. AI 인력을 위한 중앙 인텔리전스 계층입니다.",
+        "oneLiner": "AI 에이전트 인력의 구축, 배포 및 오케스트레이션을 통합할 중앙 인텔리전스 플랫폼을 원하는 팀을 위한"
+      },
+      "ja": {
+        "description": "AI エージェントを構築、デプロイ、オーケストレーションします。AI ワークフォースのための中央インテリジェンス層です。",
+        "oneLiner": "AI エージェント労働力の構築・デプロイ・オーケストレーションを統合する中央インテリジェンスプラットフォームが欲しいチーム向け"
+      }
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "projectId": "autogpt",
+    "reason": "Autonomous AI 的奠基之作，首次让 GPT-4 拥有了自我迭代和目标分解能力。",
+    "editor": "discover-team",
+    "highlight": "most-starred",
+    "i18n": {
+      "zh": {
+        "reason": "Autonomous AI 的奠基之作，首次让 GPT-4 拥有了自我迭代和目标分解能力。"
+      },
+      "en": {
+        "reason": "The foundational work of Autonomous AI, first enabling GPT-4 to self-iterate and decompose goals."
+      },
+      "ar": {
+        "reason": "العمل الأساسي للذكاء الاصطناعي المستقل، أول من مكّن GPT-4 من التكرار الذاتي وتفكيك الأهداف."
+      },
+      "es": {
+        "reason": "La obra fundacional de la IA Autónoma, primera en permitir que GPT-4 se autoitere y descomponga objetivos."
+      },
+      "ko": {
+        "reason": "자율 AI의 기념비적인 작품으로, GPT-4가 처음으로 자기 반복과 목표 분해 능력을 갖추게 했습니다."
+      },
+      "ja": {
+        "reason": "自律型AIの基礎的な作品であり、GPT-4に自己反復と目標分解能力を初めて与えました。"
+      }
+    }
+  },
+  {
+    "projectId": "openhands",
+    "reason": "最接近 Devin 的开源替代方案，端到端软件工程 Agent 的标杆。",
+    "editor": "discover-team",
+    "highlight": "trending",
+    "i18n": {
+      "zh": {
+        "reason": "最接近 Devin 的开源替代方案，端到端软件工程 Agent 的标杆。"
+      },
+      "en": {
+        "reason": "The closest open-source alternative to Devin, a benchmark for end-to-end software engineering agents."
+      },
+      "ar": {
+        "reason": "أقرب بديل مفتوح المصدر لـ Devin، معيار لوكلاء هندسة البرمجيات الشاملة."
+      },
+      "es": {
+        "reason": "La alternativa open-source más cercana a Devin, un referente para agentes de ingeniería de software end-to-end."
+      },
+      "ko": {
+        "reason": "Devin에 가장 가까운 오픈소스 대안으로, 엔드투엔드 소프트웨어 엔지니어링 에이전트의 표준입니다."
+      },
+      "ja": {
+        "reason": "Devinに最も近いオープンソースの代替品であり、エンドツーエンドのソフトウェアエンジニアリングエージェントの標準です。"
+      }
+    }
+  },
+  {
+    "projectId": "dify",
+    "reason": "国内团队出品的 LLM 应用平台，工程化成熟度极高，工作流设计器体验一流。",
+    "editor": "discover-team",
+    "highlight": "editor-pick",
+    "i18n": {
+      "zh": {
+        "reason": "国内团队出品的 LLM 应用平台，工程化成熟度极高，工作流设计器体验一流。"
+      },
+      "en": {
+        "reason": "An LLM application platform from a domestic team with excellent engineering maturity and top-tier workflow designer experience."
+      },
+      "ar": {
+        "reason": "منصة تطبيقات نماذج اللغة الكبيرة من فريق محلي بنضج هندسي عالٍ وتصميم سير عمل من الدرجة الأولى."
+      },
+      "es": {
+        "reason": "Una plataforma de aplicaciones LLM de un equipo local con excelente madurez de ingeniería y experiencia de diseño de flujo de primer nivel."
+      },
+      "ko": {
+        "reason": "국내 팀이 출시한 LLM 애플리케이션 플랫폼으로, 엔지니어링 성숙도가 매우 높고 워크플로우 디자이너 경험이 일류입니다."
+      },
+      "ja": {
+        "reason": "国内チームが手がけるLLMアプリケーションプラットフォームで、エンジニアリングの成熟度が極めて高く、ワークフローデザイナーの体験が一流です。"
+      }
+    }
+  },
+  {
+    "projectId": "crewai",
+    "reason": "Multi-Agent 编排的最优雅 API 设计，角色扮演概念让协作逻辑清晰直观。",
+    "editor": "discover-team",
+    "highlight": "editor-pick",
+    "i18n": {
+      "zh": {
+        "reason": "Multi-Agent 编排的最优雅 API 设计，角色扮演概念让协作逻辑清晰直观。"
+      },
+      "en": {
+        "reason": "The most elegant API design for multi-agent orchestration, where role-playing makes collaboration logic clear and intuitive."
+      },
+      "ar": {
+        "reason": "أنيق تصميم API لتنظيم الوكلاء المتعددين، حيث يجعل لعب الأدوار منطق التعاون واضحاً وبديهياً."
+      },
+      "es": {
+        "reason": "El diseño de API más elegante para orquestación multi-agente, donde el juego de roles hace que la lógica de colaboración sea clara e intuitiva."
+      },
+      "ko": {
+        "reason": "멀티 에이전트 오케스트레이션을 위한 가장 우아한 API 디자인으로, 역할극 개념이 협업 로직을 명확하고 직관적으로 만듭니다."
+      },
+      "ja": {
+        "reason": "マルチエージェントオーケストレーションの最もエレガントなAPI設計で、ロールプレイの概念が協働ロジックを明確で直感的にします。"
+      }
+    }
+  },
+  {
+    "projectId": "smolagents",
+    "reason": "Hugging Face 出品，极简哲学代表——100 行代码即可理解整个 Agent 框架内核。",
+    "editor": "discover-team",
+    "highlight": "minimal",
+    "i18n": {
+      "zh": {
+        "reason": "Hugging Face 出品，极简哲学代表——100 行代码即可理解整个 Agent 框架内核。"
+      },
+      "en": {
+        "reason": "From Hugging Face, a representative of minimalist philosophy — understand the entire agent framework core in 100 lines of code."
+      },
+      "ar": {
+        "reason": "من Hugging Face، ممثل الفلسفة البسيطة — افهم جوهر إطار عمل الوكلاء بالكامل في 100 سطر من الشفرة."
+      },
+      "es": {
+        "reason": "De Hugging Face, representante de la filosofía minimalista — entiende el núcleo del framework de agentes en 100 líneas de código."
+      },
+      "ko": {
+        "reason": "Hugging Face 출품으로, 미니멀 철학의 대표작 — 100줄의 코드로 전체 에이전트 프레임워크 핵심을 이해할 수 있습니다."
+      },
+      "ja": {
+        "reason": "Hugging Faceによるミニマリスト哲学の代表であり、100行のコードでエージェントフレームワークの核全体を理解できます。"
+      }
+    }
+  },
+  {
+    "projectId": "aider",
+    "reason": "终端里最好的结对编程伙伴，对大型代码库的上下文管理极为出色。",
+    "editor": "discover-team",
+    "highlight": "trending",
+    "i18n": {
+      "zh": {
+        "reason": "终端里最好的结对编程伙伴，对大型代码库的上下文管理极为出色。"
+      },
+      "en": {
+        "reason": "The best pair programming partner in the terminal, with outstanding context management for large codebases."
+      },
+      "ar": {
+        "reason": "أفضل شريك للبرمجة الزوجية في الطرفية، مع إدارة سياق ممتازة لقواعد البيانات البرمجية الكبيرة."
+      },
+      "es": {
+        "reason": "El mejor compañero de programación en pareja en la terminal, con gestión de contexto sobresaliente para grandes bases de código."
+      },
+      "ko": {
+        "reason": "터미널에서 최고의 페어 프로그래밍 파트너로, 대규모 코드베이스의 컨텍스트 관리가 매우 뛰어납니다."
+      },
+      "ja": {
+        "reason": "ターミナルで最高のペアプログラミングパートナーであり、大規模コードベースのコンテキスト管理が極めて優れています。"
+      }
+    }
+  }
+]
